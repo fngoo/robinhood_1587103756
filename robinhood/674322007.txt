@@ -1,1206 +1,0 @@
-travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 51e2657d-d29c-41e8-b05b-808dc0fed9d0@1.worker-org-767b688855-92dm9.gce-production-3
-version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
-instance: travis-job-bfa2862a-9b78-4539-8049-712a2aa2d11f travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
-startup: 6.184907058s
-travis_fold:end:worker_info[0Ktravis_time:start:134a96fa[0Ktravis_time:end:134a96fa:start=1586769552023141444,finish=1586769552161666226,duration=138524782,event=no_world_writable_dirs[0Ktravis_time:start:23118f8d[0Ktravis_time:end:23118f8d:start=1586769552164738422,finish=1586769552171632542,duration=6894120,event=agent[0Ktravis_time:start:04e8c176[0Ktravis_time:end:04e8c176:start=1586769552174821623,finish=1586769552177016778,duration=2195155,event=check_unsupported[0Ktravis_time:start:0a6cf340[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
-Build language: python
-Build dist: xenial
-Build id: 674322000
-Job id: 674322007
-Runtime kernel version: 4.15.0-1028-gcp
-travis-build version: f65a8dc88
-[34m[1mBuild image provisioning date and time[0m
-Mon Mar 25 16:43:24 UTC 2019
-[34m[1mOperating System Details[0m
-Distributor ID:	Ubuntu
-Description:	Ubuntu 16.04.6 LTS
-Release:	16.04
-Codename:	xenial
-[34m[1mSystemd Version[0m
-systemd 229
-[34m[1mCookbooks Version[0m
-42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
-[34m[1mgit version[0m
-git version 2.21.0
-[34m[1mbash version[0m
-GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
-[34m[1mgcc version[0m
-gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
-[34m[1mdocker version[0m
-Client:
- Version:           18.06.0-ce
- API version:       1.38
- Go version:        go1.10.3
- Git commit:        0ffa825
- Built:             Wed Jul 18 19:11:02 2018
- OS/Arch:           linux/amd64
- Experimental:      false
-
-Server:
- Engine:
-  Version:          18.06.0-ce
-  API version:      1.38 (minimum version 1.12)
-  Go version:       go1.10.3
-  Git commit:       0ffa825
-  Built:            Wed Jul 18 19:09:05 2018
-  OS/Arch:          linux/amd64
-  Experimental:     false
-[34m[1mclang version[0m
-clang version 7.0.0 (tags/RELEASE_700/final)
-[34m[1mjq version[0m
-jq-1.5
-[34m[1mbats version[0m
-Bats 0.4.0
-[34m[1mshellcheck version[0m
-0.6.0
-[34m[1mshfmt version[0m
-v2.6.3
-[34m[1mccache version[0m
-3.2.4
-[34m[1mcmake version[0m
-cmake version 3.12.4
-[34m[1mheroku version[0m
-heroku/7.22.7 linux-x64 node-v11.10.1
-[34m[1mimagemagick version[0m
-Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
-[34m[1mmd5deep version[0m
-4.4
-[34m[1mmercurial version[0m
-version 4.8
-[34m[1mmysql version[0m
-mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
-[34m[1mopenssl version[0m
-OpenSSL 1.0.2g  1 Mar 2016
-[34m[1mpacker version[0m
-1.3.3
-[34m[1mpostgresql client version[0m
-psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
-[34m[1mragel version[0m
-Ragel State Machine Compiler version 6.8 Feb 2013
-[34m[1msudo version[0m
-1.8.16
-[34m[1mgzip version[0m
-gzip 1.6
-[34m[1mzip version[0m
-Zip 3.0
-[34m[1mvim version[0m
-VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
-[34m[1miptables version[0m
-iptables v1.6.0
-[34m[1mcurl version[0m
-curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
-[34m[1mwget version[0m
-GNU Wget 1.17.1 built on linux-gnu.
-[34m[1mrsync version[0m
-rsync  version 3.1.1  protocol version 31
-[34m[1mgimme version[0m
-v1.5.3
-[34m[1mnvm version[0m
-0.34.0
-[34m[1mperlbrew version[0m
-/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
-[34m[1mphpenv version[0m
-rbenv 1.1.2
-[34m[1mrvm version[0m
-rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
-[34m[1mdefault ruby version[0m
-ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
-[34m[1mCouchDB version[0m
-couchdb 1.6.1
-[34m[1mElasticSearch version[0m
-5.5.0
-[34m[1mInstalled Firefox version[0m
-firefox 63.0.1
-[34m[1mMongoDB version[0m
-MongoDB 4.0.7
-[34m[1mPhantomJS version[0m
-2.1.1
-[34m[1mPre-installed PostgreSQL versions[0m
-9.4.21
-9.5.16
-9.6.12
-[34m[1mRedis version[0m
-redis-server 5.0.4
-[34m[1mPre-installed Go versions[0m
-1.11.1
-[34m[1mmvn version[0m
-Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
-[34m[1mgradle version[0m
-Gradle 4.10.2!
-[34m[1mlein version[0m
-Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
-[34m[1mPre-installed Node.js versions[0m
-v10.15.3
-v11.0.0
-v4.9.1
-v6.17.0
-v8.12.0
-v8.15.1
-v8.9
-[34m[1mphpenv versions[0m
-  system
-  5.6
-  5.6.40
-  7.1
-  7.1.27
-  7.2
-* 7.2.15 (set by /home/travis/.phpenv/version)
-  hhvm
-  hhvm-stable
-[34m[1mcomposer --version[0m
-Composer version 1.8.4 2019-02-11 10:52:10
-[34m[1mPre-installed Ruby versions[0m
-ruby-2.3.8
-ruby-2.4.5
-ruby-2.5.3
-travis_fold:end:system_info[0K
-travis_time:end:0a6cf340:start=1586769552179726651,finish=1586769552187515502,duration=7788851,event=show_system_info[0Ktravis_time:start:350078e8[0Ktravis_time:end:350078e8:start=1586769552190553778,finish=1586769552203312695,duration=12758917,event=rm_riak_source[0Ktravis_time:start:01b7b57c[0Ktravis_time:end:01b7b57c:start=1586769552206312665,finish=1586769552211086162,duration=4773497,event=fix_rwky_redis[0Ktravis_time:start:16d7b3ee[0Ktravis_time:end:16d7b3ee:start=1586769552213911923,finish=1586769552598459791,duration=384547868,event=wait_for_network[0Ktravis_time:start:18e4953a[0Ktravis_time:end:18e4953a:start=1586769552601464306,finish=1586769552798416216,duration=196951910,event=update_apt_keys[0Ktravis_time:start:054add70[0Ktravis_time:end:054add70:start=1586769552801661137,finish=1586769552851378408,duration=49717271,event=fix_hhvm_source[0Ktravis_time:start:08c23b10[0Ktravis_time:end:08c23b10:start=1586769552854335579,finish=1586769552856696983,duration=2361404,event=update_mongo_arch[0Ktravis_time:start:0259aeae[0Ktravis_time:end:0259aeae:start=1586769552859376432,finish=1586769552898150667,duration=38774235,event=fix_sudo_enabled_trusty[0Ktravis_time:start:06373d86[0Ktravis_time:end:06373d86:start=1586769552901160822,finish=1586769552903247529,duration=2086707,event=update_glibc[0Ktravis_time:start:016f5042[0Ktravis_time:end:016f5042:start=1586769552905994117,finish=1586769552913043990,duration=7049873,event=clean_up_path[0Ktravis_time:start:0b40445a[0Ktravis_time:end:0b40445a:start=1586769552915862485,finish=1586769552923114208,duration=7251723,event=fix_resolv_conf[0Ktravis_time:start:00745ef0[0Ktravis_time:end:00745ef0:start=1586769552925817267,finish=1586769552934111731,duration=8294464,event=fix_etc_hosts[0Ktravis_time:start:0b23cc6e[0Ktravis_time:end:0b23cc6e:start=1586769552936807342,finish=1586769552946278114,duration=9470772,event=fix_mvn_settings_xml[0Ktravis_time:start:03fe242e[0Ktravis_time:end:03fe242e:start=1586769552948979305,finish=1586769552958236814,duration=9257509,event=no_ipv6_localhost[0Ktravis_time:start:1741d939[0Ktravis_time:end:1741d939:start=1586769552960871211,finish=1586769552962780000,duration=1908789,event=fix_etc_mavenrc[0Ktravis_time:start:029d1348[0Ktravis_time:end:029d1348:start=1586769552965533637,finish=1586769552968232966,duration=2699329,event=fix_wwdr_certificate[0Ktravis_time:start:1f578bac[0Ktravis_time:end:1f578bac:start=1586769552970892389,finish=1586769552993263032,duration=22370643,event=put_localhost_first[0Ktravis_time:start:33dd932e[0Ktravis_time:end:33dd932e:start=1586769552996127145,finish=1586769552998855624,duration=2728479,event=home_paths[0Ktravis_time:start:07068e55[0Ktravis_time:end:07068e55:start=1586769553001818580,finish=1586769553013588877,duration=11770297,event=disable_initramfs[0Ktravis_time:start:21e112de[0Ktravis_time:end:21e112de:start=1586769553016299841,finish=1586769553305170347,duration=288870506,event=disable_ssh_roaming[0Ktravis_time:start:08b1fe68[0Ktravis_time:end:08b1fe68:start=1586769553308047245,finish=1586769553310071540,duration=2024295,event=debug_tools[0Ktravis_time:start:0391fbbe[0Ktravis_time:end:0391fbbe:start=1586769553312696673,finish=1586769553315438563,duration=2741890,event=uninstall_oclint[0Ktravis_time:start:0006126d[0Ktravis_time:end:0006126d:start=1586769553318237926,finish=1586769553320939440,duration=2701514,event=rvm_use[0Ktravis_time:start:01956765[0Ktravis_time:end:01956765:start=1586769553323599195,finish=1586769553330833729,duration=7234534,event=rm_etc_boto_cfg[0Ktravis_time:start:0c76f14c[0Ktravis_time:end:0c76f14c:start=1586769553333761856,finish=1586769553336283182,duration=2521326,event=rm_oraclejdk8_symlink[0Ktravis_time:start:000a1816[0Ktravis_time:end:000a1816:start=1586769553339083995,finish=1586769553439554647,duration=100470652,event=enable_i386[0Ktravis_time:start:0ea00b46[0Ktravis_time:end:0ea00b46:start=1586769553442601788,finish=1586769553447217856,duration=4616068,event=update_rubygems[0Ktravis_time:start:22d78fee[0Ktravis_time:end:22d78fee:start=1586769553449930842,finish=1586769554214997689,duration=765066847,event=ensure_path_components[0Ktravis_time:start:2c96e3da[0Ktravis_time:end:2c96e3da:start=1586769554217991423,finish=1586769554220005251,duration=2013828,event=redefine_curl[0Ktravis_time:start:05d777c0[0Ktravis_time:end:05d777c0:start=1586769554222706454,finish=1586769554224631822,duration=1925368,event=nonblock_pipe[0Ktravis_time:start:05aef40c[0Ktravis_time:end:05aef40c:start=1586769554227213746,finish=1586769571320513064,duration=17093299318,event=apt_get_update[0Ktravis_time:start:13ad2090[0Ktravis_time:end:13ad2090:start=1586769571323532086,finish=1586769571325700379,duration=2168293,event=deprecate_xcode_64[0Ktravis_time:start:05ff36e2[0Ktravis_time:end:05ff36e2:start=1586769571328244834,finish=1586769573837696954,duration=2509452120,event=update_heroku[0Ktravis_time:start:1b485e84[0Ktravis_time:end:1b485e84:start=1586769573840954837,finish=1586769573843247167,duration=2292330,event=shell_session_update[0Ktravis_time:start:012ae7b0[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:012ae7b0:start=1586769573846059512,finish=1586769577490989950,duration=3644930438,event=set_docker_mtu[0Ktravis_time:start:332f599b[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:332f599b:start=1586769577494008527,finish=1586769577551110350,duration=57101823,event=resolvconf[0Ktravis_time:start:011e5879[0Ktravis_time:end:011e5879:start=1586769577554873519,finish=1586769577687502587,duration=132629068,event=maven_central_mirror[0Ktravis_time:start:21f054bd[0Ktravis_time:end:21f054bd:start=1586769577690490042,finish=1586769577776831144,duration=86341102,event=maven_https[0K[33;1m3.8.0 is not installed; attempting download[0m
-[33;1mDownloading archive: https://storage.googleapis.com/travis-ci-language-archives/python/binaries/ubuntu/16.04/x86_64/python-3.8.0.tar.bz2[0m
-travis_time:start:151127e2[0K$ curl -sSf --retry 5 -o python-3.8.0.tar.bz2 ${archive_url}
-travis_time:end:151127e2:start=1586769577855652629,finish=1586769578195469912,duration=339817283,event=configure[0Ktravis_time:start:16278588[0K$ sudo tar xjf python-3.8.0.tar.bz2 --directory /
-travis_time:end:16278588:start=1586769578198747130,finish=1586769588900723473,duration=10701976343,event=configure[0Ktravis_time:start:13757106[0Ktravis_time:end:13757106:start=1586769588919590479,finish=1586769588921656258,duration=2065779,event=fix_ps4[0Ktravis_time:start:236cbbe0[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:00002193[0K$ git clone --depth=50 https://github.com/robinhood/faust.git robinhood/faust
-Cloning into 'robinhood/faust'...
-remote: Enumerating objects: 1536, done.[K
-remote: Counting objects:   0% (1/1536)[Kremote: Counting objects:   1% (16/1536)[Kremote: Counting objects:   2% (31/1536)[Kremote: Counting objects:   3% (47/1536)[Kremote: Counting objects:   4% (62/1536)[Kremote: Counting objects:   5% (77/1536)[Kremote: Counting objects:   6% (93/1536)[Kremote: Counting objects:   7% (108/1536)[Kremote: Counting objects:   8% (123/1536)[Kremote: Counting objects:   9% (139/1536)[Kremote: Counting objects:  10% (154/1536)[Kremote: Counting objects:  11% (169/1536)[Kremote: Counting objects:  12% (185/1536)[Kremote: Counting objects:  13% (200/1536)[Kremote: Counting objects:  14% (216/1536)[Kremote: Counting objects:  15% (231/1536)[Kremote: Counting objects:  16% (246/1536)[Kremote: Counting objects:  17% (262/1536)[Kremote: Counting objects:  18% (277/1536)[Kremote: Counting objects:  19% (292/1536)[Kremote: Counting objects:  20% (308/1536)[Kremote: Counting objects:  21% (323/1536)[Kremote: Counting objects:  22% (338/1536)[Kremote: Counting objects:  23% (354/1536)[Kremote: Counting objects:  24% (369/1536)[Kremote: Counting objects:  25% (384/1536)[Kremote: Counting objects:  26% (400/1536)[Kremote: Counting objects:  27% (415/1536)[Kremote: Counting objects:  28% (431/1536)[Kremote: Counting objects:  29% (446/1536)[Kremote: Counting objects:  30% (461/1536)[Kremote: Counting objects:  31% (477/1536)[Kremote: Counting objects:  32% (492/1536)[Kremote: Counting objects:  33% (507/1536)[Kremote: Counting objects:  34% (523/1536)[Kremote: Counting objects:  35% (538/1536)[Kremote: Counting objects:  36% (553/1536)[Kremote: Counting objects:  37% (569/1536)[Kremote: Counting objects:  38% (584/1536)[Kremote: Counting objects:  39% (600/1536)[Kremote: Counting objects:  40% (615/1536)[Kremote: Counting objects:  41% (630/1536)[Kremote: Counting objects:  42% (646/1536)[Kremote: Counting objects:  43% (661/1536)[Kremote: Counting objects:  44% (676/1536)[Kremote: Counting objects:  45% (692/1536)[Kremote: Counting objects:  46% (707/1536)[Kremote: Counting objects:  47% (722/1536)[Kremote: Counting objects:  48% (738/1536)[Kremote: Counting objects:  49% (753/1536)[Kremote: Counting objects:  50% (768/1536)[Kremote: Counting objects:  51% (784/1536)[Kremote: Counting objects:  52% (799/1536)[Kremote: Counting objects:  53% (815/1536)[Kremote: Counting objects:  54% (830/1536)[Kremote: Counting objects:  55% (845/1536)[Kremote: Counting objects:  56% (861/1536)[Kremote: Counting objects:  57% (876/1536)[Kremote: Counting objects:  58% (891/1536)[Kremote: Counting objects:  59% (907/1536)[Kremote: Counting objects:  60% (922/1536)[Kremote: Counting objects:  61% (937/1536)[Kremote: Counting objects:  62% (953/1536)[Kremote: Counting objects:  63% (968/1536)[Kremote: Counting objects:  64% (984/1536)[Kremote: Counting objects:  65% (999/1536)[Kremote: Counting objects:  66% (1014/1536)[Kremote: Counting objects:  67% (1030/1536)[Kremote: Counting objects:  68% (1045/1536)[Kremote: Counting objects:  69% (1060/1536)[Kremote: Counting objects:  70% (1076/1536)[Kremote: Counting objects:  71% (1091/1536)[Kremote: Counting objects:  72% (1106/1536)[Kremote: Counting objects:  73% (1122/1536)[Kremote: Counting objects:  74% (1137/1536)[Kremote: Counting objects:  75% (1152/1536)[Kremote: Counting objects:  76% (1168/1536)[Kremote: Counting objects:  77% (1183/1536)[Kremote: Counting objects:  78% (1199/1536)[Kremote: Counting objects:  79% (1214/1536)[Kremote: Counting objects:  80% (1229/1536)[Kremote: Counting objects:  81% (1245/1536)[Kremote: Counting objects:  82% (1260/1536)[Kremote: Counting objects:  83% (1275/1536)[Kremote: Counting objects:  84% (1291/1536)[Kremote: Counting objects:  85% (1306/1536)[Kremote: Counting objects:  86% (1321/1536)[Kremote: Counting objects:  87% (1337/1536)[Kremote: Counting objects:  88% (1352/1536)[Kremote: Counting objects:  89% (1368/1536)[Kremote: Counting objects:  90% (1383/1536)[Kremote: Counting objects:  91% (1398/1536)[Kremote: Counting objects:  92% (1414/1536)[Kremote: Counting objects:  93% (1429/1536)[Kremote: Counting objects:  94% (1444/1536)[Kremote: Counting objects:  95% (1460/1536)[Kremote: Counting objects:  96% (1475/1536)[Kremote: Counting objects:  97% (1490/1536)[Kremote: Counting objects:  98% (1506/1536)[Kremote: Counting objects:  99% (1521/1536)[Kremote: Counting objects: 100% (1536/1536)[Kremote: Counting objects: 100% (1536/1536), done.[K
-remote: Compressing objects:   0% (1/838)[Kremote: Compressing objects:   1% (9/838)[Kremote: Compressing objects:   2% (17/838)[Kremote: Compressing objects:   3% (26/838)[Kremote: Compressing objects:   4% (34/838)[Kremote: Compressing objects:   5% (42/838)[Kremote: Compressing objects:   6% (51/838)[Kremote: Compressing objects:   7% (59/838)[Kremote: Compressing objects:   8% (68/838)[Kremote: Compressing objects:   9% (76/838)[Kremote: Compressing objects:  10% (84/838)[Kremote: Compressing objects:  11% (93/838)[Kremote: Compressing objects:  12% (101/838)[Kremote: Compressing objects:  13% (109/838)[Kremote: Compressing objects:  14% (118/838)[Kremote: Compressing objects:  15% (126/838)[Kremote: Compressing objects:  16% (135/838)[Kremote: Compressing objects:  17% (143/838)[Kremote: Compressing objects:  18% (151/838)[Kremote: Compressing objects:  19% (160/838)[Kremote: Compressing objects:  20% (168/838)[Kremote: Compressing objects:  21% (176/838)[Kremote: Compressing objects:  22% (185/838)[Kremote: Compressing objects:  23% (193/838)[Kremote: Compressing objects:  24% (202/838)[Kremote: Compressing objects:  25% (210/838)[Kremote: Compressing objects:  26% (218/838)[Kremote: Compressing objects:  27% (227/838)[Kremote: Compressing objects:  28% (235/838)[Kremote: Compressing objects:  29% (244/838)[Kremote: Compressing objects:  30% (252/838)[Kremote: Compressing objects:  31% (260/838)[Kremote: Compressing objects:  32% (269/838)[Kremote: Compressing objects:  33% (277/838)[Kremote: Compressing objects:  34% (285/838)[Kremote: Compressing objects:  35% (294/838)[Kremote: Compressing objects:  36% (302/838)[Kremote: Compressing objects:  37% (311/838)[Kremote: Compressing objects:  38% (319/838)[Kremote: Compressing objects:  39% (327/838)[Kremote: Compressing objects:  40% (336/838)[Kremote: Compressing objects:  41% (344/838)[Kremote: Compressing objects:  42% (352/838)[Kremote: Compressing objects:  43% (361/838)[Kremote: Compressing objects:  44% (369/838)[Kremote: Compressing objects:  45% (378/838)[Kremote: Compressing objects:  46% (386/838)[Kremote: Compressing objects:  47% (394/838)[Kremote: Compressing objects:  48% (403/838)[Kremote: Compressing objects:  49% (411/838)[Kremote: Compressing objects:  50% (419/838)[Kremote: Compressing objects:  51% (428/838)[Kremote: Compressing objects:  52% (436/838)[Kremote: Compressing objects:  53% (445/838)[Kremote: Compressing objects:  54% (453/838)[Kremote: Compressing objects:  55% (461/838)[Kremote: Compressing objects:  56% (470/838)[Kremote: Compressing objects:  57% (478/838)[Kremote: Compressing objects:  58% (487/838)[Kremote: Compressing objects:  59% (495/838)[Kremote: Compressing objects:  60% (503/838)[Kremote: Compressing objects:  61% (512/838)[Kremote: Compressing objects:  62% (520/838)[Kremote: Compressing objects:  63% (528/838)[Kremote: Compressing objects:  64% (537/838)[Kremote: Compressing objects:  65% (545/838)[Kremote: Compressing objects:  66% (554/838)[Kremote: Compressing objects:  67% (562/838)[Kremote: Compressing objects:  68% (570/838)[Kremote: Compressing objects:  69% (579/838)[Kremote: Compressing objects:  70% (587/838)[Kremote: Compressing objects:  71% (595/838)[Kremote: Compressing objects:  72% (604/838)[Kremote: Compressing objects:  73% (612/838)[Kremote: Compressing objects:  74% (621/838)[Kremote: Compressing objects:  75% (629/838)[Kremote: Compressing objects:  76% (637/838)[Kremote: Compressing objects:  77% (646/838)[Kremote: Compressing objects:  78% (654/838)[Kremote: Compressing objects:  79% (663/838)[Kremote: Compressing objects:  80% (671/838)[Kremote: Compressing objects:  81% (679/838)[Kremote: Compressing objects:  82% (688/838)[Kremote: Compressing objects:  83% (696/838)[Kremote: Compressing objects:  84% (704/838)[Kremote: Compressing objects:  85% (713/838)[Kremote: Compressing objects:  86% (721/838)[Kremote: Compressing objects:  87% (730/838)[Kremote: Compressing objects:  88% (738/838)[Kremote: Compressing objects:  89% (746/838)[Kremote: Compressing objects:  90% (755/838)[Kremote: Compressing objects:  91% (763/838)[Kremote: Compressing objects:  92% (771/838)[Kremote: Compressing objects:  93% (780/838)[Kremote: Compressing objects:  94% (788/838)[Kremote: Compressing objects:  95% (797/838)[Kremote: Compressing objects:  96% (805/838)[Kremote: Compressing objects:  97% (813/838)[Kremote: Compressing objects:  98% (822/838)[Kremote: Compressing objects:  99% (830/838)[Kremote: Compressing objects: 100% (838/838)[Kremote: Compressing objects: 100% (838/838), done.[K
-Receiving objects:   0% (1/1536)   Receiving objects:   1% (16/1536)   Receiving objects:   2% (31/1536)   Receiving objects:   3% (47/1536)   Receiving objects:   4% (62/1536)   Receiving objects:   5% (77/1536)   Receiving objects:   6% (93/1536)   Receiving objects:   7% (108/1536)   Receiving objects:   8% (123/1536)   Receiving objects:   9% (139/1536)   Receiving objects:  10% (154/1536)   Receiving objects:  11% (169/1536)   Receiving objects:  12% (185/1536)   Receiving objects:  13% (200/1536)   Receiving objects:  14% (216/1536)   Receiving objects:  15% (231/1536)   Receiving objects:  16% (246/1536)   Receiving objects:  17% (262/1536)   Receiving objects:  18% (277/1536)   Receiving objects:  19% (292/1536)   Receiving objects:  20% (308/1536)   Receiving objects:  21% (323/1536)   Receiving objects:  22% (338/1536)   Receiving objects:  23% (354/1536)   Receiving objects:  24% (369/1536)   Receiving objects:  25% (384/1536)   Receiving objects:  26% (400/1536)   Receiving objects:  27% (415/1536)   Receiving objects:  28% (431/1536)   Receiving objects:  29% (446/1536)   Receiving objects:  30% (461/1536)   Receiving objects:  31% (477/1536)   Receiving objects:  32% (492/1536)   Receiving objects:  33% (507/1536)   Receiving objects:  34% (523/1536)   Receiving objects:  35% (538/1536)   Receiving objects:  36% (553/1536)   Receiving objects:  37% (569/1536)   Receiving objects:  38% (584/1536)   Receiving objects:  39% (600/1536)   Receiving objects:  40% (615/1536)   Receiving objects:  41% (630/1536)   Receiving objects:  42% (646/1536)   Receiving objects:  43% (661/1536)   Receiving objects:  44% (676/1536)   Receiving objects:  45% (692/1536)   Receiving objects:  46% (707/1536)   Receiving objects:  47% (722/1536)   Receiving objects:  48% (738/1536)   Receiving objects:  49% (753/1536)   Receiving objects:  50% (768/1536)   Receiving objects:  51% (784/1536)   Receiving objects:  52% (799/1536)   Receiving objects:  53% (815/1536)   Receiving objects:  54% (830/1536)   Receiving objects:  55% (845/1536)   Receiving objects:  56% (861/1536)   Receiving objects:  57% (876/1536)   Receiving objects:  58% (891/1536)   Receiving objects:  59% (907/1536)   Receiving objects:  60% (922/1536)   Receiving objects:  61% (937/1536)   Receiving objects:  62% (953/1536)   Receiving objects:  63% (968/1536)   Receiving objects:  64% (984/1536)   Receiving objects:  65% (999/1536)   Receiving objects:  66% (1014/1536)   Receiving objects:  67% (1030/1536)   Receiving objects:  68% (1045/1536)   Receiving objects:  69% (1060/1536)   Receiving objects:  70% (1076/1536)   Receiving objects:  71% (1091/1536)   Receiving objects:  72% (1106/1536)   Receiving objects:  73% (1122/1536)   Receiving objects:  74% (1137/1536)   Receiving objects:  75% (1152/1536)   Receiving objects:  76% (1168/1536)   Receiving objects:  77% (1183/1536)   Receiving objects:  78% (1199/1536)   Receiving objects:  79% (1214/1536)   Receiving objects:  80% (1229/1536)   Receiving objects:  81% (1245/1536)   Receiving objects:  82% (1260/1536)   Receiving objects:  83% (1275/1536)   Receiving objects:  84% (1291/1536)   Receiving objects:  85% (1306/1536)   Receiving objects:  86% (1321/1536)   Receiving objects:  87% (1337/1536)   Receiving objects:  88% (1352/1536)   Receiving objects:  89% (1368/1536)   Receiving objects:  90% (1383/1536)   Receiving objects:  91% (1398/1536)   Receiving objects:  92% (1414/1536)   Receiving objects:  93% (1429/1536)   Receiving objects:  94% (1444/1536)   Receiving objects:  95% (1460/1536)   Receiving objects:  96% (1475/1536)   Receiving objects:  97% (1490/1536)   Receiving objects:  98% (1506/1536)   remote: Total 1536 (delta 789), reused 1017 (delta 650), pack-reused 0[K
-Receiving objects:  99% (1521/1536)   Receiving objects: 100% (1536/1536)   Receiving objects: 100% (1536/1536), 879.95 KiB | 11.89 MiB/s, done.
-Resolving deltas:   0% (0/789)   Resolving deltas:   1% (8/789)   Resolving deltas:   2% (17/789)   Resolving deltas:   6% (52/789)   Resolving deltas:  10% (82/789)   Resolving deltas:  12% (95/789)   Resolving deltas:  14% (115/789)   Resolving deltas:  22% (175/789)   Resolving deltas:  23% (182/789)   Resolving deltas:  31% (250/789)   Resolving deltas:  36% (291/789)   Resolving deltas:  38% (301/789)   Resolving deltas:  40% (319/789)   Resolving deltas:  41% (324/789)   Resolving deltas:  42% (333/789)   Resolving deltas:  43% (343/789)   Resolving deltas:  44% (352/789)   Resolving deltas:  45% (361/789)   Resolving deltas:  47% (374/789)   Resolving deltas:  48% (382/789)   Resolving deltas:  50% (397/789)   Resolving deltas:  51% (404/789)   Resolving deltas:  52% (411/789)   Resolving deltas:  53% (419/789)   Resolving deltas:  54% (427/789)   Resolving deltas:  55% (440/789)   Resolving deltas:  56% (443/789)   Resolving deltas:  57% (450/789)   Resolving deltas:  76% (602/789)   Resolving deltas:  77% (610/789)   Resolving deltas:  78% (616/789)   Resolving deltas:  79% (630/789)   Resolving deltas:  80% (632/789)   Resolving deltas:  81% (641/789)   Resolving deltas:  82% (648/789)   Resolving deltas:  83% (655/789)   Resolving deltas:  84% (664/789)   Resolving deltas:  85% (671/789)   Resolving deltas:  86% (679/789)   Resolving deltas:  87% (687/789)   Resolving deltas:  88% (702/789)   Resolving deltas:  89% (704/789)   Resolving deltas:  90% (711/789)   Resolving deltas:  91% (718/789)   Resolving deltas:  92% (728/789)   Resolving deltas:  93% (737/789)   Resolving deltas:  94% (742/789)   Resolving deltas:  95% (753/789)   Resolving deltas:  96% (758/789)   Resolving deltas:  97% (767/789)   Resolving deltas:  98% (776/789)   Resolving deltas:  99% (783/789)   Resolving deltas: 100% (789/789)   Resolving deltas: 100% (789/789), done.
-travis_time:end:00002193:start=1586769588927685987,finish=1586769589708283147,duration=780597160,event=checkout[0K$ cd robinhood/faust
-travis_time:start:1d62e540[0K$ git fetch origin +refs/pull/574/merge:
-remote: Enumerating objects: 10, done.[K
-remote: Counting objects:  10% (1/10)[Kremote: Counting objects:  20% (2/10)[Kremote: Counting objects:  30% (3/10)[Kremote: Counting objects:  40% (4/10)[Kremote: Counting objects:  50% (5/10)[Kremote: Counting objects:  60% (6/10)[Kremote: Counting objects:  70% (7/10)[Kremote: Counting objects:  80% (8/10)[Kremote: Counting objects:  90% (9/10)[Kremote: Counting objects: 100% (10/10)[Kremote: Counting objects: 100% (10/10), done.[K
-remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
-remote: Total 6 (delta 4), reused 4 (delta 3), pack-reused 0[K
-Unpacking objects:  16% (1/6)   Unpacking objects:  33% (2/6)   Unpacking objects:  50% (3/6)   Unpacking objects:  66% (4/6)   Unpacking objects:  83% (5/6)   Unpacking objects: 100% (6/6)   Unpacking objects: 100% (6/6), done.
-From https://github.com/robinhood/faust
- * branch            refs/pull/574/merge -> FETCH_HEAD
-travis_time:end:1d62e540:start=1586769589711967133,finish=1586769590247345092,duration=535377959,event=checkout[0K$ git checkout -qf FETCH_HEAD
-travis_fold:end:git.checkout[0K
-travis_time:end:1d62e540:start=1586769589711967133,finish=1586769590277981851,duration=566014718,event=checkout[0Ktravis_time:start:180b3784[0K
-[33;1mSetting environment variables from .travis.yml[0m
-$ export PYTHONUNBUFFERED=yes
-$ export TOXENV=spell
-$ export USE_ENCHANT=y
-
-travis_time:end:180b3784:start=1586769590281300245,finish=1586769590288171375,duration=6871130,event=env[0Ktravis_time:start:0aaa9a28[0K$ source ~/virtualenv/python3.8.0/bin/activate
-travis_time:end:0aaa9a28:start=1586769590291296816,finish=1586769590295625900,duration=4329084,event=[0Ktravis_fold:start:cache.1[0KSetting up build cache
-$ export CASHER_DIR=${TRAVIS_HOME}/.casher
-travis_time:start:0c5eb800[0K$ Installing caching utilities
-travis_time:end:0c5eb800:start=1586769591047043240,finish=1586769591156200637,duration=109157397,event=setup_casher[0Ktravis_time:start:0370fcf8[0Ktravis_time:end:0370fcf8:start=1586769591160832928,finish=1586769591163509800,duration=2676872,event=setup_casher[0Ktravis_time:start:0bff06d0[0Kattempting to download cache archive[0m
-[32;1mfetching PR.574/cache--linux-xenial-ede8139c7a5539b22303dfe65a85e99606f948e1889e1f008e8b36e778d6a575--python-3.8.0.tgz[0m
-[32;1mfound cache[0m
-travis_time:end:0bff06d0:start=1586769591166880250,finish=1586769593186133395,duration=2019253145,event=setup_casher[0Ktravis_fold:end:cache.1[0K
-travis_fold:start:cache.pip[0K
-travis_time:start:2fde097f[0Ktravis_time:end:2fde097f:start=1586769593190148256,finish=1586769593193005770,duration=2857514,event=setup_cache[0Ktravis_time:start:0b1bf264[0Kadding /home/travis/.cache/pip to cache[0m
-travis_time:end:0b1bf264:start=1586769593196676227,finish=1586769594997131477,duration=1800455250,event=setup_cache[0Ktravis_fold:end:cache.pip[0K$ python --version
-Python 3.8.0
-$ pip --version
-pip 19.3 from /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages/pip (python 3.8)
-travis_fold:start:before_install[0Ktravis_time:start:0b57ce3a[0K$ if [[ "$TRAVIS_OS_NAME" == "linux" && "$USE_ENCHANT" == "y" ]]; then sudo apt-get install -y enchant libenchant-dev; fi
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
-The following additional packages will be installed:
-  aspell aspell-en dictionaries-common libaspell15 libenchant1c2a
-  libhunspell-1.3-0
-Suggested packages:
-  aspell-doc spellutils libenchant-voikko
-Recommended packages:
-  hunspell-en-us | hunspell-dictionary | myspell-dictionary
-The following NEW packages will be installed:
-  aspell aspell-en dictionaries-common enchant libaspell15 libenchant-dev
-  libenchant1c2a libhunspell-1.3-0
-0 upgraded, 8 newly installed, 0 to remove and 285 not upgraded.
-Need to get 1,075 kB of archives.
-After this operation, 4,638 kB of additional disk space will be used.
-0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libaspell15 amd64 0.60.7~20110707-3ubuntu0.1 [315 kB]
-0% [1 libaspell15 2,293 B/315 kB 1%]                                    26% [Working]             Get:2 http://archive.ubuntu.com/ubuntu xenial/main amd64 dictionaries-common all 1.26.3 [185 kB]
-26% [2 dictionaries-common 4,869 B/185 kB 3%]                                             42% [Working]             Get:3 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 aspell amd64 0.60.7~20110707-3ubuntu0.1 [73.9 kB]
-43% [3 aspell 4,870 B/73.9 kB 7%]                                 50% [Working]             Get:4 http://archive.ubuntu.com/ubuntu xenial/main amd64 aspell-en all 7.1-0-1.1 [265 kB]
-51% [4 aspell-en 4,869 B/265 kB 2%]                                   72% [Working]             Get:5 http://archive.ubuntu.com/ubuntu xenial/main amd64 libhunspell-1.3-0 amd64 1.3.3-4ubuntu1 [108 kB]
-73% [5 libhunspell-1.3-0 4,869 B/108 kB 5%]                                           83% [Working]             Get:6 http://archive.ubuntu.com/ubuntu xenial/main amd64 libenchant1c2a amd64 1.6.0-10.1build2 [64.0 kB]
-83% [6 libenchant1c2a 4,871 B/64.0 kB 8%]                                         90% [Working]             Get:7 http://archive.ubuntu.com/ubuntu xenial/main amd64 enchant amd64 1.6.0-10.1build2 [11.9 kB]
-91% [7 enchant 4,871 B/11.9 kB 41%]                                   94% [Working]             Get:8 http://archive.ubuntu.com/ubuntu xenial/main amd64 libenchant-dev amd64 1.6.0-10.1build2 [52.5 kB]
-94% [8 libenchant-dev 4,871 B/52.5 kB 9%]                                         100% [Working]              Fetched 1,075 kB in 1s (799 kB/s)
-Preconfiguring packages ...
-Selecting previously unselected package libaspell15:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124189 files and directories currently installed.)
-Preparing to unpack .../libaspell15_0.60.7~20110707-3ubuntu0.1_amd64.deb ...
-Unpacking libaspell15:amd64 (0.60.7~20110707-3ubuntu0.1) ...
-Selecting previously unselected package dictionaries-common.
-Preparing to unpack .../dictionaries-common_1.26.3_all.deb ...
-Adding 'diversion of /usr/share/dict/words to /usr/share/dict/words.pre-dictionaries-common by dictionaries-common'
-Unpacking dictionaries-common (1.26.3) ...
-Selecting previously unselected package aspell.
-Preparing to unpack .../aspell_0.60.7~20110707-3ubuntu0.1_amd64.deb ...
-Unpacking aspell (0.60.7~20110707-3ubuntu0.1) ...
-Selecting previously unselected package aspell-en.
-Preparing to unpack .../aspell-en_7.1-0-1.1_all.deb ...
-Unpacking aspell-en (7.1-0-1.1) ...
-Selecting previously unselected package libhunspell-1.3-0:amd64.
-Preparing to unpack .../libhunspell-1.3-0_1.3.3-4ubuntu1_amd64.deb ...
-Unpacking libhunspell-1.3-0:amd64 (1.3.3-4ubuntu1) ...
-Selecting previously unselected package libenchant1c2a:amd64.
-Preparing to unpack .../libenchant1c2a_1.6.0-10.1build2_amd64.deb ...
-Unpacking libenchant1c2a:amd64 (1.6.0-10.1build2) ...
-Selecting previously unselected package enchant.
-Preparing to unpack .../enchant_1.6.0-10.1build2_amd64.deb ...
-Unpacking enchant (1.6.0-10.1build2) ...
-Selecting previously unselected package libenchant-dev.
-Preparing to unpack .../libenchant-dev_1.6.0-10.1build2_amd64.deb ...
-Unpacking libenchant-dev (1.6.0-10.1build2) ...
-Processing triggers for libc-bin (2.23-0ubuntu11) ...
-Processing triggers for man-db (2.7.5-1) ...
-Setting up libaspell15:amd64 (0.60.7~20110707-3ubuntu0.1) ...
-Setting up dictionaries-common (1.26.3) ...
-Install emacsen-common for emacs24
-emacsen-common: Handling install of emacsen flavor emacs24
-Wrote /etc/emacs24/site-start.d/00debian-vars.elc
-Wrote /usr/share/emacs24/site-lisp/debian-startup.elc
-Install dictionaries-common for emacs24
-install/dictionaries-common: Byte-compiling for emacsen flavour emacs24
-Wrote /usr/share/emacs24/site-lisp/dictionaries-common/debian-ispell.elc
-Setting up aspell (0.60.7~20110707-3ubuntu0.1) ...
-Setting up aspell-en (7.1-0-1.1) ...
-Setting up libhunspell-1.3-0:amd64 (1.3.3-4ubuntu1) ...
-Setting up libenchant1c2a:amd64 (1.6.0-10.1build2) ...
-Setting up enchant (1.6.0-10.1build2) ...
-Setting up libenchant-dev (1.6.0-10.1build2) ...
-Processing triggers for libc-bin (2.23-0ubuntu11) ...
-Processing triggers for dictionaries-common (1.26.3) ...
-aspell-autobuildhash: processing: en [en-common].
-aspell-autobuildhash: processing: en [en-variant_0].
-aspell-autobuildhash: processing: en [en-variant_1].
-aspell-autobuildhash: processing: en [en-variant_2].
-aspell-autobuildhash: processing: en [en-w_accents-only].
-aspell-autobuildhash: processing: en [en-wo_accents-only].
-aspell-autobuildhash: processing: en [en_CA-variant_0].
-aspell-autobuildhash: processing: en [en_CA-variant_1].
-aspell-autobuildhash: processing: en [en_CA-w_accents-only].
-aspell-autobuildhash: processing: en [en_CA-wo_accents-only].
-aspell-autobuildhash: processing: en [en_GB-ise-w_accents-only].
-aspell-autobuildhash: processing: en [en_GB-ise-wo_accents-only].
-aspell-autobuildhash: processing: en [en_GB-ize-w_accents-only].
-aspell-autobuildhash: processing: en [en_GB-ize-wo_accents-only].
-aspell-autobuildhash: processing: en [en_GB-variant_0].
-aspell-autobuildhash: processing: en [en_GB-variant_1].
-aspell-autobuildhash: processing: en [en_US-w_accents-only].
-aspell-autobuildhash: processing: en [en_US-wo_accents-only].
-travis_time:end:0b57ce3a:start=1586769595188563640,finish=1586769602977142396,duration=7788578756,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install[0Ktravis_time:start:0cccb15b[0K$ if [[ "$USE_CYTHON" == "y" ]]; then
-    python -m pip install -U cython tox
-  else
-    python -m pip install -U tox
-  fi
-  
-Collecting tox
-  Using cached https://files.pythonhosted.org/packages/7b/4b/a90a0a89db60fc39fc92e31e7da436177a12c06038973c8b7199f47b47c0/tox-3.14.6-py2.py3-none-any.whl
-Requirement already satisfied, skipping upgrade: pluggy<1,>=0.12.0 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (0.13.0)
-Requirement already satisfied, skipping upgrade: packaging>=14 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (19.2)
-Collecting six<2,>=1.14.0
-  Using cached https://files.pythonhosted.org/packages/65/eb/1f97cb97bfc2390a276969c6fae16075da282f5058082d4cb10c6c5c1dba/six-1.14.0-py2.py3-none-any.whl
-Requirement already satisfied, skipping upgrade: py<2,>=1.4.17 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (1.8.0)
-Requirement already satisfied, skipping upgrade: virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (16.7.5)
-Collecting filelock<4,>=3.0.0
-  Using cached https://files.pythonhosted.org/packages/93/83/71a2ee6158bb9f39a90c0dea1637f81d5eef866e188e1971a1b1ab01a35a/filelock-3.0.12-py3-none-any.whl
-Collecting toml>=0.9.4
-  Using cached https://files.pythonhosted.org/packages/a2/12/ced7105d2de62fa7c8fb5fce92cc4ce66b57c95fb875e9318dba7f8c5db0/toml-0.10.0-py2.py3-none-any.whl
-Requirement already satisfied, skipping upgrade: pyparsing>=2.0.2 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from packaging>=14->tox) (2.4.2)
-Installing collected packages: six, filelock, toml, tox
-  Found existing installation: six 1.12.0
-    Uninstalling six-1.12.0:
-      Successfully uninstalled six-1.12.0
-Successfully installed filelock-3.0.12 six-1.14.0 toml-0.10.0 tox-3.14.6
-travis_time:end:0cccb15b:start=1586769602981206610,finish=1586769603878688822,duration=897482212,event=install[0Ktravis_fold:end:install[0Ktravis_time:start:19f91250[0K$ tox -v -- -v
-[1musing tox.ini: /home/travis/build/robinhood/faust/tox.ini (pid 5961)
-[0m[1musing tox-3.14.6 from /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages/tox/__init__.py (pid 5961)
-[0m[1mGLOB sdist-make: /home/travis/build/robinhood/faust/setup.py
-[0m[5974] /home/travis/build/robinhood/faust$ /home/travis/virtualenv/python3.8.0/bin/python setup.py sdist --formats=zip --dist-dir /home/travis/build/robinhood/faust/.tox/dist >.tox/log/GLOB-0.log
-package .tmp/package/1/faust-1.11.0a1.zip links to dist/faust-1.11.0a1.zip (/home/travis/build/robinhood/faust/.tox)
-[1mspell cannot reuse: no previous config /home/travis/build/robinhood/faust/.tox/spell/.tox-config1
-[0m[1mspell create: /home/travis/build/robinhood/faust/.tox/spell
-[0m[5977] /home/travis/build/robinhood/faust/.tox$ /home/travis/virtualenv/python3.8.0/bin/python -m virtualenv --no-download --python /home/travis/virtualenv/python3.8.0/bin/python spell >spell/log/spell-0.log
-[1mspell installdeps: -r/home/travis/build/robinhood/faust/requirements/default.txt, -r/home/travis/build/robinhood/faust/requirements/test.txt, -r/home/travis/build/robinhood/faust/requirements/ci.txt, -r/home/travis/build/robinhood/faust/requirements/spell.txt
-[0m[5998] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/spell/bin/python -m pip install -r/home/travis/build/robinhood/faust/requirements/default.txt -r/home/travis/build/robinhood/faust/requirements/test.txt -r/home/travis/build/robinhood/faust/requirements/ci.txt -r/home/travis/build/robinhood/faust/requirements/spell.txt >.tox/spell/log/spell-1.log
-[1mspell inst: /home/travis/build/robinhood/faust/.tox/.tmp/package/1/faust-1.11.0a1.zip
-[0mwrite config to /home/travis/build/robinhood/faust/.tox/spell/.tox-config1 as '6c1a32fa660479bea5e8b09162741dbbfd22986834df5f2aff9239af731c5bf7 /home/travis/virtualenv/python3.8.0/bin/python\n3.14.6 0 0 0\n00000000000000000000000000000000 -r/home/travis/build/robinhood/faust/requirements/default.txt\n00000000000000000000000000000000 -r/home/travis/build/robinhood/faust/requirements/test.txt\n00000000000000000000000000000000 -r/home/travis/build/robinhood/faust/requirements/ci.txt\n00000000000000000000000000000000 -r/home/travis/build/robinhood/faust/requirements/spell.txt'
-[6009] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/spell/bin/python -m pip install --exists-action w .tox/.tmp/package/1/faust-1.11.0a1.zip >.tox/spell/log/spell-2.log
-[6019] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/spell/bin/python -m pip freeze >.tox/spell/log/spell-3.log
-[1mspell installed: aiofiles==0.5.0,aiohttp==3.6.2,aiohttp-cors==0.7.0,alabaster==0.7.12,aredis==1.1.8,async-timeout==3.0.1,atomicwrites==1.3.0,attrs==19.3.0,Babel==2.8.0,certifi==2020.4.5.1,chardet==3.0.4,click==7.1.1,codecov==2.0.22,colorclass==2.2.0,colorlog==4.1.0,coverage==5.1,croniter==0.3.31,datadog==0.35.0,decorator==4.4.2,docutils==0.16,faust==1.11.0a1,freezegun==0.3.15,hypothesis==5.8.3,idna==2.9,imagesize==1.2.0,Jinja2==2.11.1,kafka-python==1.4.7,MarkupSafe==1.1.1,mode==4.3.2,more-itertools==8.2.0,multidict==4.7.5,mypy==0.770,mypy-extensions==0.4.3,opentracing==1.3.0,packaging==20.3,pluggy==0.13.1,psutil==5.7.0,py==1.8.1,pyenchant==3.0.1,pyfakefs==4.0.2,Pygments==2.6.1,pyparsing==2.4.7,pytest==5.2.4,pytest-aiofiles==0.2.0,pytest-aiohttp==0.3.0,pytest-asyncio==0.10.0,pytest-cov==2.8.1,pytest-forked==1.1.3,pytest-openfiles==0.4.0,pytest-picked==0.4.4,pytest-random-order==1.0.4,python-dateutil==2.8.1,pytz==2019.3,PyYAML==5.3.1,requests==2.23.0,robinhood-aiokafka==1.1.6,six==1.14.0,snowballstemmer==2.0.0,sortedcontainers==2.1.0,Sphinx==1.8.5,sphinx-celery==1.4.8,sphinxcontrib-spelling==5.0.0,sphinxcontrib-websupport==1.2.1,statsd==3.3.0,terminaltables==3.1.0,typed-ast==1.4.1,typing-extensions==3.7.4.2,urllib3==1.25.8,venusian==1.2.0,wcwidth==0.1.9,yarl==1.4.2
-[0m[1mspell run-test-pre: PYTHONHASHSEED='3369349690'
-[0m[1mspell run-test: commands[0] | env SPELLCHECK=1 sphinx-build -b spelling -d /home/travis/build/robinhood/faust/.tox/spell/tmp/doctrees2 docs docs/_build/spell
-[0m[31mWARNING: test command found but not installed in testenv
-  cmd: /usr/bin/env
-  env: /home/travis/build/robinhood/faust/.tox/spell
-Maybe you forgot to specify a dependency? See also the whitelist_externals envconfig setting.
-
-DEPRECATION WARNING: this will be an error in tox 4 and above!
-[0m[6020] /home/travis/build/robinhood/faust$ /usr/bin/env SPELLCHECK=1 sphinx-build -b spelling -d /home/travis/build/robinhood/faust/.tox/spell/tmp/doctrees2 docs docs/_build/spell
-Running Sphinx v1.8.5
-Initializing Spelling Checker
-making output directory...
-Ignoring wiki words
-Ignoring acronyms
-Ignoring Python builtins
-Ignoring importable module names
-Looking for custom word list in /home/travis/build/robinhood/faust/docs/spelling_wordlist.txt
-loading intersphinx inventory from https://www.sphinx-doc.org/en/stable/objects.inv...
-loading intersphinx inventory from https://aiohttp.readthedocs.io/en/stable/objects.inv...
-loading intersphinx inventory from https://aiokafka.readthedocs.io/en/stable/objects.inv...
-WARNING: failed to reach any of the inventories with the following issues:
-intersphinx inventory 'https://aiokafka.readthedocs.io/en/stable/objects.inv' not fetchable due to <class 'requests.exceptions.HTTPError'>: 502 Server Error: Bad Gateway for url: https://aiokafka.readthedocs.io/en/stable/objects.inv
-loading intersphinx inventory from https://aredis.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://click.palletsprojects.com/en/7.x/objects.inv...
-loading intersphinx inventory from https://kafka-python.readthedocs.io/en/master/objects.inv...
-loading intersphinx inventory from https://mode.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://mypy.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://pytest.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://docs.python.org/dev/objects.inv...
-loading intersphinx inventory from https://python-rocksdb.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://statsd.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://robpol86.github.io/terminaltables/objects.inv...
-loading intersphinx inventory from https://uvloop.readthedocs.io/objects.inv...
-loading intersphinx inventory from https://venusian.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://yarl.readthedocs.io/en/latest/objects.inv...
-building [mo]: targets for 0 po files that are out of date
-building [spelling]: all documents
-updating environment: 191 added, 0 changed, 0 removed
-reading sources... [  0%] authors
-reading sources... [  1%] changelog
-reading sources... [  1%] contributing
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [  2%] copyright
-reading sources... [  2%] developerguide/index
-reading sources... [  3%] developerguide/overview
-reading sources... [  3%] developerguide/partition_assignor
-reading sources... [  4%] faq
-reading sources... [  4%] glossary
-reading sources... [  5%] history/changelog-0.9
-reading sources... [  5%] history/changelog-1.0
-reading sources... [  6%] history/changelog-1.1
-reading sources... [  6%] history/changelog-1.10
-reading sources... [  7%] history/changelog-1.2
-reading sources... [  7%] history/changelog-1.3
-reading sources... [  8%] history/changelog-1.4
-reading sources... [  8%] history/changelog-1.5
-reading sources... [  9%] history/changelog-1.6
-reading sources... [  9%] history/changelog-1.7
-reading sources... [ 10%] history/changelog-1.8
-reading sources... [ 10%] history/changelog-1.9
-reading sources... [ 11%] history/index
-reading sources... [ 12%] index
-reading sources... [ 12%] introduction
-reading sources... [ 13%] playbooks/cheatsheet
-reading sources... [ 13%] playbooks/index
-reading sources... [ 14%] playbooks/leaderelection
-reading sources... [ 14%] playbooks/pageviews
-reading sources... [ 15%] playbooks/quickstart
-reading sources... [ 15%] playbooks/vscelery
-reading sources... [ 16%] playbooks/vskafka
-reading sources... [ 16%] reference/faust
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 17%] reference/faust.agents
-reading sources... [ 17%] reference/faust.agents.actor
-reading sources... [ 18%] reference/faust.agents.agent
-reading sources... [ 18%] reference/faust.agents.manager
-reading sources... [ 19%] reference/faust.agents.models
-reading sources... [ 19%] reference/faust.agents.replies
-reading sources... [ 20%] reference/faust.app
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 20%] reference/faust.app.base
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 21%] reference/faust.app.router
-reading sources... [ 21%] reference/faust.assignor.client_assignment
-reading sources... [ 22%] reference/faust.assignor.cluster_assignment
-reading sources... [ 23%] reference/faust.assignor.copartitioned_assignor
-reading sources... [ 23%] reference/faust.assignor.leader_assignor
-reading sources... [ 24%] reference/faust.assignor.partition_assignor
-reading sources... [ 24%] reference/faust.auth
-reading sources... [ 25%] reference/faust.channels
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 25%] reference/faust.cli.agents
-reading sources... [ 26%] reference/faust.cli.base
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 26%] reference/faust.cli.clean_versions
-reading sources... [ 27%] reference/faust.cli.completion
-reading sources... [ 27%] reference/faust.cli.faust
-reading sources... [ 28%] reference/faust.cli.livecheck
-reading sources... [ 28%] reference/faust.cli.model
-reading sources... [ 29%] reference/faust.cli.models
-reading sources... [ 29%] reference/faust.cli.params
-reading sources... [ 30%] reference/faust.cli.reset
-reading sources... [ 30%] reference/faust.cli.send
-reading sources... [ 31%] reference/faust.cli.tables
-reading sources... [ 31%] reference/faust.cli.worker
-reading sources... [ 32%] reference/faust.contrib
-reading sources... [ 32%] reference/faust.contrib.sentry
-reading sources... [ 33%] reference/faust.events
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 34%] reference/faust.exceptions
-reading sources... [ 34%] reference/faust.fixups
-reading sources... [ 35%] reference/faust.fixups.base
-reading sources... [ 35%] reference/faust.fixups.django
-reading sources... [ 36%] reference/faust.joins
-reading sources... [ 36%] reference/faust.livecheck
-reading sources... [ 37%] reference/faust.livecheck.app
-reading sources... [ 37%] reference/faust.livecheck.case
-reading sources... [ 38%] reference/faust.livecheck.exceptions
-reading sources... [ 38%] reference/faust.livecheck.locals
-reading sources... [ 39%] reference/faust.livecheck.models
-reading sources... [ 39%] reference/faust.livecheck.patches
-reading sources... [ 40%] reference/faust.livecheck.patches.aiohttp
-reading sources... [ 40%] reference/faust.livecheck.runners
-reading sources... [ 41%] reference/faust.livecheck.signals
-reading sources... [ 41%] reference/faust.models.base
-reading sources... [ 42%] reference/faust.models.fields
-reading sources... [ 42%] reference/faust.models.record
-reading sources... [ 43%] reference/faust.models.tags
-reading sources... [ 43%] reference/faust.models.typing
-reading sources... [ 44%] reference/faust.sensors
-reading sources... [ 45%] reference/faust.sensors.base
-reading sources... [ 45%] reference/faust.sensors.datadog
-reading sources... [ 46%] reference/faust.sensors.monitor
-reading sources... [ 46%] reference/faust.sensors.statsd
-reading sources... [ 47%] reference/faust.serializers.codecs
-reading sources... [ 47%] reference/faust.serializers.registry
-reading sources... [ 48%] reference/faust.serializers.schemas
-reading sources... [ 48%] reference/faust.stores
-reading sources... [ 49%] reference/faust.stores.base
-reading sources... [ 49%] reference/faust.stores.memory
-reading sources... [ 50%] reference/faust.stores.rocksdb
-reading sources... [ 50%] reference/faust.streams
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 51%] reference/faust.tables
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 51%] reference/faust.tables.base
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 52%] reference/faust.tables.globaltable
-reading sources... [ 52%] reference/faust.tables.manager
-reading sources... [ 53%] reference/faust.tables.objects
-reading sources... [ 53%] reference/faust.tables.recovery
-reading sources... [ 54%] reference/faust.tables.sets
-reading sources... [ 54%] reference/faust.tables.table
-reading sources... [ 55%] reference/faust.tables.wrappers
-reading sources... [ 56%] reference/faust.topics
-reading sources... [ 56%] reference/faust.transport
-reading sources... [ 57%] reference/faust.transport.base
-reading sources... [ 57%] reference/faust.transport.conductor
-reading sources... [ 58%] reference/faust.transport.consumer
-reading sources... [ 58%] reference/faust.transport.drivers
-reading sources... [ 59%] reference/faust.transport.drivers.aiokafka
-reading sources... [ 59%] reference/faust.transport.producer
-reading sources... [ 60%] reference/faust.transport.utils
-reading sources... [ 60%] reference/faust.types.agents
-reading sources... [ 61%] reference/faust.types.app
-reading sources... [ 61%] reference/faust.types.assignor
-reading sources... [ 62%] reference/faust.types.auth
-reading sources... [ 62%] reference/faust.types.channels
-reading sources... [ 63%] reference/faust.types.codecs
-reading sources... [ 63%] reference/faust.types.core
-reading sources... [ 64%] reference/faust.types.enums
-reading sources... [ 64%] reference/faust.types.events
-reading sources... [ 65%] reference/faust.types.fixups
-reading sources... [ 65%] reference/faust.types.joins
-reading sources... [ 66%] reference/faust.types.models
-reading sources... [ 67%] reference/faust.types.router
-reading sources... [ 67%] reference/faust.types.sensors
-reading sources... [ 68%] reference/faust.types.serializers
-reading sources... [ 68%] reference/faust.types.settings
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 69%] reference/faust.types.settings.base
-reading sources... [ 69%] reference/faust.types.settings.params
-reading sources... [ 70%] reference/faust.types.settings.sections
-reading sources... [ 70%] reference/faust.types.settings.settings
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 71%] reference/faust.types.stores
-reading sources... [ 71%] reference/faust.types.streams
-reading sources... [ 72%] reference/faust.types.tables
-reading sources... [ 72%] reference/faust.types.topics
-reading sources... [ 73%] reference/faust.types.transports
-reading sources... [ 73%] reference/faust.types.tuples
-reading sources... [ 74%] reference/faust.types.web
-reading sources... [ 74%] reference/faust.types.windows
-reading sources... [ 75%] reference/faust.utils.codegen
-reading sources... [ 75%] reference/faust.utils.cron
-reading sources... [ 76%] reference/faust.utils.functional
-reading sources... [ 76%] reference/faust.utils.iso8601
-reading sources... [ 77%] reference/faust.utils.json
-reading sources... [ 78%] reference/faust.utils.platforms
-reading sources... [ 78%] reference/faust.utils.terminal
-reading sources... [ 79%] reference/faust.utils.terminal.spinners
-reading sources... [ 79%] reference/faust.utils.terminal.tables
-reading sources... [ 80%] reference/faust.utils.tracing
-reading sources... [ 80%] reference/faust.utils.urls
-reading sources... [ 81%] reference/faust.utils.venusian
-reading sources... [ 81%] reference/faust.web.apps.graph
-reading sources... [ 82%] reference/faust.web.apps.router
-reading sources... [ 82%] reference/faust.web.apps.stats
-reading sources... [ 83%] reference/faust.web.base
-reading sources... [ 83%] reference/faust.web.blueprints
-reading sources... [ 84%] reference/faust.web.cache
-reading sources... [ 84%] reference/faust.web.cache.backends
-reading sources... [ 85%] reference/faust.web.cache.backends.base
-reading sources... [ 85%] reference/faust.web.cache.backends.memory
-reading sources... [ 86%] reference/faust.web.cache.backends.redis
-reading sources... [ 86%] reference/faust.web.cache.cache
-reading sources... [ 87%] reference/faust.web.cache.exceptions
-reading sources... [ 87%] reference/faust.web.drivers
-reading sources... [ 88%] reference/faust.web.drivers.aiohttp
-reading sources... [ 89%] reference/faust.web.exceptions
-reading sources... [ 89%] reference/faust.web.views
-reading sources... [ 90%] reference/faust.windows
-reading sources... [ 90%] reference/faust.worker
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 91%] reference/index
-reading sources... [ 91%] userguide/agents
-reading sources... [ 92%] userguide/application
-reading sources... [ 92%] userguide/channels
-reading sources... [ 93%] userguide/cli
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 93%] userguide/debugging
-reading sources... [ 94%] userguide/index
-reading sources... [ 94%] userguide/installation
-reading sources... [ 95%] userguide/kafka
-reading sources... [ 95%] userguide/livecheck
-reading sources... [ 96%] userguide/models
-reading sources... [ 96%] userguide/sensors
-reading sources... [ 97%] userguide/settings
-/home/travis/build/robinhood/faust/.tox/spell/lib/python3.8/site-packages/sphinx/util/nodes.py:94: FutureWarning: 
-   The iterable returned by Node.traverse()
-   will become an iterator instead of a list in Docutils > 0.16.
-  for classifier in reversed(node.parent.traverse(nodes.classifier)):
-reading sources... [ 97%] userguide/streams
-reading sources... [ 98%] userguide/tables
-reading sources... [ 98%] userguide/tasks
-reading sources... [ 99%] userguide/testing
-reading sources... [100%] userguide/workers
-
-docs/includes/resources.txt:11: WARNING: Unknown target name: "fauststream".
-/home/travis/build/robinhood/faust/faust/types/settings/params.py:docstring of faust.types.settings.params.Param.default_template:1: WARNING: Inline literal start-string without end-string.
-looking for now-outdated files... none found
-pickling environment... done
-checking consistency... done
-preparing documents... done
-writing output... [  0%] authors
-authors.rst:62:Mattias:["Matthias", "Macias", "Mathias", "Martians", "Marcia's", "Martial", "Martian", "Mattie's", "Mafias", "Mathis", "Manias", "Mattes", "Matte's", "Matters", "Maria's", "Marta's", "Match's", "Matches", "Macias's", "Martian's", "Marsha's", "Mafia's", "Mania's", "Matter's", "Attias"]
-authors.rst:84:Nimish:["Gnomish", "Amish", "Famish", "Mosh", "Mush", "Nosh", "Nimbi", "Knish", "Nourish", "MASH", "Mich", "Nash", "Enmesh", "Mash", "Mesh", "Naming", "Naomi's", "Noemi's", "NIMBY", "Nam's", "Names", "Nimby", "Nymph", "Smash", "Knavish", "Warmish", "Namath", "Name's", "Nimi"]
-authors.rst:84:Telang:["Twang", "Lang", "Tang", "Telling", "Melange", "T'ang", "Clang", "Slang", "Delano", "Tulane", "Tiling", "Belong", "Twangy", "Tango", "Tangy", "Teenage", "LNG", "Telugu", "TELNET", "Dealing", "Flange", "Slangy", "Telnet", "Deng", "Long", "Dang", "Lank", "Lung", "Tank", "Tong", "Talking", "Delaney", "Tailing", "Tilling", "Toiling", "Tolling", "Tooling", "Dylan", "Talon", "Dueling", "Liang", "Belaid", "Bevan", "Deane", "Helmig", "Melin", "Seong"]
-authors.rst:86:Pantoja:["Pantos", "Panto", "Pandora", "Pants", "Pant", "Panties", "Pantie", "Pant's", "Pintos", "Panda", "Pinto", "Panting", "Pinto's", "Panted", "Pantry", "Pantie's", "Pangaea", "Partook", "Pontoon"]
-authors.rst:88:Tomasz:["Tomas", "Toms", "Tom's", "Tomes", "Tomsk", "Tombs", "Tams", "Teams", "Tim's", "Times", "Tome's", "Tomb's", "Tm's", "Tums", "Dumas", "Domes", "Tam's", "Tames", "Tums's", "Time's", "Tampa's", "Tamra's", "Team's", "Tomato's", "Topaz's", "Tami's", "Dome's", "Tammuz's", "Gomez's", "Umask", "Łukasz", "Tamas"]
-authors.rst:90:Artak:["Attack", "Aorta", "Arts", "Ark", "Art", "Partake", "Attar", "Aortas", "Artsy", "Attic", "Aortic", "Arty", "Attacks", "Attica", "Bartok", "Attacker", "Teak", "Artie", "Atria", "Art's", "Aka", "Retake", "ETA", "Eta", "Tack", "Take", "Jataka", "AK", "At", "Ortega", "Aorta's", "Akita", "Dark", "ACT", "Act", "Agate", "Partaker", "ARC", "Ada", "Arc", "Artwork", "Ate", "Auk", "Irk", "Oak", "Tag", "Arcade", "Attack's", "Arg", "Args", "Arity", "Ack", "Riak", "Stas", "Arpan", "Eran", "Erway", "Kral", "Mitar", "Quarta"]
-authors.rst:90:Papikyan:["Papaya", "Parkman", "Papayas", "Napkin", "Mikoyan", "Pagan", "Popgun", "Paraguayan", "Papaya's", "Pinyin", "Pinyon", "Pelican", "Popcorn"]
-authors.rst:92:Tuppitcyn:["Tippets", "Tippet's", "Tappets", "Tippexing", "Tappet's", "Tiptoes", "Teapots", "Tiptoeing", "Deputizing", "Teapot's", "Tiptoe's", "Appetizing", "Depositing", "Deputing", "Partisan", "Deputy's"]
-authors.rst:94:Vikram:["Buckram", "Cram", "Viagra", "Gram", "Diagram", "Victim", "Cream", "Scram", "Viacom", "Wigwam", "Kramer", "VCR", "Vivarium", "Grim", "Vagary", "Kirkham", "Mika", "Pika"]
-authors.rst:94:Patki:["Patti", "Park", "Partake", "Pat", "Batik", "Partook", "Parka", "Parky", "Patois", "Pate", "Pack", "Pats", "Patty", "Patel", "Patna", "Patsy", "Partaker", "Pat's", "Pates", "Pkt", "PTA", "Pact", "PTO", "TKO", "Paid", "Part", "Peak", "Peat", "Poetic", "Parked", "Parker", "Darkie", "PT", "Palikir", "Pt", "Ptah", "Pk", "Take", "Patina", "Patine", "PARC", "Dark", "Party", "Peaky", "Peaty", "Perk", "Pork", "Attic", "Putin", "Panic", "Parts", "Uptake", "Pct", "PAC", "PET", "Patrica", "Patrick", "Pad", "Pet", "Pit", "Pot", "Put", "PDT", "Packed", "Packet", "Patties", "Patting", "Pkg", "Stake", "Packer", "Patter", "PDQ", "Pate's", "Part's", "Peat's", "Pita", "Page", "Peck", "Pete", "Pike", "Pitt", "Puck", "Peek", "Peke", "Pick", "Pity", "Pock", "Poke", "Ack", "Acks", "Wiki", "Fatih", "Katz", "Kai", "Patrin", "Satia"]
-authors.rst:96:Miroshnikov:["Baryshnikov", "Kalashnikov", "Moronic", "Tereshkova", "Cerenkov"]
-authors.rst:98:Rauter:["Rater", "Ratter", "Router", "Rate", "Tauter", "Raider", "Rattier", "Route", "Ruder", "Rafter", "Ranter", "Raster", "Rioter", "Rooter", "Rotter", "Mutex", "Cramer"]
-authors.rst:102:Leandro:["Landry", "Leander", "Laundry", "Leonardo", "Lenard", "Leaned", "Deandre", "Lander", "Lender", "Lento", "Landon", "Land", "Lend", "Lenders", "Andre", "Lands", "Lends", "Legendre", "Lenora", "Lenore", "Luanda", "Landau", "Land's", "Lenard's", "Lender's", "Landry's"]
-authors.rst:102:Vonwerra:["Vinegary", "Tinware", "Winery", "Winnowers", "Venture", "Wanderer", "Winnower", "Unwary", "Winnower's", "Dinnerware", "Unaware", "Wintry", "Winfrey", "Unwarier", "Vaporware"]
-authors.rst:104:Peluffo:["Pelf", "Luff", "Puff", "Puffy", "Pluto", "Bluff", "Fluff", "Pilaf", "Pelf's", "Pouffe", "Fluffy", "Pilfer", "LIFO", "Spliff", "ELF", "Elf", "Puffer", "Pele", "Pouf"]
-authors.rst:106:Sergej:["Serge", "Sergei", "Segre", "Serge's", "Sarge", "Sedge", "Surge", "Sergio", "Sarges", "Surged", "Surges", "Sergei's", "Sarge's", "Sedge's", "Surge's", "Sergey"]
-authors.rst:108:Schroh:["Schmo", "SRO", "Chore", "Sch", "Shore", "Score", "Schizo", "Shariah", "Sarah", "Shrew", "Cheri", "Shari", "Sheri", "Spiro", "Scare", "Scary", "Schwa", "Scree", "Screw", "Shire", "Shirr", "Such", "Search", "Sirrah", "Sorrow", "Schick", "Scorer", "Scurry", "Sr", "Sore", "Ashore", "Chary", "Share", "Chorea", "Seashore", "Schroeder"]
-authors.rst:110:Kovalev:["Kislev", "Bivalve", "Calve", "Jovial", "Evolve", "Kevlar", "Pavlov", "Coeval", "Jovially", "Coevals", "Devolve", "Revolve", "Cavalier", "Coevally", "Cavalry", "Coeval's", "Coverlet", "Gavels", "Caviler", "Caviled", "Gavel's", "Koval"]
-authors.rst:114:Kampf:["Kemp", "Camp", "Campy", "Camps", "Camped", "Jump", "Kampala", "Camper", "Jumpy", "Campos", "Kemp's", "Kempis", "Camp's", "Campus", "Comp", "Gimp", "Compo", "Gimpy", "Kombu", "App", "Apps", "Yaml", "Tamas"]
-authors.rst:116:Wjatscheslaw:["Catskills", "Catskill", "Catskills's", "Catskill's"]
-authors.rst:116:Kewlin:["Keeling", "Klein", "Kaolin", "Kiln", "Kline", "Kelvin", "Kowloon", "Jawline", "Jelling", "Jilin", "Klan", "Mewling", "Newline", "Kelli", "Cowling", "Gelling", "Killing", "Kevin", "Colin", "Kellie", "Berlin", "Merlin", "Carlin", "Collin", "Ken", "Lin", "Kin", "Kelli's", "Melin"]
-authors.rst:118:Ramkumar:["Ramekin", "Rummage", "Ramjet", "Remake", "Remaking", "Remakes", "Rummaged", "Rummages", "Remake's", "Maugham", "Regime", "Remarks", "Remix", "Remark's", "Rummage's", "Requiem", "Kracekumar"]
-writing output... [  1%] changelog
-changelog.rst:27:Wjatscheslaw:["Catskills", "Catskill", "Catskills's", "Catskill's"]
-changelog.rst:27:Kewlin:["Keeling", "Klein", "Kaolin", "Kiln", "Kline", "Kelvin", "Kowloon", "Jawline", "Jelling", "Jilin", "Klan", "Mewling", "Newline", "Kelli", "Cowling", "Gelling", "Killing", "Kevin", "Colin", "Kellie", "Berlin", "Merlin", "Carlin", "Collin", "Ken", "Lin", "Kin", "Kelli's", "Melin"]
-changelog.rst:32:Ramkumar:["Ramekin", "Rummage", "Ramjet", "Remake", "Remaking", "Remakes", "Rummaged", "Rummages", "Remake's", "Maugham", "Regime", "Remarks", "Remix", "Remark's", "Rummage's", "Requiem", "Kracekumar"]
-writing output... [  1%] contributing
-contributing.rst:20:sexualized:["serialized", "equalized", "sexuality", "secularized", "signalized", "sexuality's", "legalized"]
-contributing.rst:502:pyflakes:["flakes", "flake's", "flak's", "flukes", "flacks", "pillages", "polkas", "flack's", "fluke's", "plagues", "plaques", "flags", "polka's", "pollacks", "Polk's", "flag's", "pillage's", "pollack's", "piffle's", "plague's", "plaque's"]
-contributing.rst:504:pyflakes:["flakes", "flake's", "flak's", "flukes", "flacks", "pillages", "polkas", "flack's", "fluke's", "plagues", "plaques", "flags", "polka's", "pollacks", "Polk's", "flag's", "pillage's", "pollack's", "piffle's", "plague's", "plaque's"]
-writing output... [  2%] copyright
-writing output... [  2%] developerguide/index
-writing output... [  3%] developerguide/overview
-writing output... [  3%] developerguide/partition_assignor
-developerguide/partition_assignor.rst:25:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-developerguide/partition_assignor.rst:56:repartitioning:["re partitioning", "re-partitioning", "partitioning", "petitioning", "reapportioning", "repetition", "repetitions", "repetition's"]
-writing output... [  4%] faq
-writing output... [  4%] glossary
-writing output... [  5%] history/changelog-0.9
-writing output... [  5%] history/changelog-1.0
-history/changelog-1.0.rst:82:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-history/changelog-1.0.rst:84:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-history/changelog-1.0.rst:523:Aiokafka:["Kafka", "AFAIK", "Akiva", "JFK", "Agog", "Oaxaca", "AFC", "Akiva's", "Acuff", "Iaccoca", "Agave", "Evoke", "Acuff's", "Acreage", "Aquifer", "Avg", "Invoke", "Alphecca", "Aardvark", "O'Keeffe", "Aquatic", "Aquavit", "Agave's"]
-writing output... [  6%] history/changelog-1.1
-history/changelog-1.1.rst:376:timestamps:["time stamps", "time-stamps", "times tamps", "times-tamps", "stamps", "mesdames", "stamp's", "missteps", "disesteems", "domestics", "mistypes", "Domesday's", "stampers", "disesteem's", "domestic's", "misstep's", "distemper's", "stamper's", "timestamp"]
-history/changelog-1.1.rst:489:Grossman:["Gross man", "Gross-man", "Groomsman", "Pressman", "Gasman", "Grossing", "Corpsman", "Groomsmen", "Grumman", "Guardsman", "Pressmen", "Gasmen", "Crossing", "Grassing", "Grooming", "Grousing", "Crossbowman", "Guzman"]
-writing output... [  6%] history/changelog-1.10
-history/changelog-1.10.rst:71:pseudocode:["pseudo code", "pseudo-code", "postcode", "pesticide", "paddocked", "stuccoed", "predicate", "postcodes", "postdoc", "stocked", "restocked", "stockade"]
-history/changelog-1.10.rst:92:Martyanov:["Maryann", "Maryanne", "Mauryan", "Martina", "Mayan", "Martini", "Martyring", "Martin", "Marten", "Mayans", "Marrying", "Martinis", "Maryann's", "Mauryan's", "Malayan", "Martina's", "Mayan's", "Martens", "Martins", "Mahayana", "Martinez", "Marten's", "Martin's", "Martinet", "Partying", "Malayans", "Malayan's", "Martini's", "Maryanne's"]
-history/changelog-1.10.rst:93:Deil:["Deli", "Del", "Devil", "Dell", "Deal", "Neil", "Veil", "De", "Dev", "Der", "Dest", "Wil", "Aneil", "Biel", "Dein"]
-history/changelog-1.10.rst:94:Hisham:["Hi sham", "Hi-sham", "His ham", "His-ham", "Sham", "Hiram", "Ishim", "Siam", "Hush", "Shame", "Ham", "Him", "Hash", "Shim", "Hush's", "Hash's", "Kirkham", "Miha"]
-history/changelog-1.10.rst:94:Elsheshtawy:["Lushest", "Eldest", "Flashest", "Flushest", "Plushest", "Elephant", "Fleshiest", "Elevate", "Flashiest", "Plushiest", "Slushiest", "Welshed", "Elvishes", "Ashiest", "Elevated", "Oldest", "Shushed", "Flysheet", "Ishtar", "Elbert", "Elevator", "Alberta", "Elysian", "Alchemy", "Already", "Archest", "Elector"]
-history/changelog-1.10.rst:116:Kampf:["Kemp", "Camp", "Campy", "Camps", "Camped", "Jump", "Kampala", "Camper", "Jumpy", "Campos", "Kemp's", "Kempis", "Camp's", "Campus", "Comp", "Gimp", "Compo", "Gimpy", "Kombu", "App", "Apps", "Yaml", "Tamas"]
-history/changelog-1.10.rst:157:Aiokafka:["Kafka", "AFAIK", "Akiva", "JFK", "Agog", "Oaxaca", "AFC", "Akiva's", "Acuff", "Iaccoca", "Agave", "Evoke", "Acuff's", "Acreage", "Aquifer", "Avg", "Invoke", "Alphecca", "Aardvark", "O'Keeffe", "Aquatic", "Aquavit", "Agave's"]
-history/changelog-1.10.rst:157:Livelock:["Live lock", "Live-lock", "Livelong", "Lifelike", "Lovesick", "Lively", "Livelier", "Lovelace", "Lovelorn", "Lifelong", "Lifework", "Overlook", "Lovely", "Flock", "Level", "Lilac", "Levels", "Leveler", "Levelly", "Level's"]
-history/changelog-1.10.rst:214:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-history/changelog-1.10.rst:376:windowset:["window set", "window-set", "windiest", "Windows", "windows", "windowed", "window's"]
-history/changelog-1.10.rst:381:Sergej:["Serge", "Sergei", "Segre", "Serge's", "Sarge", "Sedge", "Surge", "Sergio", "Sarges", "Surged", "Surges", "Sergei's", "Sarge's", "Sedge's", "Surge's", "Sergey"]
-history/changelog-1.10.rst:385:Heinnickel:["Nickel", "Heineken", "Heckle", "Nickle", "Binnacle", "Pinnacle", "Honecker", "Hernial", "Hornlike", "Finical", "Helical", "Heckler", "Hannibal", "Herschel", "Nicole", "Hackle"]
-history/changelog-1.10.rst:409:Schroh:["Schmo", "SRO", "Chore", "Sch", "Shore", "Score", "Schizo", "Shariah", "Sarah", "Shrew", "Cheri", "Shari", "Sheri", "Spiro", "Scare", "Scary", "Schwa", "Scree", "Screw", "Shire", "Shirr", "Such", "Search", "Sirrah", "Sorrow", "Schick", "Scorer", "Scurry", "Sr", "Sore", "Ashore", "Chary", "Share", "Chorea", "Seashore", "Schroeder"]
-history/changelog-1.10.rst:414:Deil:["Deli", "Del", "Devil", "Dell", "Deal", "Neil", "Veil", "De", "Dev", "Der", "Dest", "Wil", "Aneil", "Biel", "Dein"]
-history/changelog-1.10.rst:416:Schroh:["Schmo", "SRO", "Chore", "Sch", "Shore", "Score", "Schizo", "Shariah", "Sarah", "Shrew", "Cheri", "Shari", "Sheri", "Spiro", "Scare", "Scary", "Schwa", "Scree", "Screw", "Shire", "Shirr", "Such", "Search", "Sirrah", "Sorrow", "Schick", "Scorer", "Scurry", "Sr", "Sore", "Ashore", "Chary", "Share", "Chorea", "Seashore", "Schroeder"]
-history/changelog-1.10.rst:425:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-history/changelog-1.10.rst:434:Kovalev:["Kislev", "Bivalve", "Calve", "Jovial", "Evolve", "Kevlar", "Pavlov", "Coeval", "Jovially", "Coevals", "Devolve", "Revolve", "Cavalier", "Coevally", "Cavalry", "Coeval's", "Coverlet", "Gavels", "Caviler", "Caviled", "Gavel's", "Koval"]
-writing output... [  7%] history/changelog-1.2
-history/changelog-1.2.rst:48:Neumann:["Newman", "Norman", "Riemann", "Mann", "Newsman", "Merman", "Human", "Pneumonia", "Penman", "German", "Herman", "Lehman", "Humane", "Neuron", "Remain", "Seaman", "Yeoman", "Naming", "Manna", "Mean", "Nanny", "Numb", "Unman", "Normand", "Normans", "Germany", "Germane", "Noumea", "Gunman", "Mani", "Minn", "Main", "Many", "Naan", "Lineman", "Norman's", "Germán", "Permana", "Ullmann"]
-history/changelog-1.2.rst:113:subcommands:["sub commands", "sub-commands", "commands", "command's", "commandos", "subcompacts", "commends", "subhumans", "subcommittees", "subcompact's", "recommends", "subhuman's", "commanders", "commando's", "seconds", "subcommittee's", "second's", "commander's"]
-history/changelog-1.2.rst:175:Setuptools:["Setup tools", "Setup-tools", "Styptics", "Stupids", "Styptic's", "Stupid's", "Stupidly", "Stipples", "Steeples", "Seedpods", "Stopples", "Staples", "Seedpod's", "Strudels", "Surtitles", "Startles", "Stipple's", "Steeple's", "Strudel's", "Stopple's", "Staple's", "Staplers", "Staples's", "Stapler's"]
-writing output... [  7%] history/changelog-1.3
-history/changelog-1.3.rst:70:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-writing output... [  8%] history/changelog-1.4
-history/changelog-1.4.rst:221:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-history/changelog-1.4.rst:223:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-history/changelog-1.4.rst:271:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-history/changelog-1.4.rst:325:Mattias:["Matthias", "Macias", "Mathias", "Martians", "Marcia's", "Martial", "Martian", "Mattie's", "Mafias", "Mathis", "Manias", "Mattes", "Matte's", "Matters", "Maria's", "Marta's", "Match's", "Matches", "Macias's", "Martian's", "Marsha's", "Mafia's", "Mania's", "Matter's", "Attias"]
-history/changelog-1.4.rst:329:Mattias:["Matthias", "Macias", "Mathias", "Martians", "Marcia's", "Martial", "Martian", "Mattie's", "Mafias", "Mathis", "Manias", "Mattes", "Matte's", "Matters", "Maria's", "Marta's", "Match's", "Matches", "Macias's", "Martian's", "Marsha's", "Mafia's", "Mania's", "Matter's", "Attias"]
-writing output... [  8%] history/changelog-1.5
-history/changelog-1.5.rst:167:Cython:["Python", "Scythian", "Scything", "Thin", "Thorn", "Cynthia", "Cyrano", "Ceylon", "Scythia", "Than", "Then", "Cyan", "Scythe", "Jython"]
-history/changelog-1.5.rst:287:repartitioned:["re partitioned", "re-partitioned", "partitioned", "petitioned", "repetitions", "repetition", "repetition's", "reapportioned", "reputation", "Copartitioned", "copartitioned"]
-history/changelog-1.5.rst:378:Aiokafka:["Kafka", "AFAIK", "Akiva", "JFK", "Agog", "Oaxaca", "AFC", "Akiva's", "Acuff", "Iaccoca", "Agave", "Evoke", "Acuff's", "Acreage", "Aquifer", "Avg", "Invoke", "Alphecca", "Aardvark", "O'Keeffe", "Aquatic", "Aquavit", "Agave's"]
-writing output... [  9%] history/changelog-1.6
-writing output... [  9%] history/changelog-1.7
-history/changelog-1.7.rst:20:Cython:["Python", "Scythian", "Scything", "Thin", "Thorn", "Cynthia", "Cyrano", "Ceylon", "Scythia", "Than", "Then", "Cyan", "Scythe", "Jython"]
-history/changelog-1.7.rst:32:isodates:["isolates", "isolate's", "sedates", "estates", "updates", "instates", "States", "estate's", "situates", "states", "update's", "iodides", "indites", "misstates", "Astarte's", "state's", "iodide's"]
-history/changelog-1.7.rst:78:Witek:["Waite", "White", "Wit", "Waiter", "Whiter", "Whitey", "Witter", "Whites", "Waited", "Whited", "Whiten", "Witted", "Witt", "Week", "Wick", "Wide", "Wink", "Wits", "Whitaker", "Woke", "Water", "Wider", "Witty", "Widen", "Wit's", "Wet", "Teak", "Wait", "Weak", "Whit", "Wiki", "Wok", "Wot", "Wittier", "Waite's", "Wake", "White's", "Dike", "Tick", "Whet", "Wets", "Vitae", "Wicked", "Wicket", "Wicker", "Winker", "Wed", "Wig", "Widget", "Wigged", "Witt's", "Wits's", "Wet's", "We'd", "Wbits", "Aitor", "Biel", "Hynek", "Mitar", "Milen", "Nik", "Riak", "Radek", "Mutex"]
-history/changelog-1.7.rst:78:Bedyk:["Bedeck", "Beady", "Becky", "Bed", "Beck", "Bede", "Beak", "Berk", "Betake", "Betook", "Body", "Beds", "Bawdy", "Bed's", "Bedim", "Batik", "Bead", "Bet", "Dyke", "Bedecks", "Baedeker", "Bk", "Boyd", "Bodega", "Deck", "Betty", "Buddy", "Biddy", "Bud", "Bad", "Bedrock", "Beg", "Bid", "Bod", "Body's", "Redis", "Remy", "Radek"]
-history/changelog-1.7.rst:88:transactional:["transactions", "transnational", "transaction", "transitional", "transaction's"]
-history/changelog-1.7.rst:94:Pantoja:["Pantos", "Panto", "Pandora", "Pants", "Pant", "Panties", "Pantie", "Pant's", "Pintos", "Panda", "Pinto", "Panting", "Pinto's", "Panted", "Pantry", "Pantie's", "Pangaea", "Partook", "Pontoon"]
-history/changelog-1.7.rst:141:Sohaib:["Sahib", "Sahibs", "Soho", "Ahab", "SOB", "Sob", "Saab", "Scab", "Slab", "Stab", "Swab", "Rehab", "Squab", "Squib", "Sahib's", "Hub", "Sahara", "Heb", "SBA", "Stdlib"]
-history/changelog-1.7.rst:141:Farooqi:["Faro", "Farrow", "Freq", "Frog", "Fargo", "Farrows", "Frock", "Farrago", "Faro's", "Frig", "Frag", "Forego", "Fro", "Iraqi", "Faeroe", "Frolic", "Rookie", "Farrow's", "Fare", "Ferric", "Rook", "From", "Forage", "Forgo", "Frogs", "Furor", "Frog's"]
-history/changelog-1.7.rst:145:Tomasz:["Tomas", "Toms", "Tom's", "Tomes", "Tomsk", "Tombs", "Tams", "Teams", "Tim's", "Times", "Tome's", "Tomb's", "Tm's", "Tums", "Dumas", "Domes", "Tam's", "Tames", "Tums's", "Time's", "Tampa's", "Tamra's", "Team's", "Tomato's", "Topaz's", "Tami's", "Dome's", "Tammuz's", "Gomez's", "Umask", "Łukasz", "Tamas"]
-history/changelog-1.7.rst:149:Witek:["Waite", "White", "Wit", "Waiter", "Whiter", "Whitey", "Witter", "Whites", "Waited", "Whited", "Whiten", "Witted", "Witt", "Week", "Wick", "Wide", "Wink", "Wits", "Whitaker", "Woke", "Water", "Wider", "Witty", "Widen", "Wit's", "Wet", "Teak", "Wait", "Weak", "Whit", "Wiki", "Wok", "Wot", "Wittier", "Waite's", "Wake", "White's", "Dike", "Tick", "Whet", "Wets", "Vitae", "Wicked", "Wicket", "Wicker", "Winker", "Wed", "Wig", "Widget", "Wigged", "Witt's", "Wits's", "Wet's", "We'd", "Wbits", "Aitor", "Biel", "Hynek", "Mitar", "Milen", "Nik", "Riak", "Radek", "Mutex"]
-history/changelog-1.7.rst:149:Bedyk:["Bedeck", "Beady", "Becky", "Bed", "Beck", "Bede", "Beak", "Berk", "Betake", "Betook", "Body", "Beds", "Bawdy", "Bed's", "Bedim", "Batik", "Bead", "Bet", "Dyke", "Bedecks", "Baedeker", "Bk", "Boyd", "Bodega", "Deck", "Betty", "Buddy", "Biddy", "Bud", "Bad", "Bedrock", "Beg", "Bid", "Bod", "Body's", "Redis", "Remy", "Radek"]
-history/changelog-1.7.rst:266:repartitioning:["re partitioning", "re-partitioning", "partitioning", "petitioning", "reapportioning", "repetition", "repetitions", "repetition's"]
-history/changelog-1.7.rst:312:transactional:["transactions", "transnational", "transaction", "transitional", "transaction's"]
-history/changelog-1.7.rst:322:param:["pa ram", "pa-ram", "par am", "par-am", "pram", "Priam", "para", "prim", "prom", "paras", "Purim", "prams", "Pam", "RAM", "prime", "promo", "ram", "paramour", "pariah", "para's", "Parr", "Perm", "pare", "perm", "pray", "pram's", "pre", "proj", "arg", "args", "Eran", "Kral", "Haag", "Jaren", "Sanyam", "Tamas", "Zoran", "nargs"]
-history/changelog-1.7.rst:325:Nimish:["Gnomish", "Amish", "Famish", "Mosh", "Mush", "Nosh", "Nimbi", "Knish", "Nourish", "MASH", "Mich", "Nash", "Enmesh", "Mash", "Mesh", "Naming", "Naomi's", "Noemi's", "NIMBY", "Nam's", "Names", "Nimby", "Nymph", "Smash", "Knavish", "Warmish", "Namath", "Name's", "Nimi"]
-history/changelog-1.7.rst:325:Telang:["Twang", "Lang", "Tang", "Telling", "Melange", "T'ang", "Clang", "Slang", "Delano", "Tulane", "Tiling", "Belong", "Twangy", "Tango", "Tangy", "Teenage", "LNG", "Telugu", "TELNET", "Dealing", "Flange", "Slangy", "Telnet", "Deng", "Long", "Dang", "Lank", "Lung", "Tank", "Tong", "Talking", "Delaney", "Tailing", "Tilling", "Toiling", "Tolling", "Tooling", "Dylan", "Talon", "Dueling", "Liang", "Belaid", "Bevan", "Deane", "Helmig", "Melin", "Seong"]
-history/changelog-1.7.rst:344:Mozharovsky:["Izhevsk", "Mohorovicic", "Mohorovicic's"]
-history/changelog-1.7.rst:346:Sorriaux:["Sirius", "Syriac", "Surrogacy", "Surtax", "Borax", "Serious", "Sorrows", "Serials", "Sores", "Sorrow's", "Sorriness", "Xerox", "Serra's", "Syria's", "Sierras", "Syrians", "Serous", "Sore's", "Sorrels", "Syracuse", "Saris", "Sierra's", "Sorrel's", "Serial's", "Crux", "Thorax", "Cirrus", "Series", "Sprigs", "Soirees", "Scurries", "Zorro's", "Sprig's", "Syrian's", "Sirius's", "Sari's", "Scrags", "Soiree's", "Scrag's"]
-history/changelog-1.7.rst:348:Lifei:["Life", "Lifer", "Lief", "LIFO", "Liefer", "Live", "Liver", "Leif", "Levi", "Lvii", "Lie", "Lei", "Lii", "Life's", "Biel", "Milen", "Nimi", "Vixie", "Wiki"]
-writing output... [ 10%] history/changelog-1.8
-history/changelog-1.8.rst:27:Vikram:["Buckram", "Cram", "Viagra", "Gram", "Diagram", "Victim", "Cream", "Scram", "Viacom", "Wigwam", "Kramer", "VCR", "Vivarium", "Grim", "Vagary", "Kirkham", "Mika", "Pika"]
-history/changelog-1.8.rst:27:Patki:["Patti", "Park", "Partake", "Pat", "Batik", "Partook", "Parka", "Parky", "Patois", "Pate", "Pack", "Pats", "Patty", "Patel", "Patna", "Patsy", "Partaker", "Pat's", "Pates", "Pkt", "PTA", "Pact", "PTO", "TKO", "Paid", "Part", "Peak", "Peat", "Poetic", "Parked", "Parker", "Darkie", "PT", "Palikir", "Pt", "Ptah", "Pk", "Take", "Patina", "Patine", "PARC", "Dark", "Party", "Peaky", "Peaty", "Perk", "Pork", "Attic", "Putin", "Panic", "Parts", "Uptake", "Pct", "PAC", "PET", "Patrica", "Patrick", "Pad", "Pet", "Pit", "Pot", "Put", "PDT", "Packed", "Packet", "Patties", "Patting", "Pkg", "Stake", "Packer", "Patter", "PDQ", "Pate's", "Part's", "Peat's", "Pita", "Page", "Peck", "Pete", "Pike", "Pitt", "Puck", "Peek", "Peke", "Pick", "Pity", "Pock", "Poke", "Ack", "Acks", "Wiki", "Fatih", "Katz", "Kai", "Patrin", "Satia"]
-history/changelog-1.8.rst:31:Vikram:["Buckram", "Cram", "Viagra", "Gram", "Diagram", "Victim", "Cream", "Scram", "Viacom", "Wigwam", "Kramer", "VCR", "Vivarium", "Grim", "Vagary", "Kirkham", "Mika", "Pika"]
-history/changelog-1.8.rst:31:Patki:["Patti", "Park", "Partake", "Pat", "Batik", "Partook", "Parka", "Parky", "Patois", "Pate", "Pack", "Pats", "Patty", "Patel", "Patna", "Patsy", "Partaker", "Pat's", "Pates", "Pkt", "PTA", "Pact", "PTO", "TKO", "Paid", "Part", "Peak", "Peat", "Poetic", "Parked", "Parker", "Darkie", "PT", "Palikir", "Pt", "Ptah", "Pk", "Take", "Patina", "Patine", "PARC", "Dark", "Party", "Peaky", "Peaty", "Perk", "Pork", "Attic", "Putin", "Panic", "Parts", "Uptake", "Pct", "PAC", "PET", "Patrica", "Patrick", "Pad", "Pet", "Pit", "Pot", "Put", "PDT", "Packed", "Packet", "Patties", "Patting", "Pkg", "Stake", "Packer", "Patter", "PDQ", "Pate's", "Part's", "Peat's", "Pita", "Page", "Peck", "Pete", "Pike", "Pitt", "Puck", "Peek", "Peke", "Pick", "Pity", "Pock", "Poke", "Ack", "Acks", "Wiki", "Fatih", "Katz", "Kai", "Patrin", "Satia"]
-history/changelog-1.8.rst:33:partitin:["partition", "partitive", "parroting", "partisan", "partying", "petition", "Patton", "parting", "patting", "partaking", "perdition", "partied", "pertain", "Puritan", "puritan", "partaken", "Latitia"]
-history/changelog-1.8.rst:36:Rauter:["Rater", "Ratter", "Router", "Rate", "Tauter", "Raider", "Rattier", "Route", "Ruder", "Rafter", "Ranter", "Raster", "Rioter", "Rooter", "Rotter", "Mutex", "Cramer"]
-history/changelog-1.8.rst:38:Livelock:["Live lock", "Live-lock", "Livelong", "Lifelike", "Lovesick", "Lively", "Livelier", "Lovelace", "Lovelorn", "Lifelong", "Lifework", "Overlook", "Lovely", "Flock", "Level", "Lilac", "Levels", "Leveler", "Levelly", "Level's"]
-history/changelog-1.8.rst:40:Cython:["Python", "Scythian", "Scything", "Thin", "Thorn", "Cynthia", "Cyrano", "Ceylon", "Scythia", "Than", "Then", "Cyan", "Scythe", "Jython"]
-history/changelog-1.8.rst:44:gevent:["event", "Genet", "fervent", "gent", "seventy", "Ghent", "Keven", "given", "Levant", "givens", "govern", "haven't", "Geffen", "Kent", "gannet", "garnet", "genned", "govt", "jennet", "Keven's", "given's", "ident", "Bevan"]
-history/changelog-1.8.rst:47:gevent:["event", "Genet", "fervent", "gent", "seventy", "Ghent", "Keven", "given", "Levant", "givens", "govern", "haven't", "Geffen", "Kent", "gannet", "garnet", "genned", "govt", "jennet", "Keven's", "given's", "ident", "Bevan"]
-history/changelog-1.8.rst:82:Artak:["Attack", "Aorta", "Arts", "Ark", "Art", "Partake", "Attar", "Aortas", "Artsy", "Attic", "Aortic", "Arty", "Attacks", "Attica", "Bartok", "Attacker", "Teak", "Artie", "Atria", "Art's", "Aka", "Retake", "ETA", "Eta", "Tack", "Take", "Jataka", "AK", "At", "Ortega", "Aorta's", "Akita", "Dark", "ACT", "Act", "Agate", "Partaker", "ARC", "Ada", "Arc", "Artwork", "Ate", "Auk", "Irk", "Oak", "Tag", "Arcade", "Attack's", "Arg", "Args", "Arity", "Ack", "Riak", "Stas", "Arpan", "Eran", "Erway", "Kral", "Mitar", "Quarta"]
-history/changelog-1.8.rst:82:Papikyan:["Papaya", "Parkman", "Papayas", "Napkin", "Mikoyan", "Pagan", "Popgun", "Paraguayan", "Papaya's", "Pinyin", "Pinyon", "Pelican", "Popcorn"]
-history/changelog-1.8.rst:91:Tuppitcyn:["Tippets", "Tippet's", "Tappets", "Tippexing", "Tappet's", "Tiptoes", "Teapots", "Tiptoeing", "Deputizing", "Teapot's", "Tiptoe's", "Appetizing", "Depositing", "Deputing", "Partisan", "Deputy's"]
-history/changelog-1.8.rst:97:Vikram:["Buckram", "Cram", "Viagra", "Gram", "Diagram", "Victim", "Cream", "Scram", "Viacom", "Wigwam", "Kramer", "VCR", "Vivarium", "Grim", "Vagary", "Kirkham", "Mika", "Pika"]
-history/changelog-1.8.rst:97:Patki:["Patti", "Park", "Partake", "Pat", "Batik", "Partook", "Parka", "Parky", "Patois", "Pate", "Pack", "Pats", "Patty", "Patel", "Patna", "Patsy", "Partaker", "Pat's", "Pates", "Pkt", "PTA", "Pact", "PTO", "TKO", "Paid", "Part", "Peak", "Peat", "Poetic", "Parked", "Parker", "Darkie", "PT", "Palikir", "Pt", "Ptah", "Pk", "Take", "Patina", "Patine", "PARC", "Dark", "Party", "Peaky", "Peaty", "Perk", "Pork", "Attic", "Putin", "Panic", "Parts", "Uptake", "Pct", "PAC", "PET", "Patrica", "Patrick", "Pad", "Pet", "Pit", "Pot", "Put", "PDT", "Packed", "Packet", "Patties", "Patting", "Pkg", "Stake", "Packer", "Patter", "PDQ", "Pate's", "Part's", "Peat's", "Pita", "Page", "Peck", "Pete", "Pike", "Pitt", "Puck", "Peek", "Peke", "Pick", "Pity", "Pock", "Poke", "Ack", "Acks", "Wiki", "Fatih", "Katz", "Kai", "Patrin", "Satia"]
-history/changelog-1.8.rst:125:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-history/changelog-1.8.rst:142:schemas:["schemes", "schema", "scheme's", "schemers", "scams", "schemata", "sachems", "screams", "sigmas", "sachem's", "schemer's", "scums", "scheme", "scam's", "scum's", "schemer", "sigma's", "Scheat's", "schmo's", "scream's", "Schedar's"]
-history/changelog-1.8.rst:279:Miroshnikov:["Baryshnikov", "Kalashnikov", "Moronic", "Tereshkova", "Cerenkov"]
-history/changelog-1.8.rst:285:Imankulov:["Emanuel", "Anglo", "Ankle", "Mangrove", "Angelo", "Mangle", "Arnulfo", "Ankles", "Anklet", "Emanuel's", "Engulf", "Angelou", "Angular", "Involve", "Manacle", "Mangler", "Mangled", "Mangles", "Manacled", "Manacles", "Angola", "Emmanuel", "Mongol", "Ankle's", "Immunology", "Angel", "Angle", "Angelo's", "Mangle's", "Manacle's"]
-history/changelog-1.8.rst:287:Espen:["Es pen", "Es-pen", "Esp en", "Esp-en", "ESPN", "Aspen", "Essen", "Epson", "ESP", "Esp", "Essene", "Aspens", "Espied", "Espies", "Span", "Espy", "Open", "Spin", "Spun", "ESP's", "Aspen's", "Snan", "Arpan", "Jaren", "Milen", "Json"]
-history/changelog-1.8.rst:289:Zeecka:["Zeke", "Ceca", "Seek", "EEC", "Eek", "Seneca", "Seeks", "SEC", "Sec", "Ska", "Seeker", "Beck", "Eyck", "Keck", "Peck", "Deck", "Geek", "Heck", "Leek", "Meek", "Neck", "Peek", "Reek", "Week", "Zeta", "Sega", "Sack", "Sick", "Sock", "Suck", "Speck"]
-history/changelog-1.8.rst:291:Noagbodji:["Narcotic", "Knockabout", "Necrotic", "Scorbutic"]
-writing output... [ 10%] history/changelog-1.9
-history/changelog-1.9.rst:24:Vikram:["Buckram", "Cram", "Viagra", "Gram", "Diagram", "Victim", "Cream", "Scram", "Viacom", "Wigwam", "Kramer", "VCR", "Vivarium", "Grim", "Vagary", "Kirkham", "Mika", "Pika"]
-history/changelog-1.9.rst:24:Patki:["Patti", "Park", "Partake", "Pat", "Batik", "Partook", "Parka", "Parky", "Patois", "Pate", "Pack", "Pats", "Patty", "Patel", "Patna", "Patsy", "Partaker", "Pat's", "Pates", "Pkt", "PTA", "Pact", "PTO", "TKO", "Paid", "Part", "Peak", "Peat", "Poetic", "Parked", "Parker", "Darkie", "PT", "Palikir", "Pt", "Ptah", "Pk", "Take", "Patina", "Patine", "PARC", "Dark", "Party", "Peaky", "Peaty", "Perk", "Pork", "Attic", "Putin", "Panic", "Parts", "Uptake", "Pct", "PAC", "PET", "Patrica", "Patrick", "Pad", "Pet", "Pit", "Pot", "Put", "PDT", "Packed", "Packet", "Patties", "Patting", "Pkg", "Stake", "Packer", "Patter", "PDQ", "Pate's", "Part's", "Peat's", "Pita", "Page", "Peck", "Pete", "Pike", "Pitt", "Puck", "Peek", "Peke", "Pick", "Pity", "Pock", "Poke", "Ack", "Acks", "Wiki", "Fatih", "Katz", "Kai", "Patrin", "Satia"]
-history/changelog-1.9.rst:33:autogenerated:["auto generated", "auto-generated", "degenerated", "generated", "regenerated", "autographed", "degenerates", "attenuated", "degenerate", "exonerated", "degenerate's"]
-history/changelog-1.9.rst:33:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-history/changelog-1.9.rst:36:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-history/changelog-1.9.rst:39:livelock:["live lock", "live-lock", "livelong", "lifelike", "lovesick", "lively", "livelier", "Lovelace", "lovelorn", "lifelong", "lifework", "overlook", "lovely", "flock", "level", "lilac", "levels", "leveler", "levelly", "level's"]
-history/changelog-1.9.rst:41:Dhruva:["Drive", "Derive", "Drove", "Driver", "Trivia", "Deprive", "Drover", "Deprave", "Trove"]
-history/changelog-1.9.rst:41:Patil:["Pa til", "Pa-til", "Patel", "Pail", "Petal", "Partly", "Patrol", "Pistil", "Partial", "Tail", "Padilla", "Patti", "Paul", "Patella", "Pettily", "Pat", "Pauli", "Pal", "Til", "Pastel", "Patina", "Patine", "Patois", "Peril", "Portal", "Pate", "Paddle", "Paid", "Pall", "Pawl", "Natl", "Pats", "Patio", "Patty", "Patna", "Patsy", "Putin", "Fatal", "Natal", "Panel", "Papal", "Pat's", "Pates", "Pupil", "Pedal", "Patel's", "Pate's", "Fatih", "Satia"]
-history/changelog-1.9.rst:46:Vikram:["Buckram", "Cram", "Viagra", "Gram", "Diagram", "Victim", "Cream", "Scram", "Viacom", "Wigwam", "Kramer", "VCR", "Vivarium", "Grim", "Vagary", "Kirkham", "Mika", "Pika"]
-history/changelog-1.9.rst:46:Patki:["Patti", "Park", "Partake", "Pat", "Batik", "Partook", "Parka", "Parky", "Patois", "Pate", "Pack", "Pats", "Patty", "Patel", "Patna", "Patsy", "Partaker", "Pat's", "Pates", "Pkt", "PTA", "Pact", "PTO", "TKO", "Paid", "Part", "Peak", "Peat", "Poetic", "Parked", "Parker", "Darkie", "PT", "Palikir", "Pt", "Ptah", "Pk", "Take", "Patina", "Patine", "PARC", "Dark", "Party", "Peaky", "Peaty", "Perk", "Pork", "Attic", "Putin", "Panic", "Parts", "Uptake", "Pct", "PAC", "PET", "Patrica", "Patrick", "Pad", "Pet", "Pit", "Pot", "Put", "PDT", "Packed", "Packet", "Patties", "Patting", "Pkg", "Stake", "Packer", "Patter", "PDQ", "Pate's", "Part's", "Peat's", "Pita", "Page", "Peck", "Pete", "Pike", "Pitt", "Puck", "Peek", "Peke", "Pick", "Pity", "Pock", "Poke", "Ack", "Acks", "Wiki", "Fatih", "Katz", "Kai", "Patrin", "Satia"]
-history/changelog-1.9.rst:54:Leandro:["Landry", "Leander", "Laundry", "Leonardo", "Lenard", "Leaned", "Deandre", "Lander", "Lender", "Lento", "Landon", "Land", "Lend", "Lenders", "Andre", "Lands", "Lends", "Legendre", "Lenora", "Lenore", "Luanda", "Landau", "Land's", "Lenard's", "Lender's", "Landry's"]
-history/changelog-1.9.rst:54:Vonwerra:["Vinegary", "Tinware", "Winery", "Winnowers", "Venture", "Wanderer", "Winnower", "Unwary", "Winnower's", "Dinnerware", "Unaware", "Wintry", "Winfrey", "Unwarier", "Vaporware"]
-history/changelog-1.9.rst:56:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-history/changelog-1.9.rst:61:Peluffo:["Pelf", "Luff", "Puff", "Puffy", "Pluto", "Bluff", "Fluff", "Pilaf", "Pelf's", "Pouffe", "Fluffy", "Pilfer", "LIFO", "Spliff", "ELF", "Elf", "Puffer", "Pele", "Pouf"]
-history/changelog-1.9.rst:86:Archit:["Ar chit", "Ar-chit", "Arc hit", "Arc-hit", "Arch it", "Arch-it", "Archie", "Arched", "Orchid", "Archaist", "Arch", "Chit", "Archer", "Archest", "Archaic", "Arching", "Archive", "Archly", "Earshot", "Ached", "Arch's", "Arches", "Urchin", "Archie's", "Arity", "Marcio"]
-history/changelog-1.9.rst:86:Dwivedi:["Dived", "Wived", "Derived", "Waived", "Delved", "Dwarfed", "Waved", "Divide", "Divert", "Defied", "Twined", "Divvied", "Devoid", "Divider", "David", "Vivid", "Diffed", "Weaved", "Midwifed"]
-writing output... [ 11%] history/index
-writing output... [ 12%] index
-writing output... [ 12%] introduction
-introduction.rst:39:repartitioned:["re partitioned", "re-partitioned", "partitioned", "petitioned", "repetitions", "repetition", "repetition's", "reapportioned", "reputation", "Copartitioned", "copartitioned"]
-introduction.rst:42:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-introduction.rst:267:storages:["storage's", "storage", "steerage's", "strafes", "strokes", "stages", "stores", "stoppages", "stowage's", "stooges", "stories", "strikes", "strafe's", "stroke's", "stage's", "store's", "stoppage's", "stooge's", "strike's", "starargs"]
-writing output... [ 13%] playbooks/cheatsheet
-writing output... [ 13%] playbooks/index
-writing output... [ 14%] playbooks/leaderelection
-writing output... [ 14%] playbooks/pageviews
-playbooks/pageviews.rst:81:incrementing:["incriminating", "increment", "increments", "increment's", "incremental", "incremented"]
-playbooks/pageviews.rst:96:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-writing output... [ 15%] playbooks/quickstart
-writing output... [ 15%] playbooks/vscelery
-writing output... [ 16%] playbooks/vskafka
-writing output... [ 16%] reference/faust
-reference/faust.rst:1:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.rst:15:pseudocode:["pseudo code", "pseudo-code", "postcode", "pesticide", "paddocked", "stuccoed", "predicate", "postcodes", "postdoc", "stocked", "restocked", "stockade"]
-reference/faust.rst:1:livelock:["live lock", "live-lock", "livelong", "lifelike", "lovesick", "lively", "livelier", "Lovelace", "lovelorn", "lifelong", "lifework", "overlook", "lovely", "flock", "level", "lilac", "levels", "leveler", "levelly", "level's"]
-reference/faust.rst:3:environent:["environment", "environments", "environment's", "environmental", "environs", "environs's"]
-reference/faust.rst:3:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.rst:5:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.rst:1:delayl:["delay", "delays", "Dell", "deal", "dell", "delay's", "delayer", "decal", "Delano", "derail", "detail", "Belaid"]
-reference/faust.rst:3:lookups:["look ups", "look-ups", "lockups", "lockup's", "hookups", "looks", "loops", "linkups", "hookup's", "lookouts", "lockup", "look's", "lookers", "workups", "loop's", "linkup's", "lookout's", "looker's", "workup's", "lookup"]
-reference/faust.rst:5:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-reference/faust.rst:3:domainN:["domain", "doming", "domino", "domains", "Damian", "Damien", "Damion", "Domingo", "dooming", "domain's", "Deming"]
-reference/faust.rst:3:intra:["Indra", "intro", "Indira", "infra", "entry", "intros", "inters", "instr", "inter", "untrue", "int", "Sinatra", "entrap", "interj", "intern", "Andrea", "INRI", "Indore", "entire", "entree", "into", "inert", "mantra", "tantra", "wintry", "India", "inure", "intro's", "Indra's", "init", "Akira", "Khera", "Mitar", "Piotr", "Satia", "distro"]
-reference/faust.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.rst:valu:["value", "Val", "val", "vale", "Yalu", "Val's", "ack", "arg", "app", "Hu", "Yu", "Zhu", "yaml", "Gao", "Haag", "Koval", "Kral", "Kai", "Katz", "NaN", "Paulo"]
-reference/faust.rst:1:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.rst:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.rst:27:unary:["unwary", "nary", "unbar", "unsay", "unitary", "urinary", "umask", "nargs", "arg", "Yury", "Andrey", "Andriy", "Kumar", "Nullary", "kwarg", "sNaN"]
-reference/faust.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-reference/faust.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-reference/faust.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-reference/faust.rst:1:repartitions:["re partitions", "re-partitions", "repetitions", "repatriations", "repetition's", "partitions", "reparations", "repatriation's", "reputations", "partition's", "repetition", "reparation's", "reputation's"]
-reference/faust.rst:repartitioned:["re partitioned", "re-partitioned", "partitioned", "petitioned", "repetitions", "repetition", "repetition's", "reapportioned", "reputation", "Copartitioned", "copartitioned"]
-reference/faust.rst:6:repartitioning:["re partitioning", "re-partitioning", "partitioning", "petitioning", "reapportioning", "repetition", "repetitions", "repetition's"]
-reference/faust.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.rst:3:environent:["environment", "environments", "environment's", "environmental", "environs", "environs's"]
-reference/faust.rst:15:pseudocode:["pseudo code", "pseudo-code", "postcode", "pesticide", "paddocked", "stuccoed", "predicate", "postcodes", "postdoc", "stocked", "restocked", "stockade"]
-reference/faust.rst:1:livelock:["live lock", "live-lock", "livelong", "lifelike", "lovesick", "lively", "livelier", "Lovelace", "lovelorn", "lifelong", "lifework", "overlook", "lovely", "flock", "level", "lilac", "levels", "leveler", "levelly", "level's"]
-reference/faust.rst:3:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.rst:5:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.rst:1:delayl:["delay", "delays", "Dell", "deal", "dell", "delay's", "delayer", "decal", "Delano", "derail", "detail", "Belaid"]
-reference/faust.rst:3:lookups:["look ups", "look-ups", "lockups", "lockup's", "hookups", "looks", "loops", "linkups", "hookup's", "lookouts", "lockup", "look's", "lookers", "workups", "loop's", "linkup's", "lookout's", "looker's", "workup's", "lookup"]
-reference/faust.rst:5:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-reference/faust.rst:3:domainN:["domain", "doming", "domino", "domains", "Damian", "Damien", "Damion", "Domingo", "dooming", "domain's", "Deming"]
-reference/faust.rst:3:oerlap:["overlap", "alp", "burlap", "dewlap", "Ola", "elope", "lap", "EULA", "Ella", "Eula", "Orly", "leap", "Elam", "Olaf", "Olav", "clap", "elan", "flap", "help", "kelp", "slap", "yelp", "overpay", "EULAs", "Orlon", "Ola's", "Ella's", "Eula's", "Orly's", "versa"]
-writing output... [ 17%] reference/faust.agents
-writing output... [ 17%] reference/faust.agents.actor
-writing output... [ 18%] reference/faust.agents.agent
-writing output... [ 18%] reference/faust.agents.manager
-writing output... [ 19%] reference/faust.agents.models
-writing output... [ 19%] reference/faust.agents.replies
-writing output... [ 20%] reference/faust.app
-reference/faust.app.rst:1:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.rst:15:pseudocode:["pseudo code", "pseudo-code", "postcode", "pesticide", "paddocked", "stuccoed", "predicate", "postcodes", "postdoc", "stocked", "restocked", "stockade"]
-reference/faust.app.rst:1:livelock:["live lock", "live-lock", "livelong", "lifelike", "lovesick", "lively", "livelier", "Lovelace", "lovelorn", "lifelong", "lifework", "overlook", "lovely", "flock", "level", "lilac", "levels", "leveler", "levelly", "level's"]
-reference/faust.app.rst:3:environent:["environment", "environments", "environment's", "environmental", "environs", "environs's"]
-reference/faust.app.rst:3:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.app.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.app.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.app.rst:5:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.rst:1:delayl:["delay", "delays", "Dell", "deal", "dell", "delay's", "delayer", "decal", "Delano", "derail", "detail", "Belaid"]
-reference/faust.app.rst:3:lookups:["look ups", "look-ups", "lockups", "lockup's", "hookups", "looks", "loops", "linkups", "hookup's", "lookouts", "lockup", "look's", "lookers", "workups", "loop's", "linkup's", "lookout's", "looker's", "workup's", "lookup"]
-reference/faust.app.rst:5:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-reference/faust.app.rst:3:domainN:["domain", "doming", "domino", "domains", "Damian", "Damien", "Damion", "Domingo", "dooming", "domain's", "Deming"]
-reference/faust.app.rst:3:intra:["Indra", "intro", "Indira", "infra", "entry", "intros", "inters", "instr", "inter", "untrue", "int", "Sinatra", "entrap", "interj", "intern", "Andrea", "INRI", "Indore", "entire", "entree", "into", "inert", "mantra", "tantra", "wintry", "India", "inure", "intro's", "Indra's", "init", "Akira", "Khera", "Mitar", "Piotr", "Satia", "distro"]
-reference/faust.app.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.rst:valu:["value", "Val", "val", "vale", "Yalu", "Val's", "ack", "arg", "app", "Hu", "Yu", "Zhu", "yaml", "Gao", "Haag", "Koval", "Kral", "Kai", "Katz", "NaN", "Paulo"]
-reference/faust.app.rst:1:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.rst:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.app.rst:27:unary:["unwary", "nary", "unbar", "unsay", "unitary", "urinary", "umask", "nargs", "arg", "Yury", "Andrey", "Andriy", "Kumar", "Nullary", "kwarg", "sNaN"]
-reference/faust.app.rst:1:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-writing output... [ 20%] reference/faust.app.base
-reference/faust.app.base.rst:1:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.base.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.base.rst:1:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.base.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.base.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.base.rst:15:pseudocode:["pseudo code", "pseudo-code", "postcode", "pesticide", "paddocked", "stuccoed", "predicate", "postcodes", "postdoc", "stocked", "restocked", "stockade"]
-reference/faust.app.base.rst:1:livelock:["live lock", "live-lock", "livelong", "lifelike", "lovesick", "lively", "livelier", "Lovelace", "lovelorn", "lifelong", "lifework", "overlook", "lovely", "flock", "level", "lilac", "levels", "leveler", "levelly", "level's"]
-reference/faust.app.base.rst:3:environent:["environment", "environments", "environment's", "environmental", "environs", "environs's"]
-reference/faust.app.base.rst:3:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.app.base.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.app.base.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.app.base.rst:5:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.base.rst:1:delayl:["delay", "delays", "Dell", "deal", "dell", "delay's", "delayer", "decal", "Delano", "derail", "detail", "Belaid"]
-reference/faust.app.base.rst:3:lookups:["look ups", "look-ups", "lockups", "lockup's", "hookups", "looks", "loops", "linkups", "hookup's", "lookouts", "lockup", "look's", "lookers", "workups", "loop's", "linkup's", "lookout's", "looker's", "workup's", "lookup"]
-reference/faust.app.base.rst:5:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-reference/faust.app.base.rst:3:domainN:["domain", "doming", "domino", "domains", "Damian", "Damien", "Damion", "Domingo", "dooming", "domain's", "Deming"]
-reference/faust.app.base.rst:3:intra:["Indra", "intro", "Indira", "infra", "entry", "intros", "inters", "instr", "inter", "untrue", "int", "Sinatra", "entrap", "interj", "intern", "Andrea", "INRI", "Indore", "entire", "entree", "into", "inert", "mantra", "tantra", "wintry", "India", "inure", "intro's", "Indra's", "init", "Akira", "Khera", "Mitar", "Piotr", "Satia", "distro"]
-reference/faust.app.base.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.base.rst:valu:["value", "Val", "val", "vale", "Yalu", "Val's", "ack", "arg", "app", "Hu", "Yu", "Zhu", "yaml", "Gao", "Haag", "Koval", "Kral", "Kai", "Katz", "NaN", "Paulo"]
-reference/faust.app.base.rst:1:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.app.base.rst:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.app.base.rst:27:unary:["unwary", "nary", "unbar", "unsay", "unitary", "urinary", "umask", "nargs", "arg", "Yury", "Andrey", "Andriy", "Kumar", "Nullary", "kwarg", "sNaN"]
-writing output... [ 21%] reference/faust.app.router
-writing output... [ 21%] reference/faust.assignor.client_assignment
-writing output... [ 22%] reference/faust.assignor.cluster_assignment
-writing output... [ 23%] reference/faust.assignor.copartitioned_assignor
-writing output... [ 23%] reference/faust.assignor.leader_assignor
-writing output... [ 24%] reference/faust.assignor.partition_assignor
-writing output... [ 24%] reference/faust.auth
-writing output... [ 25%] reference/faust.channels
-writing output... [ 25%] reference/faust.cli.agents
-writing output... [ 26%] reference/faust.cli.base
-reference/faust.cli.base.rst:1:subcommands:["sub commands", "sub-commands", "commands", "command's", "commandos", "subcompacts", "commends", "subhumans", "subcommittees", "subcompact's", "recommends", "subhuman's", "commanders", "commando's", "seconds", "subcommittee's", "second's", "commander's"]
-writing output... [ 26%] reference/faust.cli.clean_versions
-writing output... [ 27%] reference/faust.cli.completion
-writing output... [ 27%] reference/faust.cli.faust
-writing output... [ 28%] reference/faust.cli.livecheck
-writing output... [ 28%] reference/faust.cli.model
-writing output... [ 29%] reference/faust.cli.models
-writing output... [ 29%] reference/faust.cli.params
-writing output... [ 30%] reference/faust.cli.reset
-writing output... [ 30%] reference/faust.cli.send
-writing output... [ 31%] reference/faust.cli.tables
-writing output... [ 31%] reference/faust.cli.worker
-writing output... [ 32%] reference/faust.contrib
-writing output... [ 32%] reference/faust.contrib.sentry
-writing output... [ 33%] reference/faust.events
-writing output... [ 34%] reference/faust.exceptions
-writing output... [ 34%] reference/faust.fixups
-writing output... [ 35%] reference/faust.fixups.base
-writing output... [ 35%] reference/faust.fixups.django
-writing output... [ 36%] reference/faust.joins
-writing output... [ 36%] reference/faust.livecheck
-writing output... [ 37%] reference/faust.livecheck.app
-writing output... [ 37%] reference/faust.livecheck.case
-writing output... [ 38%] reference/faust.livecheck.exceptions
-writing output... [ 38%] reference/faust.livecheck.locals
-writing output... [ 39%] reference/faust.livecheck.models
-reference/faust.livecheck.models.rst:1:todays:["to days", "to-days", "today's", "toady's", "toads", "toad's", "today", "toddy's", "Tod's", "tidy's", "Tokay's", "Teddy's", "Dudás"]
-writing output... [ 39%] reference/faust.livecheck.patches
-writing output... [ 40%] reference/faust.livecheck.patches.aiohttp
-writing output... [ 40%] reference/faust.livecheck.runners
-writing output... [ 41%] reference/faust.livecheck.signals
-writing output... [ 41%] reference/faust.models.base
-writing output... [ 42%] reference/faust.models.fields
-reference/faust.models.fields.rst:3:lookups:["look ups", "look-ups", "lockups", "lockup's", "hookups", "looks", "loops", "linkups", "hookup's", "lookouts", "lockup", "look's", "lookers", "workups", "loop's", "linkup's", "lookout's", "looker's", "workup's", "lookup"]
-writing output... [ 42%] reference/faust.models.record
-writing output... [ 43%] reference/faust.models.tags
-writing output... [ 43%] reference/faust.models.typing
-writing output... [ 44%] reference/faust.sensors
-reference/faust.sensors.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-reference/faust.sensors.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-reference/faust.sensors.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-writing output... [ 45%] reference/faust.sensors.base
-writing output... [ 45%] reference/faust.sensors.datadog
-reference/faust.sensors.datadog.rst:1:Datadog:["Data dog", "Data-dog", "Dated", "Dyadic", "Darted", "Dotage", "Dotard", "Dotards", "Doted", "Datebook", "Dotard's", "Dieted", "Doodad", "Dotted", "Tarted", "Tatted"]
-writing output... [ 46%] reference/faust.sensors.monitor
-reference/faust.sensors.monitor.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-reference/faust.sensors.monitor.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-reference/faust.sensors.monitor.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-writing output... [ 46%] reference/faust.sensors.statsd
-writing output... [ 47%] reference/faust.serializers.codecs
-reference/faust.serializers.codecs.rst:39:Codecs:["Code cs", "Code-cs", "Codex", "Codes", "Codgers", "Code's", "Coders", "Codices", "Codex's", "Coeds", "Codger's", "DECs", "Cods", "Coed's", "Coder's", "Cokes", "Cadgers", "Cod's", "Codas", "Cotes", "Coke's", "Cote's", "Coda's", "Dec's", "Cadger's", "Codec"]
-reference/faust.serializers.codecs.rst:94:installable:["install able", "install-able", "uninstallable", "unsalable", "unsaleable", "unstable", "unassailable", "inestimable", "insoluble"]
-writing output... [ 47%] reference/faust.serializers.registry
-writing output... [ 48%] reference/faust.serializers.schemas
-writing output... [ 48%] reference/faust.stores
-writing output... [ 49%] reference/faust.stores.base
-writing output... [ 49%] reference/faust.stores.memory
-writing output... [ 50%] reference/faust.stores.rocksdb
-writing output... [ 50%] reference/faust.streams
-reference/faust.streams.rst:1:repartitions:["re partitions", "re-partitions", "repetitions", "repatriations", "repetition's", "partitions", "reparations", "repatriation's", "reputations", "partition's", "repetition", "reparation's", "reputation's"]
-reference/faust.streams.rst:repartitioned:["re partitioned", "re-partitioned", "partitioned", "petitioned", "repetitions", "repetition", "repetition's", "reapportioned", "reputation", "Copartitioned", "copartitioned"]
-reference/faust.streams.rst:6:repartitioning:["re partitioning", "re-partitioning", "partitioning", "petitioning", "reapportioning", "repetition", "repetitions", "repetition's"]
-writing output... [ 51%] reference/faust.tables
-reference/faust.tables.rst:10:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-writing output... [ 51%] reference/faust.tables.base
-reference/faust.tables.base.rst:10:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-writing output... [ 52%] reference/faust.tables.globaltable
-writing output... [ 52%] reference/faust.tables.manager
-writing output... [ 53%] reference/faust.tables.objects
-writing output... [ 53%] reference/faust.tables.recovery
-writing output... [ 54%] reference/faust.tables.sets
-writing output... [ 54%] reference/faust.tables.table
-writing output... [ 55%] reference/faust.tables.wrappers
-writing output... [ 56%] reference/faust.topics
-writing output... [ 56%] reference/faust.transport
-writing output... [ 57%] reference/faust.transport.base
-writing output... [ 57%] reference/faust.transport.conductor
-writing output... [ 58%] reference/faust.transport.consumer
-reference/faust.transport.consumer.rst:25:committable:["commit table", "commit-table", "commutable", "committal", "comfortable", "immutable", "commendable", "imitable", "countable", "comfortably", "comestible", "compatible", "formidable", "commendably"]
-reference/faust.transport.consumer.rst:37:committable:["commit table", "commit-table", "commutable", "committal", "comfortable", "immutable", "commendable", "imitable", "countable", "comfortably", "comestible", "compatible", "formidable", "commendably"]
-writing output... [ 58%] reference/faust.transport.drivers
-writing output... [ 59%] reference/faust.transport.drivers.aiokafka
-writing output... [ 59%] reference/faust.transport.producer
-writing output... [ 60%] reference/faust.transport.utils
-writing output... [ 60%] reference/faust.types.agents
-writing output... [ 61%] reference/faust.types.app
-writing output... [ 61%] reference/faust.types.assignor
-writing output... [ 62%] reference/faust.types.auth
-writing output... [ 62%] reference/faust.types.channels
-writing output... [ 63%] reference/faust.types.codecs
-writing output... [ 63%] reference/faust.types.core
-writing output... [ 64%] reference/faust.types.enums
-writing output... [ 64%] reference/faust.types.events
-writing output... [ 65%] reference/faust.types.fixups
-writing output... [ 65%] reference/faust.types.joins
-writing output... [ 66%] reference/faust.types.models
-writing output... [ 67%] reference/faust.types.router
-writing output... [ 67%] reference/faust.types.sensors
-writing output... [ 68%] reference/faust.types.serializers
-writing output... [ 68%] reference/faust.types.settings
-reference/faust.types.settings.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.types.settings.rst:3:environent:["environment", "environments", "environment's", "environmental", "environs", "environs's"]
-reference/faust.types.settings.rst:15:pseudocode:["pseudo code", "pseudo-code", "postcode", "pesticide", "paddocked", "stuccoed", "predicate", "postcodes", "postdoc", "stocked", "restocked", "stockade"]
-reference/faust.types.settings.rst:1:livelock:["live lock", "live-lock", "livelong", "lifelike", "lovesick", "lively", "livelier", "Lovelace", "lovelorn", "lifelong", "lifework", "overlook", "lovely", "flock", "level", "lilac", "levels", "leveler", "levelly", "level's"]
-reference/faust.types.settings.rst:3:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.types.settings.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.types.settings.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.types.settings.rst:5:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.types.settings.rst:1:delayl:["delay", "delays", "Dell", "deal", "dell", "delay's", "delayer", "decal", "Delano", "derail", "detail", "Belaid"]
-reference/faust.types.settings.rst:3:lookups:["look ups", "look-ups", "lockups", "lockup's", "hookups", "looks", "loops", "linkups", "hookup's", "lookouts", "lockup", "look's", "lookers", "workups", "loop's", "linkup's", "lookout's", "looker's", "workup's", "lookup"]
-reference/faust.types.settings.rst:5:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-reference/faust.types.settings.rst:3:domainN:["domain", "doming", "domino", "domains", "Damian", "Damien", "Damion", "Domingo", "dooming", "domain's", "Deming"]
-writing output... [ 69%] reference/faust.types.settings.base
-writing output... [ 69%] reference/faust.types.settings.params
-reference/faust.types.settings.params.rst:1:desscription:["description", "descriptions", "description's", "decryption"]
-reference/faust.types.settings.params.rst:1:exmaple:["example", "ex maple", "ex-maple", "exampled", "examples", "example's", "expel"]
-writing output... [ 70%] reference/faust.types.settings.sections
-writing output... [ 70%] reference/faust.types.settings.settings
-reference/faust.types.settings.settings.rst:3:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.types.settings.settings.rst:3:environent:["environment", "environments", "environment's", "environmental", "environs", "environs's"]
-reference/faust.types.settings.settings.rst:15:pseudocode:["pseudo code", "pseudo-code", "postcode", "pesticide", "paddocked", "stuccoed", "predicate", "postcodes", "postdoc", "stocked", "restocked", "stockade"]
-reference/faust.types.settings.settings.rst:1:livelock:["live lock", "live-lock", "livelong", "lifelike", "lovesick", "lively", "livelier", "Lovelace", "lovelorn", "lifelong", "lifework", "overlook", "lovely", "flock", "level", "lilac", "levels", "leveler", "levelly", "level's"]
-reference/faust.types.settings.settings.rst:3:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.types.settings.settings.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.types.settings.settings.rst:6:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-reference/faust.types.settings.settings.rst:5:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-reference/faust.types.settings.settings.rst:1:delayl:["delay", "delays", "Dell", "deal", "dell", "delay's", "delayer", "decal", "Delano", "derail", "detail", "Belaid"]
-reference/faust.types.settings.settings.rst:3:lookups:["look ups", "look-ups", "lockups", "lockup's", "hookups", "looks", "loops", "linkups", "hookup's", "lookouts", "lockup", "look's", "lookers", "workups", "loop's", "linkup's", "lookout's", "looker's", "workup's", "lookup"]
-reference/faust.types.settings.settings.rst:5:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-reference/faust.types.settings.settings.rst:3:domainN:["domain", "doming", "domino", "domains", "Damian", "Damien", "Damion", "Domingo", "dooming", "domain's", "Deming"]
-writing output... [ 71%] reference/faust.types.stores
-writing output... [ 71%] reference/faust.types.streams
-writing output... [ 72%] reference/faust.types.tables
-writing output... [ 72%] reference/faust.types.topics
-writing output... [ 73%] reference/faust.types.transports
-writing output... [ 73%] reference/faust.types.tuples
-writing output... [ 74%] reference/faust.types.web
-writing output... [ 74%] reference/faust.types.windows
-writing output... [ 75%] reference/faust.utils.codegen
-writing output... [ 75%] reference/faust.utils.cron
-writing output... [ 76%] reference/faust.utils.functional
-writing output... [ 76%] reference/faust.utils.iso8601
-writing output... [ 77%] reference/faust.utils.json
-writing output... [ 78%] reference/faust.utils.platforms
-writing output... [ 78%] reference/faust.utils.terminal
-writing output... [ 79%] reference/faust.utils.terminal.spinners
-writing output... [ 79%] reference/faust.utils.terminal.tables
-writing output... [ 80%] reference/faust.utils.tracing
-writing output... [ 80%] reference/faust.utils.urls
-writing output... [ 81%] reference/faust.utils.venusian
-reference/faust.utils.venusian.rst:70:submodules:["sub modules", "sub-modules", "modules", "subdues", "subtitles", "module's", "subtotals", "supermodels", "subsidies", "subtotal's", "subsides", "subtitle's", "boodles", "modulus", "subsoil's", "schedules", "submerges", "submerses", "boodle's", "caboodle's", "schedule's", "submodule"]
-writing output... [ 81%] reference/faust.web.apps.graph
-writing output... [ 82%] reference/faust.web.apps.router
-writing output... [ 82%] reference/faust.web.apps.stats
-writing output... [ 83%] reference/faust.web.base
-reference/faust.web.base.rst:1:chunked:["chinked", "chunk ed", "chunk-ed", "chucked", "changed", "churned", "chunks", "junked", "chunk", "chinned", "chunkier", "chunk's", "choked", "chunky", "bunked", "conked", "dunked", "funked", "honked", "clunked", "checked", "cheeked", "chocked", "chugged", "chunder", "chunter", "shucked", "shunned", "chalked", "chanced", "chanted", "shunted", "thanked", "chunking"]
-writing output... [ 83%] reference/faust.web.blueprints
-writing output... [ 84%] reference/faust.web.cache
-writing output... [ 84%] reference/faust.web.cache.backends
-writing output... [ 85%] reference/faust.web.cache.backends.base
-writing output... [ 85%] reference/faust.web.cache.backends.memory
-writing output... [ 86%] reference/faust.web.cache.backends.redis
-writing output... [ 86%] reference/faust.web.cache.cache
-writing output... [ 87%] reference/faust.web.cache.exceptions
-writing output... [ 87%] reference/faust.web.drivers
-writing output... [ 88%] reference/faust.web.drivers.aiohttp
-writing output... [ 89%] reference/faust.web.exceptions
-writing output... [ 89%] reference/faust.web.views
-writing output... [ 90%] reference/faust.windows
-writing output... [ 90%] reference/faust.worker
-writing output... [ 91%] reference/index
-writing output... [ 91%] userguide/agents
-userguide/agents.rst:70:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-userguide/agents.rst:87:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-userguide/agents.rst:283:unary:["unwary", "nary", "unbar", "unsay", "unitary", "urinary", "umask", "nargs", "arg", "Yury", "Andrey", "Andriy", "Kumar", "Nullary", "kwarg", "sNaN"]
-userguide/agents.rst:299:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-userguide/agents.rst:299:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-writing output... [ 92%] userguide/application
-userguide/application.rst:106:Instantation:["Instantiating", "Indentation", "Ostentation", "Institution", "Instantiation"]
-userguide/application.rst:316:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-userguide/application.rst:470:autogenerated:["auto generated", "auto-generated", "degenerated", "generated", "regenerated", "autographed", "degenerates", "attenuated", "degenerate", "exonerated", "degenerate's"]
-userguide/application.rst:702:subcommand:["sub command", "sub-command", "command", "commando", "subcompact", "commend", "subjoined", "subhumans", "subhuman", "subcommittee", "subpoenaed", "recommend", "commander", "communed", "suborned", "summoned", "second", "subhuman's"]
-userguide/application.rst:715:subcommand:["sub command", "sub-command", "command", "commando", "subcompact", "commend", "subjoined", "subhumans", "subhuman", "subcommittee", "subpoenaed", "recommend", "commander", "communed", "suborned", "summoned", "second", "subhuman's"]
-userguide/application.rst:733:subcommand:["sub command", "sub-command", "command", "commando", "subcompact", "commend", "subjoined", "subhumans", "subhuman", "subcommittee", "subpoenaed", "recommend", "commander", "communed", "suborned", "summoned", "second", "subhuman's"]
-userguide/application.rst:742:subcommands:["sub commands", "sub-commands", "commands", "command's", "commandos", "subcompacts", "commends", "subhumans", "subcommittees", "subcompact's", "recommends", "subhuman's", "commanders", "commando's", "seconds", "subcommittee's", "second's", "commander's"]
-userguide/application.rst:1018:customizations:["customization's", "customization"]
-userguide/application.rst:1100:formatters:["for matters", "for-matters", "formats", "formatted", "format's", "matters", "flatters", "fritters", "forwarders", "fetters", "fitters", "former's", "formulates", "matter's", "floaters", "formalities", "formatting", "format", "fortes", "maters", "mattes", "formulators", "fritter's", "farmers", "footers", "forte's", "forties", "forwarder's", "matte's", "mutters", "formatting's", "fetter's", "fitter's", "floater's", "formulator's", "farmer's", "mutter's", "committers"]
-writing output... [ 92%] userguide/channels
-writing output... [ 93%] userguide/cli
-writing output... [ 93%] userguide/debugging
-writing output... [ 94%] userguide/index
-writing output... [ 94%] userguide/installation
-userguide/installation.rst:50:Codecs:["Code cs", "Code-cs", "Codex", "Codes", "Codgers", "Code's", "Coders", "Codices", "Codex's", "Coeds", "Codger's", "DECs", "Cods", "Coed's", "Coder's", "Cokes", "Cadgers", "Cod's", "Codas", "Cotes", "Coke's", "Cote's", "Coda's", "Dec's", "Cadger's", "Codec"]
-userguide/installation.rst:65:Datadog:["Data dog", "Data-dog", "Dated", "Dyadic", "Darted", "Dotage", "Dotard", "Dotards", "Doted", "Datebook", "Dotard's", "Dieted", "Doodad", "Dotted", "Tarted", "Tatted"]
-userguide/installation.rst:105:virtualenv:["virtual", "virulent", "virtually", "virulence", "victualing"]
-writing output... [ 95%] userguide/kafka
-userguide/kafka.rst:1:scalable:["salable", "callable", "syllable", "scalpel", "Scrabble", "scrabble", "soluble", "callables"]
-writing output... [ 95%] userguide/livecheck
-writing output... [ 96%] userguide/models
-userguide/models.rst:5:Codecs:["Code cs", "Code-cs", "Codex", "Codes", "Codgers", "Code's", "Coders", "Codices", "Codex's", "Coeds", "Codger's", "DECs", "Cods", "Coed's", "Coder's", "Cokes", "Cadgers", "Cod's", "Codas", "Cotes", "Coke's", "Cote's", "Coda's", "Dec's", "Cadger's", "Codec"]
-userguide/models.rst:115:Schemas:["Schemes", "Schema", "Scheme's", "Schemers", "Scams", "Schemata", "Sachems", "Screams", "Sigmas", "Sachem's", "Schemer's", "Scums", "Scheme", "Scam's", "Scum's", "Schemer", "Sigma's", "Scheat's", "Schmo's", "Scream's", "Schedar's"]
-userguide/models.rst:120:Schemas:["Schemes", "Schema", "Scheme's", "Schemers", "Scams", "Schemata", "Sachems", "Screams", "Sigmas", "Sachem's", "Schemer's", "Scums", "Scheme", "Scam's", "Scum's", "Schemer", "Sigma's", "Scheat's", "Schmo's", "Scream's", "Schedar's"]
-userguide/models.rst:145:Schemas:["Schemes", "Schema", "Scheme's", "Schemers", "Scams", "Schemata", "Sachems", "Screams", "Sigmas", "Sachem's", "Schemer's", "Scums", "Scheme", "Scam's", "Scum's", "Schemer", "Sigma's", "Scheat's", "Schmo's", "Scream's", "Schedar's"]
-userguide/models.rst:155:Schemas:["Schemes", "Schema", "Scheme's", "Schemers", "Scams", "Schemata", "Sachems", "Screams", "Sigmas", "Sachem's", "Schemer's", "Scums", "Scheme", "Scam's", "Scum's", "Schemer", "Sigma's", "Scheat's", "Schmo's", "Scream's", "Schedar's"]
-userguide/models.rst:254:Codecs:["Code cs", "Code-cs", "Codex", "Codes", "Codgers", "Code's", "Coders", "Codices", "Codex's", "Coeds", "Codger's", "DECs", "Cods", "Coed's", "Coder's", "Cokes", "Cadgers", "Cod's", "Codas", "Cotes", "Coke's", "Cote's", "Coda's", "Dec's", "Cadger's", "Codec"]
-userguide/models.rst:363:requred:["required", "recurred", "reacquired", "requires", "requited", "rewired", "require", "reburied", "rehired", "retired", "reared", "regret", "requite", "revered", "secured", "regrade", "rogered", "reread", "reoccurred", "perjured", "cured", "rared", "requeue", "rebased", "resized", "Deque", "deque"]
-userguide/models.rst:695:Felds:["Fields", "Felts", "Folds", "Field's", "Gelds", "Feds", "Felt's", "Fold's", "Feeds", "Fells", "Feuds", "Fends", "Melds", "Velds", "Welds", "Fed's", "Feed's", "Fell's", "Feud's", "Meld's", "Veld's", "Weld's", "Falsy", "Dees", "Illes", "Jelle", "Melin", "Redis"]
-userguide/models.rst:854:minmum:["min mum", "min-mum", "minimum", "minimums", "minim", "minims", "minimum's", "minim's"]
-userguide/models.rst:1009:Codecs:["Code cs", "Code-cs", "Codex", "Codes", "Codgers", "Code's", "Coders", "Codices", "Codex's", "Coeds", "Codger's", "DECs", "Cods", "Coed's", "Coder's", "Cokes", "Cadgers", "Cod's", "Codas", "Cotes", "Coke's", "Cote's", "Coda's", "Dec's", "Cadger's", "Codec"]
-userguide/models.rst:1019:Encodings:["Encoding", "Endings", "Ending's", "Undoings", "Encodes", "Enjoins", "Undoing's"]
-userguide/models.rst:1107:installable:["install able", "install-able", "uninstallable", "unsalable", "unsaleable", "unstable", "unassailable", "inestimable", "insoluble"]
-writing output... [ 96%] userguide/sensors
-userguide/sensors.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-userguide/sensors.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-userguide/sensors.rst:1:latencies:["latency's", "blatancies", "latices", "lateness", "lances", "lattices", "latency", "Laurence's", "litanies", "cadences", "Lance's", "lance's", "lancers", "lattice's", "patience's", "cadence's", "lancer's", "lateness's"]
-writing output... [ 97%] userguide/settings
-userguide/settings.rst:16:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-userguide/settings.rst:204:environent:["environment", "environments", "environment's", "environmental", "environs", "environs's"]
-userguide/settings.rst:309:pseudocode:["pseudo code", "pseudo-code", "postcode", "pesticide", "paddocked", "stuccoed", "predicate", "postcodes", "postdoc", "stocked", "restocked", "stockade"]
-userguide/settings.rst:809:livelock:["live lock", "live-lock", "livelong", "lifelike", "lovesick", "lively", "livelier", "Lovelace", "lovelorn", "lifelong", "lifework", "overlook", "lovely", "flock", "level", "lilac", "levels", "leveler", "levelly", "level's"]
-userguide/settings.rst:1228:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-userguide/settings.rst:1231:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-userguide/settings.rst:1231:partitioner:["partition er", "partition-er", "petitioner", "partition", "partitioned", "partitions", "partition's", "Copartitioned", "copartitioned"]
-userguide/settings.rst:1306:startup:["start up", "start-up", "start", "stirrup", "statue", "starts", "status", "starter", "start's", "started", "startle", "strap", "Stuart", "setup", "statute", "strip", "starting", "stat", "satrap", "Stuarts", "static", "statues", "stature", "state", "stoup", "stamp", "stats", "strep", "strop", "Stuart's", "starters", "stater", "Staten", "States", "stat's", "stated", "states", "state's", "statue's", "status's", "starter's", "starmap"]
-userguide/settings.rst:1479:delayl:["delay", "delays", "Dell", "deal", "dell", "delay's", "delayer", "decal", "Delano", "derail", "detail", "Belaid"]
-userguide/settings.rst:1544:lookups:["look ups", "look-ups", "lockups", "lockup's", "hookups", "looks", "loops", "linkups", "hookup's", "lookouts", "lockup", "look's", "lookers", "workups", "loop's", "linkup's", "lookout's", "looker's", "workup's", "lookup"]
-userguide/settings.rst:1585:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-userguide/settings.rst:1825:domainN:["domain", "doming", "domino", "domains", "Damian", "Damien", "Damion", "Domingo", "dooming", "domain's", "Deming"]
-writing output... [ 97%] userguide/streams
-userguide/streams.rst:294:Repartition:["Re partition", "Re-partition", "Repetition", "Repatriation", "Partition", "Reparation", "Reputation", "Repetitions", "Repetition's"]
-userguide/streams.rst:296:repartitions:["re partitions", "re-partitions", "repetitions", "repatriations", "repetition's", "partitions", "reparations", "repatriation's", "reputations", "partition's", "repetition", "reparation's", "reputation's"]
-userguide/streams.rst:318:repartitioned:["re partitioned", "re-partitioned", "partitioned", "petitioned", "repetitions", "repetition", "repetition's", "reapportioned", "reputation", "Copartitioned", "copartitioned"]
-userguide/streams.rst:331:repartitioning:["re partitioning", "re-partitioning", "partitioning", "petitioning", "reapportioning", "repetition", "repetitions", "repetition's"]
-userguide/streams.rst:366:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-userguide/streams.rst:515:repartitioning:["re partitioning", "re-partitioning", "partitioning", "petitioning", "reapportioning", "repetition", "repetitions", "repetition's"]
-writing output... [ 98%] userguide/tables
-userguide/tables.rst:34:rebalanced:["re balanced", "re-balanced", "balanced", "imbalanced", "unbalanced", "balances", "balance", "overbalanced", "replaced", "freelanced", "balance's", "replanted", "outbalanced", "rebalance", "rebalances"]
-userguide/tables.rst:73:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-userguide/tables.rst:76:Repartition:["Re partition", "Re-partition", "Repetition", "Repatriation", "Partition", "Reparation", "Reputation", "Repetitions", "Repetition's"]
-userguide/tables.rst:135:repartition:["re partition", "re-partition", "repetition", "repatriation", "partition", "reparation", "reputation", "repetitions", "repetition's"]
-userguide/tables.rst:389:timestamps:["time stamps", "time-stamps", "times tamps", "times-tamps", "stamps", "mesdames", "stamp's", "missteps", "disesteems", "domestics", "mistypes", "Domesday's", "stampers", "disesteem's", "domestic's", "misstep's", "distemper's", "stamper's", "timestamp"]
-writing output... [ 98%] userguide/tasks
-userguide/tasks.rst:80:boolean:["Boolean", "boo lean", "boo-lean", "Boleyn", "Boole", "woolen", "blown", "baleen", "Boole's", "Bologna", "bologna", "Bean", "Lean", "bean", "bola", "bole", "boon", "lean", "Olen", "Boone", "Boyle", "blear", "Boleyn's"]
-userguide/tasks.rst:275:subcommands:["sub commands", "sub-commands", "commands", "command's", "commandos", "subcompacts", "commends", "subhumans", "subcommittees", "subcompact's", "recommends", "subhuman's", "commanders", "commando's", "seconds", "subcommittee's", "second's", "commander's"]
-writing output... [ 99%] userguide/testing
-writing output... [100%] userguide/workers
-userguide/workers.rst:99:subprocesses:["sub processes", "sub-processes", "processes", "suppresses", "reprocesses"]
-userguide/workers.rst:101:subprocesses:["sub processes", "sub-processes", "processes", "suppresses", "reprocesses"]
-
-Changelog.rst:20: WARNING: undefined label: mode:version-4.3.2 (if the link has no caption the label must precede a section header)
-/home/travis/build/robinhood/faust/docs/contributing.rst:80: WARNING: undefined label: mailing-list (if the link has no caption the label must precede a section header)
-/home/travis/build/robinhood/faust/docs/contributing.rst:93: WARNING: undefined label: mailing-list (if the link has no caption the label must precede a section header)
-/home/travis/build/robinhood/faust/docs/contributing.rst:164: WARNING: undefined label: mailing-list (if the link has no caption the label must precede a section header)
-/home/travis/build/robinhood/faust/docs/history/changelog-1.10.rst:106: WARNING: undefined label: mode:version-4.3.2 (if the link has no caption the label must precede a section header)
-docs/includes/settingref.txt:131: WARNING: unknown option: faust -
-docs/includes/settingref.txt:131: WARNING: unknown option: faust -
-docs/includes/settingref.txt:131: WARNING: unknown option: faust d
-docs/includes/settingref.txt:131: WARNING: unknown option: faust a
-docs/includes/settingref.txt:131: WARNING: unknown option: faust t
-docs/includes/settingref.txt:131: WARNING: unknown option: faust a
-docs/includes/settingref.txt:131: WARNING: unknown option: faust d
-docs/includes/settingref.txt:131: WARNING: unknown option: faust i
-docs/includes/settingref.txt:131: WARNING: unknown option: faust r
-docs/includes/settingref.txt:174: WARNING: unknown option: faust -
-docs/includes/settingref.txt:174: WARNING: unknown option: faust -
-docs/includes/settingref.txt:174: WARNING: unknown option: faust d
-docs/includes/settingref.txt:174: WARNING: unknown option: faust e
-docs/includes/settingref.txt:174: WARNING: unknown option: faust b
-docs/includes/settingref.txt:174: WARNING: unknown option: faust u
-docs/includes/settingref.txt:174: WARNING: unknown option: faust g
-docs/includes/settingref.txt:293: WARNING: unknown option: faust -
-docs/includes/settingref.txt:293: WARNING: unknown option: faust -
-docs/includes/settingref.txt:293: WARNING: unknown option: faust b
-docs/includes/settingref.txt:293: WARNING: unknown option: faust l
-docs/includes/settingref.txt:293: WARNING: unknown option: faust o
-docs/includes/settingref.txt:293: WARNING: unknown option: faust c
-docs/includes/settingref.txt:293: WARNING: unknown option: faust k
-docs/includes/settingref.txt:293: WARNING: unknown option: faust i
-docs/includes/settingref.txt:293: WARNING: unknown option: faust n
-docs/includes/settingref.txt:293: WARNING: unknown option: faust g
-docs/includes/settingref.txt:293: WARNING: unknown option: faust -
-docs/includes/settingref.txt:293: WARNING: unknown option: faust t
-docs/includes/settingref.txt:293: WARNING: unknown option: faust i
-docs/includes/settingref.txt:293: WARNING: unknown option: faust m
-docs/includes/settingref.txt:293: WARNING: unknown option: faust e
-docs/includes/settingref.txt:293: WARNING: unknown option: faust o
-docs/includes/settingref.txt:293: WARNING: unknown option: faust u
-docs/includes/settingref.txt:293: WARNING: unknown option: faust t
-docs/includes/settingref.txt:1740: WARNING: unknown option: faust worker --with-web
-docs/includes/settingref.txt:1821: WARNING: unknown option: faust worker --web-transport
-Spelling checker messages written to /home/travis/build/robinhood/faust/docs/_build/spell/output.txt
-WARNING: Found 316 misspelled words
-build succeeded, 45 warnings.
-___________________________________ summary ____________________________________
-[32m  spell: commands succeeded
-[0m[32m  congratulations :)
-[0mtravis_time:end:19f91250:start=1586769603882850294,finish=1586769671080492270,duration=67197641976,event=script[0K[32;1mThe command "tox -v -- -v" exited with 0.[0m
-travis_fold:start:cache.2[0Kstore build cache
-travis_time:start:0d032d90[0Ktravis_time:end:0d032d90:start=1586769671084601087,finish=1586769671087281608,duration=2680521,event=cache[0Ktravis_time:start:11707cd4[0K[32;1mchanges detected (content changed, file is created, or file is deleted):\n/home/travis/.cache/pip/http/0/1/a/b/3/01ab38ac63d82e82f212dd86d62de883eb0d7de6be8db88f70d14a62
-/home/travis/.cache/pip/http/0/c/2/1/8/0c218d526767991766d9b365a4f3e4449ce3579fd8b0f96a707d5a52
-/home/travis/.cache/pip/http/0/c/4/2/2/0c422db452450328081921ee648d6ed044ec120720ed58fe0daf726a
-/home/travis/.cache/pip/http/1/9/1/7/2/191721985457c3f06def70eaf404e7bb6dac69795150dc3e37f6bc33
-/home/travis/.cache/pip/http/1/a/c/5/c/1ac5cffb8e1a6a3a323ce6935d6aea744a85a15ffff211f78fb72840
-/home/travis/.cache/pip/http/2/e/7/7/a/2e77a91abc956be665299f12358c3d2a9f5c6781e512c751143bd2d2
-/home/travis/.cache/pip/http/3/3/9/7/4/33974f84394d9a943f68359da08431dab4af9f86c33962982ea21b5f
-/home/travis/.cache/pip/http/3/5/9/6/8/3596862d816965b0c8fa5f06da895dbdc75cbc44a9f3e31272d52b2f
-/home/travis/.cache/pip/http/3/f/e/1/1/3fe1167c8c8022e14033a757400025f1c1684264847badeceac31f09
-/home/travis/.cache/pip/http/4/0/5/a/9/405a9aef9a10e0253b140e6deef14e409d9b803025c7b39781ec0573
-/home/travis/.cache/pip/http/4/1/f/f/1/4\n...[0m
-[32;1mchanges detected, packing new archive[0m
-[32;1muploading PR.574/cache--linux-xenial-ede8139c7a5539b22303dfe65a85e99606f948e1889e1f008e8b36e778d6a575--python-3.8.0.tgz[0m
-[32;1mcache uploaded[0m
-travis_time:end:11707cd4:start=1586769671090688222,finish=1586769675461546494,duration=4370858272,event=cache[0Ktravis_fold:end:cache.2[0K
-travis_fold:start:after_success[0Ktravis_time:start:0423cc7a[0K$ if [[ ! -z "$IDENT" ]]; then
-        .tox/$TOXENV/bin/coverage xml
-        .tox/$TOXENV/bin/codecov -e IDENT
-    fi;
-    
-travis_time:end:0423cc7a:start=1586769675465576080,finish=1586769675468036677,duration=2460597,event=after_success[0Ktravis_fold:end:after_success[0K
-Done. Your build exited with 0.

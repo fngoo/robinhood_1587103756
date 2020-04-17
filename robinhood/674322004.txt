@@ -1,494 +1,0 @@
-travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 198f16d8-a95a-42d3-a8be-864894cee82f@1.worker-org-767b688855-vqcfx.gce-production-3
-version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
-instance: travis-job-849137bb-a741-437a-bf01-624930f23c00 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
-startup: 6.173778394s
-travis_fold:end:worker_info[0Ktravis_time:start:093122fd[0Ktravis_time:end:093122fd:start=1586769430964619540,finish=1586769431113815321,duration=149195781,event=no_world_writable_dirs[0Ktravis_time:start:368999a0[0Ktravis_time:end:368999a0:start=1586769431116831309,finish=1586769431124980548,duration=8149239,event=agent[0Ktravis_time:start:3078d000[0Ktravis_time:end:3078d000:start=1586769431127724939,finish=1586769431129905700,duration=2180761,event=check_unsupported[0Ktravis_time:start:0cbee4d7[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
-Build language: python
-Build dist: xenial
-Build id: 674322000
-Job id: 674322004
-Runtime kernel version: 4.15.0-1028-gcp
-travis-build version: dddf3090e
-[34m[1mBuild image provisioning date and time[0m
-Mon Mar 25 16:43:24 UTC 2019
-[34m[1mOperating System Details[0m
-Distributor ID:	Ubuntu
-Description:	Ubuntu 16.04.6 LTS
-Release:	16.04
-Codename:	xenial
-[34m[1mSystemd Version[0m
-systemd 229
-[34m[1mCookbooks Version[0m
-42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
-[34m[1mgit version[0m
-git version 2.21.0
-[34m[1mbash version[0m
-GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
-[34m[1mgcc version[0m
-gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
-[34m[1mdocker version[0m
-Client:
- Version:           18.06.0-ce
- API version:       1.38
- Go version:        go1.10.3
- Git commit:        0ffa825
- Built:             Wed Jul 18 19:11:02 2018
- OS/Arch:           linux/amd64
- Experimental:      false
-
-Server:
- Engine:
-  Version:          18.06.0-ce
-  API version:      1.38 (minimum version 1.12)
-  Go version:       go1.10.3
-  Git commit:       0ffa825
-  Built:            Wed Jul 18 19:09:05 2018
-  OS/Arch:          linux/amd64
-  Experimental:     false
-[34m[1mclang version[0m
-clang version 7.0.0 (tags/RELEASE_700/final)
-[34m[1mjq version[0m
-jq-1.5
-[34m[1mbats version[0m
-Bats 0.4.0
-[34m[1mshellcheck version[0m
-0.6.0
-[34m[1mshfmt version[0m
-v2.6.3
-[34m[1mccache version[0m
-3.2.4
-[34m[1mcmake version[0m
-cmake version 3.12.4
-[34m[1mheroku version[0m
-heroku/7.22.7 linux-x64 node-v11.10.1
-[34m[1mimagemagick version[0m
-Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
-[34m[1mmd5deep version[0m
-4.4
-[34m[1mmercurial version[0m
-version 4.8
-[34m[1mmysql version[0m
-mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
-[34m[1mopenssl version[0m
-OpenSSL 1.0.2g  1 Mar 2016
-[34m[1mpacker version[0m
-1.3.3
-[34m[1mpostgresql client version[0m
-psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
-[34m[1mragel version[0m
-Ragel State Machine Compiler version 6.8 Feb 2013
-[34m[1msudo version[0m
-1.8.16
-[34m[1mgzip version[0m
-gzip 1.6
-[34m[1mzip version[0m
-Zip 3.0
-[34m[1mvim version[0m
-VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
-[34m[1miptables version[0m
-iptables v1.6.0
-[34m[1mcurl version[0m
-curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
-[34m[1mwget version[0m
-GNU Wget 1.17.1 built on linux-gnu.
-[34m[1mrsync version[0m
-rsync  version 3.1.1  protocol version 31
-[34m[1mgimme version[0m
-v1.5.3
-[34m[1mnvm version[0m
-0.34.0
-[34m[1mperlbrew version[0m
-/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
-[34m[1mphpenv version[0m
-rbenv 1.1.2
-[34m[1mrvm version[0m
-rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
-[34m[1mdefault ruby version[0m
-ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
-[34m[1mCouchDB version[0m
-couchdb 1.6.1
-[34m[1mElasticSearch version[0m
-5.5.0
-[34m[1mInstalled Firefox version[0m
-firefox 63.0.1
-[34m[1mMongoDB version[0m
-MongoDB 4.0.7
-[34m[1mPhantomJS version[0m
-2.1.1
-[34m[1mPre-installed PostgreSQL versions[0m
-9.4.21
-9.5.16
-9.6.12
-[34m[1mRedis version[0m
-redis-server 5.0.4
-[34m[1mPre-installed Go versions[0m
-1.11.1
-[34m[1mmvn version[0m
-Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
-[34m[1mgradle version[0m
-Gradle 4.10.2!
-[34m[1mlein version[0m
-Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
-[34m[1mPre-installed Node.js versions[0m
-v10.15.3
-v11.0.0
-v4.9.1
-v6.17.0
-v8.12.0
-v8.15.1
-v8.9
-[34m[1mphpenv versions[0m
-  system
-  5.6
-  5.6.40
-  7.1
-  7.1.27
-  7.2
-* 7.2.15 (set by /home/travis/.phpenv/version)
-  hhvm
-  hhvm-stable
-[34m[1mcomposer --version[0m
-Composer version 1.8.4 2019-02-11 10:52:10
-[34m[1mPre-installed Ruby versions[0m
-ruby-2.3.8
-ruby-2.4.5
-ruby-2.5.3
-travis_fold:end:system_info[0K
-travis_time:end:0cbee4d7:start=1586769431133198874,finish=1586769431139998452,duration=6799578,event=show_system_info[0Ktravis_time:start:026765de[0Ktravis_time:end:026765de:start=1586769431142819538,finish=1586769431154546290,duration=11726752,event=rm_riak_source[0Ktravis_time:start:2506c1a4[0Ktravis_time:end:2506c1a4:start=1586769431158262321,finish=1586769431163721597,duration=5459276,event=fix_rwky_redis[0Ktravis_time:start:1eb7461c[0Ktravis_time:end:1eb7461c:start=1586769431166928262,finish=1586769431711627209,duration=544698947,event=wait_for_network[0Ktravis_time:start:0b084994[0Ktravis_time:end:0b084994:start=1586769431714628818,finish=1586769431924719892,duration=210091074,event=update_apt_keys[0Ktravis_time:start:2203b084[0Ktravis_time:end:2203b084:start=1586769431928017681,finish=1586769431982780890,duration=54763209,event=fix_hhvm_source[0Ktravis_time:start:3908dfe4[0Ktravis_time:end:3908dfe4:start=1586769431985871286,finish=1586769431988461854,duration=2590568,event=update_mongo_arch[0Ktravis_time:start:0821677b[0Ktravis_time:end:0821677b:start=1586769431991418511,finish=1586769432032798645,duration=41380134,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0ea0f9c0[0Ktravis_time:end:0ea0f9c0:start=1586769432035918354,finish=1586769432038144502,duration=2226148,event=update_glibc[0Ktravis_time:start:0c75c327[0Ktravis_time:end:0c75c327:start=1586769432041127759,finish=1586769432049001260,duration=7873501,event=clean_up_path[0Ktravis_time:start:0ba0050a[0Ktravis_time:end:0ba0050a:start=1586769432052001603,finish=1586769432059924127,duration=7922524,event=fix_resolv_conf[0Ktravis_time:start:0a09b6c0[0Ktravis_time:end:0a09b6c0:start=1586769432063022605,finish=1586769432072169200,duration=9146595,event=fix_etc_hosts[0Ktravis_time:start:01be27a0[0Ktravis_time:end:01be27a0:start=1586769432075116892,finish=1586769432083812321,duration=8695429,event=fix_mvn_settings_xml[0Ktravis_time:start:01385a7b[0Ktravis_time:end:01385a7b:start=1586769432086777579,finish=1586769432096108005,duration=9330426,event=no_ipv6_localhost[0Ktravis_time:start:06ef9c10[0Ktravis_time:end:06ef9c10:start=1586769432099157575,finish=1586769432101642778,duration=2485203,event=fix_etc_mavenrc[0Ktravis_time:start:302792bb[0Ktravis_time:end:302792bb:start=1586769432104743449,finish=1586769432107925629,duration=3182180,event=fix_wwdr_certificate[0Ktravis_time:start:05acba00[0Ktravis_time:end:05acba00:start=1586769432111026329,finish=1586769432134277545,duration=23251216,event=put_localhost_first[0Ktravis_time:start:3272194c[0Ktravis_time:end:3272194c:start=1586769432137349788,finish=1586769432140422541,duration=3072753,event=home_paths[0Ktravis_time:start:1f720c80[0Ktravis_time:end:1f720c80:start=1586769432143311079,finish=1586769432154796220,duration=11485141,event=disable_initramfs[0Ktravis_time:start:04de51e4[0Ktravis_time:end:04de51e4:start=1586769432157653073,finish=1586769432443922978,duration=286269905,event=disable_ssh_roaming[0Ktravis_time:start:2305ae92[0Ktravis_time:end:2305ae92:start=1586769432447040942,finish=1586769432449245709,duration=2204767,event=debug_tools[0Ktravis_time:start:2f695cec[0Ktravis_time:end:2f695cec:start=1586769432452225380,finish=1586769432455224456,duration=2999076,event=uninstall_oclint[0Ktravis_time:start:0b66c56e[0Ktravis_time:end:0b66c56e:start=1586769432458365365,finish=1586769432461536640,duration=3171275,event=rvm_use[0Ktravis_time:start:120560ed[0Ktravis_time:end:120560ed:start=1586769432464512030,finish=1586769432472798823,duration=8286793,event=rm_etc_boto_cfg[0Ktravis_time:start:18c4e3ea[0Ktravis_time:end:18c4e3ea:start=1586769432475806047,finish=1586769432478527227,duration=2721180,event=rm_oraclejdk8_symlink[0Ktravis_time:start:3dad6070[0Ktravis_time:end:3dad6070:start=1586769432481480440,finish=1586769432579741809,duration=98261369,event=enable_i386[0Ktravis_time:start:1a27609a[0Ktravis_time:end:1a27609a:start=1586769432582873706,finish=1586769432589599322,duration=6725616,event=update_rubygems[0Ktravis_time:start:0742a615[0Ktravis_time:end:0742a615:start=1586769432592902072,finish=1586769433399018735,duration=806116663,event=ensure_path_components[0Ktravis_time:start:0be22d80[0Ktravis_time:end:0be22d80:start=1586769433402281074,finish=1586769433404564010,duration=2282936,event=redefine_curl[0Ktravis_time:start:043477a0[0Ktravis_time:end:043477a0:start=1586769433407416569,finish=1586769433409432395,duration=2015826,event=nonblock_pipe[0Ktravis_time:start:329e074c[0Ktravis_time:end:329e074c:start=1586769433412142772,finish=1586769450578092768,duration=17165949996,event=apt_get_update[0Ktravis_time:start:0ac3063b[0Ktravis_time:end:0ac3063b:start=1586769450581096940,finish=1586769450583095616,duration=1998676,event=deprecate_xcode_64[0Ktravis_time:start:0f206068[0Ktravis_time:end:0f206068:start=1586769450585776539,finish=1586769453125054839,duration=2539278300,event=update_heroku[0Ktravis_time:start:135f997c[0Ktravis_time:end:135f997c:start=1586769453127947258,finish=1586769453130063223,duration=2115965,event=shell_session_update[0Ktravis_time:start:24bc2ea5[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:24bc2ea5:start=1586769453132841129,finish=1586769456849187817,duration=3716346688,event=set_docker_mtu[0Ktravis_time:start:0f2d7a44[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:0f2d7a44:start=1586769456852680211,finish=1586769456925783508,duration=73103297,event=resolvconf[0Ktravis_time:start:08f83a6a[0Ktravis_time:end:08f83a6a:start=1586769456930105669,finish=1586769457099995168,duration=169889499,event=maven_central_mirror[0Ktravis_time:start:06595e18[0Ktravis_time:end:06595e18:start=1586769457103222379,finish=1586769457194361518,duration=91139139,event=maven_https[0K[33;1m3.8.0 is not installed; attempting download[0m
-[33;1mDownloading archive: https://storage.googleapis.com/travis-ci-language-archives/python/binaries/ubuntu/16.04/x86_64/python-3.8.0.tar.bz2[0m
-travis_time:start:0dd8df4c[0K$ curl -sSf --retry 5 -o python-3.8.0.tar.bz2 ${archive_url}
-travis_time:end:0dd8df4c:start=1586769457281266975,finish=1586769457585479947,duration=304212972,event=configure[0Ktravis_time:start:10d8d343[0K$ sudo tar xjf python-3.8.0.tar.bz2 --directory /
-travis_time:end:10d8d343:start=1586769457588957385,finish=1586769469136578427,duration=11547621042,event=configure[0Ktravis_time:start:22ceb96b[0Ktravis_time:end:22ceb96b:start=1586769469154967434,finish=1586769469156983170,duration=2015736,event=fix_ps4[0Ktravis_time:start:01a0c4d0[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:0298db02[0K$ git clone --depth=50 https://github.com/robinhood/faust.git robinhood/faust
-Cloning into 'robinhood/faust'...
-remote: Enumerating objects: 1536, done.[K
-remote: Counting objects:   0% (1/1536)[Kremote: Counting objects:   1% (16/1536)[Kremote: Counting objects:   2% (31/1536)[Kremote: Counting objects:   3% (47/1536)[Kremote: Counting objects:   4% (62/1536)[Kremote: Counting objects:   5% (77/1536)[Kremote: Counting objects:   6% (93/1536)[Kremote: Counting objects:   7% (108/1536)[Kremote: Counting objects:   8% (123/1536)[Kremote: Counting objects:   9% (139/1536)[Kremote: Counting objects:  10% (154/1536)[Kremote: Counting objects:  11% (169/1536)[Kremote: Counting objects:  12% (185/1536)[Kremote: Counting objects:  13% (200/1536)[Kremote: Counting objects:  14% (216/1536)[Kremote: Counting objects:  15% (231/1536)[Kremote: Counting objects:  16% (246/1536)[Kremote: Counting objects:  17% (262/1536)[Kremote: Counting objects:  18% (277/1536)[Kremote: Counting objects:  19% (292/1536)[Kremote: Counting objects:  20% (308/1536)[Kremote: Counting objects:  21% (323/1536)[Kremote: Counting objects:  22% (338/1536)[Kremote: Counting objects:  23% (354/1536)[Kremote: Counting objects:  24% (369/1536)[Kremote: Counting objects:  25% (384/1536)[Kremote: Counting objects:  26% (400/1536)[Kremote: Counting objects:  27% (415/1536)[Kremote: Counting objects:  28% (431/1536)[Kremote: Counting objects:  29% (446/1536)[Kremote: Counting objects:  30% (461/1536)[Kremote: Counting objects:  31% (477/1536)[Kremote: Counting objects:  32% (492/1536)[Kremote: Counting objects:  33% (507/1536)[Kremote: Counting objects:  34% (523/1536)[Kremote: Counting objects:  35% (538/1536)[Kremote: Counting objects:  36% (553/1536)[Kremote: Counting objects:  37% (569/1536)[Kremote: Counting objects:  38% (584/1536)[Kremote: Counting objects:  39% (600/1536)[Kremote: Counting objects:  40% (615/1536)[Kremote: Counting objects:  41% (630/1536)[Kremote: Counting objects:  42% (646/1536)[Kremote: Counting objects:  43% (661/1536)[Kremote: Counting objects:  44% (676/1536)[Kremote: Counting objects:  45% (692/1536)[Kremote: Counting objects:  46% (707/1536)[Kremote: Counting objects:  47% (722/1536)[Kremote: Counting objects:  48% (738/1536)[Kremote: Counting objects:  49% (753/1536)[Kremote: Counting objects:  50% (768/1536)[Kremote: Counting objects:  51% (784/1536)[Kremote: Counting objects:  52% (799/1536)[Kremote: Counting objects:  53% (815/1536)[Kremote: Counting objects:  54% (830/1536)[Kremote: Counting objects:  55% (845/1536)[Kremote: Counting objects:  56% (861/1536)[Kremote: Counting objects:  57% (876/1536)[Kremote: Counting objects:  58% (891/1536)[Kremote: Counting objects:  59% (907/1536)[Kremote: Counting objects:  60% (922/1536)[Kremote: Counting objects:  61% (937/1536)[Kremote: Counting objects:  62% (953/1536)[Kremote: Counting objects:  63% (968/1536)[Kremote: Counting objects:  64% (984/1536)[Kremote: Counting objects:  65% (999/1536)[Kremote: Counting objects:  66% (1014/1536)[Kremote: Counting objects:  67% (1030/1536)[Kremote: Counting objects:  68% (1045/1536)[Kremote: Counting objects:  69% (1060/1536)[Kremote: Counting objects:  70% (1076/1536)[Kremote: Counting objects:  71% (1091/1536)[Kremote: Counting objects:  72% (1106/1536)[Kremote: Counting objects:  73% (1122/1536)[Kremote: Counting objects:  74% (1137/1536)[Kremote: Counting objects:  75% (1152/1536)[Kremote: Counting objects:  76% (1168/1536)[Kremote: Counting objects:  77% (1183/1536)[Kremote: Counting objects:  78% (1199/1536)[Kremote: Counting objects:  79% (1214/1536)[Kremote: Counting objects:  80% (1229/1536)[Kremote: Counting objects:  81% (1245/1536)[Kremote: Counting objects:  82% (1260/1536)[Kremote: Counting objects:  83% (1275/1536)[Kremote: Counting objects:  84% (1291/1536)[Kremote: Counting objects:  85% (1306/1536)[Kremote: Counting objects:  86% (1321/1536)[Kremote: Counting objects:  87% (1337/1536)[Kremote: Counting objects:  88% (1352/1536)[Kremote: Counting objects:  89% (1368/1536)[Kremote: Counting objects:  90% (1383/1536)[Kremote: Counting objects:  91% (1398/1536)[Kremote: Counting objects:  92% (1414/1536)[Kremote: Counting objects:  93% (1429/1536)[Kremote: Counting objects:  94% (1444/1536)[Kremote: Counting objects:  95% (1460/1536)[Kremote: Counting objects:  96% (1475/1536)[Kremote: Counting objects:  97% (1490/1536)[Kremote: Counting objects:  98% (1506/1536)[Kremote: Counting objects:  99% (1521/1536)[Kremote: Counting objects: 100% (1536/1536)[Kremote: Counting objects: 100% (1536/1536), done.[K
-remote: Compressing objects:   0% (1/838)[Kremote: Compressing objects:   1% (9/838)[Kremote: Compressing objects:   2% (17/838)[Kremote: Compressing objects:   3% (26/838)[Kremote: Compressing objects:   4% (34/838)[Kremote: Compressing objects:   5% (42/838)[Kremote: Compressing objects:   6% (51/838)[Kremote: Compressing objects:   7% (59/838)[Kremote: Compressing objects:   8% (68/838)[Kremote: Compressing objects:   9% (76/838)[Kremote: Compressing objects:  10% (84/838)[Kremote: Compressing objects:  11% (93/838)[Kremote: Compressing objects:  12% (101/838)[Kremote: Compressing objects:  13% (109/838)[Kremote: Compressing objects:  14% (118/838)[Kremote: Compressing objects:  15% (126/838)[Kremote: Compressing objects:  16% (135/838)[Kremote: Compressing objects:  17% (143/838)[Kremote: Compressing objects:  18% (151/838)[Kremote: Compressing objects:  19% (160/838)[Kremote: Compressing objects:  20% (168/838)[Kremote: Compressing objects:  21% (176/838)[Kremote: Compressing objects:  22% (185/838)[Kremote: Compressing objects:  23% (193/838)[Kremote: Compressing objects:  24% (202/838)[Kremote: Compressing objects:  25% (210/838)[Kremote: Compressing objects:  26% (218/838)[Kremote: Compressing objects:  27% (227/838)[Kremote: Compressing objects:  28% (235/838)[Kremote: Compressing objects:  29% (244/838)[Kremote: Compressing objects:  30% (252/838)[Kremote: Compressing objects:  31% (260/838)[Kremote: Compressing objects:  32% (269/838)[Kremote: Compressing objects:  33% (277/838)[Kremote: Compressing objects:  34% (285/838)[Kremote: Compressing objects:  35% (294/838)[Kremote: Compressing objects:  36% (302/838)[Kremote: Compressing objects:  37% (311/838)[Kremote: Compressing objects:  38% (319/838)[Kremote: Compressing objects:  39% (327/838)[Kremote: Compressing objects:  40% (336/838)[Kremote: Compressing objects:  41% (344/838)[Kremote: Compressing objects:  42% (352/838)[Kremote: Compressing objects:  43% (361/838)[Kremote: Compressing objects:  44% (369/838)[Kremote: Compressing objects:  45% (378/838)[Kremote: Compressing objects:  46% (386/838)[Kremote: Compressing objects:  47% (394/838)[Kremote: Compressing objects:  48% (403/838)[Kremote: Compressing objects:  49% (411/838)[Kremote: Compressing objects:  50% (419/838)[Kremote: Compressing objects:  51% (428/838)[Kremote: Compressing objects:  52% (436/838)[Kremote: Compressing objects:  53% (445/838)[Kremote: Compressing objects:  54% (453/838)[Kremote: Compressing objects:  55% (461/838)[Kremote: Compressing objects:  56% (470/838)[Kremote: Compressing objects:  57% (478/838)[Kremote: Compressing objects:  58% (487/838)[Kremote: Compressing objects:  59% (495/838)[Kremote: Compressing objects:  60% (503/838)[Kremote: Compressing objects:  61% (512/838)[Kremote: Compressing objects:  62% (520/838)[Kremote: Compressing objects:  63% (528/838)[Kremote: Compressing objects:  64% (537/838)[Kremote: Compressing objects:  65% (545/838)[Kremote: Compressing objects:  66% (554/838)[Kremote: Compressing objects:  67% (562/838)[Kremote: Compressing objects:  68% (570/838)[Kremote: Compressing objects:  69% (579/838)[Kremote: Compressing objects:  70% (587/838)[Kremote: Compressing objects:  71% (595/838)[Kremote: Compressing objects:  72% (604/838)[Kremote: Compressing objects:  73% (612/838)[Kremote: Compressing objects:  74% (621/838)[Kremote: Compressing objects:  75% (629/838)[Kremote: Compressing objects:  76% (637/838)[Kremote: Compressing objects:  77% (646/838)[Kremote: Compressing objects:  78% (654/838)[Kremote: Compressing objects:  79% (663/838)[Kremote: Compressing objects:  80% (671/838)[Kremote: Compressing objects:  81% (679/838)[Kremote: Compressing objects:  82% (688/838)[Kremote: Compressing objects:  83% (696/838)[Kremote: Compressing objects:  84% (704/838)[Kremote: Compressing objects:  85% (713/838)[Kremote: Compressing objects:  86% (721/838)[Kremote: Compressing objects:  87% (730/838)[Kremote: Compressing objects:  88% (738/838)[Kremote: Compressing objects:  89% (746/838)[Kremote: Compressing objects:  90% (755/838)[Kremote: Compressing objects:  91% (763/838)[Kremote: Compressing objects:  92% (771/838)[Kremote: Compressing objects:  93% (780/838)[Kremote: Compressing objects:  94% (788/838)[Kremote: Compressing objects:  95% (797/838)[Kremote: Compressing objects:  96% (805/838)[Kremote: Compressing objects:  97% (813/838)[Kremote: Compressing objects:  98% (822/838)[Kremote: Compressing objects:  99% (830/838)[Kremote: Compressing objects: 100% (838/838)[Kremote: Compressing objects: 100% (838/838), done.[K
-Receiving objects:   0% (1/1536)   Receiving objects:   1% (16/1536)   Receiving objects:   2% (31/1536)   Receiving objects:   3% (47/1536)   Receiving objects:   4% (62/1536)   Receiving objects:   5% (77/1536)   Receiving objects:   6% (93/1536)   Receiving objects:   7% (108/1536)   Receiving objects:   8% (123/1536)   Receiving objects:   9% (139/1536)   Receiving objects:  10% (154/1536)   Receiving objects:  11% (169/1536)   Receiving objects:  12% (185/1536)   Receiving objects:  13% (200/1536)   Receiving objects:  14% (216/1536)   Receiving objects:  15% (231/1536)   Receiving objects:  16% (246/1536)   Receiving objects:  17% (262/1536)   Receiving objects:  18% (277/1536)   Receiving objects:  19% (292/1536)   Receiving objects:  20% (308/1536)   Receiving objects:  21% (323/1536)   Receiving objects:  22% (338/1536)   Receiving objects:  23% (354/1536)   Receiving objects:  24% (369/1536)   Receiving objects:  25% (384/1536)   Receiving objects:  26% (400/1536)   Receiving objects:  27% (415/1536)   Receiving objects:  28% (431/1536)   Receiving objects:  29% (446/1536)   Receiving objects:  30% (461/1536)   Receiving objects:  31% (477/1536)   Receiving objects:  32% (492/1536)   Receiving objects:  33% (507/1536)   Receiving objects:  34% (523/1536)   Receiving objects:  35% (538/1536)   Receiving objects:  36% (553/1536)   Receiving objects:  37% (569/1536)   Receiving objects:  38% (584/1536)   Receiving objects:  39% (600/1536)   Receiving objects:  40% (615/1536)   Receiving objects:  41% (630/1536)   Receiving objects:  42% (646/1536)   Receiving objects:  43% (661/1536)   Receiving objects:  44% (676/1536)   Receiving objects:  45% (692/1536)   Receiving objects:  46% (707/1536)   Receiving objects:  47% (722/1536)   Receiving objects:  48% (738/1536)   Receiving objects:  49% (753/1536)   Receiving objects:  50% (768/1536)   Receiving objects:  51% (784/1536)   Receiving objects:  52% (799/1536)   Receiving objects:  53% (815/1536)   Receiving objects:  54% (830/1536)   Receiving objects:  55% (845/1536)   Receiving objects:  56% (861/1536)   Receiving objects:  57% (876/1536)   Receiving objects:  58% (891/1536)   Receiving objects:  59% (907/1536)   Receiving objects:  60% (922/1536)   Receiving objects:  61% (937/1536)   Receiving objects:  62% (953/1536)   Receiving objects:  63% (968/1536)   Receiving objects:  64% (984/1536)   Receiving objects:  65% (999/1536)   Receiving objects:  66% (1014/1536)   Receiving objects:  67% (1030/1536)   Receiving objects:  68% (1045/1536)   Receiving objects:  69% (1060/1536)   Receiving objects:  70% (1076/1536)   Receiving objects:  71% (1091/1536)   Receiving objects:  72% (1106/1536)   Receiving objects:  73% (1122/1536)   Receiving objects:  74% (1137/1536)   Receiving objects:  75% (1152/1536)   Receiving objects:  76% (1168/1536)   Receiving objects:  77% (1183/1536)   Receiving objects:  78% (1199/1536)   Receiving objects:  79% (1214/1536)   Receiving objects:  80% (1229/1536)   Receiving objects:  81% (1245/1536)   Receiving objects:  82% (1260/1536)   Receiving objects:  83% (1275/1536)   Receiving objects:  84% (1291/1536)   Receiving objects:  85% (1306/1536)   Receiving objects:  86% (1321/1536)   Receiving objects:  87% (1337/1536)   Receiving objects:  88% (1352/1536)   Receiving objects:  89% (1368/1536)   Receiving objects:  90% (1383/1536)   Receiving objects:  91% (1398/1536)   Receiving objects:  92% (1414/1536)   Receiving objects:  93% (1429/1536)   Receiving objects:  94% (1444/1536)   Receiving objects:  95% (1460/1536)   Receiving objects:  96% (1475/1536)   Receiving objects:  97% (1490/1536)   Receiving objects:  98% (1506/1536)   remote: Total 1536 (delta 789), reused 1017 (delta 650), pack-reused 0[K
-Receiving objects:  99% (1521/1536)   Receiving objects: 100% (1536/1536)   Receiving objects: 100% (1536/1536), 879.95 KiB | 13.13 MiB/s, done.
-Resolving deltas:   0% (0/789)   Resolving deltas:   2% (16/789)   Resolving deltas:   4% (34/789)   Resolving deltas:  12% (95/789)   Resolving deltas:  15% (124/789)   Resolving deltas:  25% (199/789)   Resolving deltas:  26% (209/789)   Resolving deltas:  27% (219/789)   Resolving deltas:  34% (269/789)   Resolving deltas:  35% (280/789)   Resolving deltas:  36% (291/789)   Resolving deltas:  37% (292/789)   Resolving deltas:  38% (303/789)   Resolving deltas:  39% (308/789)   Resolving deltas:  40% (316/789)   Resolving deltas:  41% (326/789)   Resolving deltas:  42% (335/789)   Resolving deltas:  44% (349/789)   Resolving deltas:  46% (369/789)   Resolving deltas:  47% (377/789)   Resolving deltas:  49% (389/789)   Resolving deltas:  50% (395/789)   Resolving deltas:  51% (403/789)   Resolving deltas:  52% (411/789)   Resolving deltas:  53% (421/789)   Resolving deltas:  55% (436/789)   Resolving deltas:  56% (443/789)   Resolving deltas:  57% (450/789)   Resolving deltas:  76% (602/789)   Resolving deltas:  77% (609/789)   Resolving deltas:  78% (616/789)   Resolving deltas:  79% (627/789)   Resolving deltas:  80% (635/789)   Resolving deltas:  81% (640/789)   Resolving deltas:  82% (648/789)   Resolving deltas:  83% (660/789)   Resolving deltas:  84% (664/789)   Resolving deltas:  85% (676/789)   Resolving deltas:  86% (679/789)   Resolving deltas:  87% (690/789)   Resolving deltas:  88% (702/789)   Resolving deltas:  89% (704/789)   Resolving deltas:  90% (711/789)   Resolving deltas:  91% (718/789)   Resolving deltas:  92% (727/789)   Resolving deltas:  93% (736/789)   Resolving deltas:  94% (742/789)   Resolving deltas:  95% (751/789)   Resolving deltas:  96% (758/789)   Resolving deltas:  97% (767/789)   Resolving deltas:  98% (776/789)   Resolving deltas:  99% (782/789)   Resolving deltas: 100% (789/789)   Resolving deltas: 100% (789/789), done.
-travis_time:end:0298db02:start=1586769469162749102,finish=1586769469971258663,duration=808509561,event=checkout[0K$ cd robinhood/faust
-travis_time:start:018fba36[0K$ git fetch origin +refs/pull/574/merge:
-remote: Enumerating objects: 10, done.[K
-remote: Counting objects:  10% (1/10)[Kremote: Counting objects:  20% (2/10)[Kremote: Counting objects:  30% (3/10)[Kremote: Counting objects:  40% (4/10)[Kremote: Counting objects:  50% (5/10)[Kremote: Counting objects:  60% (6/10)[Kremote: Counting objects:  70% (7/10)[Kremote: Counting objects:  80% (8/10)[Kremote: Counting objects:  90% (9/10)[Kremote: Counting objects: 100% (10/10)[Kremote: Counting objects: 100% (10/10), done.[K
-remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
-remote: Total 6 (delta 4), reused 4 (delta 3), pack-reused 0[K
-Unpacking objects:  16% (1/6)   Unpacking objects:  33% (2/6)   Unpacking objects:  50% (3/6)   Unpacking objects:  66% (4/6)   Unpacking objects:  83% (5/6)   Unpacking objects: 100% (6/6)   Unpacking objects: 100% (6/6), done.
-From https://github.com/robinhood/faust
- * branch            refs/pull/574/merge -> FETCH_HEAD
-travis_time:end:018fba36:start=1586769469974988225,finish=1586769470464715699,duration=489727474,event=checkout[0K$ git checkout -qf FETCH_HEAD
-travis_fold:end:git.checkout[0K
-travis_time:end:018fba36:start=1586769469974988225,finish=1586769470496350986,duration=521362761,event=checkout[0Ktravis_time:start:1553a37a[0K
-[33;1mSetting environment variables from .travis.yml[0m
-$ export PYTHONUNBUFFERED=yes
-$ export TOXENV=configcheck
-
-travis_time:end:1553a37a:start=1586769470499731384,finish=1586769470506667061,duration=6935677,event=env[0Ktravis_time:start:2ce71e14[0K$ source ~/virtualenv/python3.8.0/bin/activate
-travis_time:end:2ce71e14:start=1586769470510121125,finish=1586769470515014706,duration=4893581,event=[0Ktravis_fold:start:cache.1[0KSetting up build cache
-$ export CASHER_DIR=${TRAVIS_HOME}/.casher
-travis_time:start:043a75dc[0K$ Installing caching utilities
-travis_time:end:043a75dc:start=1586769471285526844,finish=1586769471399145265,duration=113618421,event=setup_casher[0Ktravis_time:start:039a2141[0Ktravis_time:end:039a2141:start=1586769471403728970,finish=1586769471406300299,duration=2571329,event=setup_casher[0Ktravis_time:start:05592d00[0Kattempting to download cache archive[0m
-[32;1mfetching PR.574/cache--linux-xenial-fb94771246c748a3b372030ea92a162374f6e97d55c93b604e9a9b4f8c4b1d79--python-3.8.0.tgz[0m
-[32;1mfound cache[0m
-travis_time:end:05592d00:start=1586769471409648489,finish=1586769473102266997,duration=1692618508,event=setup_casher[0Ktravis_fold:end:cache.1[0K
-travis_fold:start:cache.pip[0K
-travis_time:start:0fa33890[0Ktravis_time:end:0fa33890:start=1586769473106325905,finish=1586769473108971347,duration=2645442,event=setup_cache[0Ktravis_time:start:1c2440ed[0Kadding /home/travis/.cache/pip to cache[0m
-travis_time:end:1c2440ed:start=1586769473112584203,finish=1586769474886975442,duration=1774391239,event=setup_cache[0Ktravis_fold:end:cache.pip[0K$ python --version
-Python 3.8.0
-$ pip --version
-pip 19.3 from /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages/pip (python 3.8)
-travis_fold:start:before_install[0Ktravis_time:start:1aff794c[0K$ if [[ "$TRAVIS_OS_NAME" == "linux" && "$USE_ENCHANT" == "y" ]]; then sudo apt-get install -y enchant libenchant-dev; fi
-travis_time:end:1aff794c:start=1586769475093588023,finish=1586769475096070327,duration=2482304,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install[0Ktravis_time:start:0cc1cf34[0K$ if [[ "$USE_CYTHON" == "y" ]]; then
-    python -m pip install -U cython tox
-  else
-    python -m pip install -U tox
-  fi
-  
-Collecting tox
-  Using cached https://files.pythonhosted.org/packages/7b/4b/a90a0a89db60fc39fc92e31e7da436177a12c06038973c8b7199f47b47c0/tox-3.14.6-py2.py3-none-any.whl
-Collecting six<2,>=1.14.0
-  Using cached https://files.pythonhosted.org/packages/65/eb/1f97cb97bfc2390a276969c6fae16075da282f5058082d4cb10c6c5c1dba/six-1.14.0-py2.py3-none-any.whl
-Collecting filelock<4,>=3.0.0
-  Using cached https://files.pythonhosted.org/packages/93/83/71a2ee6158bb9f39a90c0dea1637f81d5eef866e188e1971a1b1ab01a35a/filelock-3.0.12-py3-none-any.whl
-Collecting toml>=0.9.4
-  Using cached https://files.pythonhosted.org/packages/a2/12/ced7105d2de62fa7c8fb5fce92cc4ce66b57c95fb875e9318dba7f8c5db0/toml-0.10.0-py2.py3-none-any.whl
-Requirement already satisfied, skipping upgrade: packaging>=14 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (19.2)
-Requirement already satisfied, skipping upgrade: virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (16.7.5)
-Requirement already satisfied, skipping upgrade: pluggy<1,>=0.12.0 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (0.13.0)
-Requirement already satisfied, skipping upgrade: py<2,>=1.4.17 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (1.8.0)
-Requirement already satisfied, skipping upgrade: pyparsing>=2.0.2 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from packaging>=14->tox) (2.4.2)
-Installing collected packages: six, filelock, toml, tox
-  Found existing installation: six 1.12.0
-    Uninstalling six-1.12.0:
-      Successfully uninstalled six-1.12.0
-Successfully installed filelock-3.0.12 six-1.14.0 toml-0.10.0 tox-3.14.6
-travis_time:end:0cc1cf34:start=1586769475099824045,finish=1586769476036013018,duration=936188973,event=install[0Ktravis_fold:end:install[0Ktravis_time:start:22fb0492[0K$ tox -v -- -v
-[1musing tox.ini: /home/travis/build/robinhood/faust/tox.ini (pid 4667)
-[0m[1musing tox-3.14.6 from /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages/tox/__init__.py (pid 4667)
-[0m[1mGLOB sdist-make: /home/travis/build/robinhood/faust/setup.py
-[0m[4680] /home/travis/build/robinhood/faust$ /home/travis/virtualenv/python3.8.0/bin/python setup.py sdist --formats=zip --dist-dir /home/travis/build/robinhood/faust/.tox/dist >.tox/log/GLOB-0.log
-package .tmp/package/1/faust-1.11.0a1.zip links to dist/faust-1.11.0a1.zip (/home/travis/build/robinhood/faust/.tox)
-[1mconfigcheck cannot reuse: no previous config /home/travis/build/robinhood/faust/.tox/configcheck/.tox-config1
-[0m[1mconfigcheck create: /home/travis/build/robinhood/faust/.tox/configcheck
-[0m[4683] /home/travis/build/robinhood/faust/.tox$ /home/travis/virtualenv/python3.8.0/bin/python -m virtualenv --no-download --python /home/travis/virtualenv/python3.8.0/bin/python configcheck >configcheck/log/configcheck-0.log
-[1mconfigcheck installdeps: -r/home/travis/build/robinhood/faust/requirements/default.txt, -r/home/travis/build/robinhood/faust/requirements/test.txt, -r/home/travis/build/robinhood/faust/requirements/ci.txt, -r/home/travis/build/robinhood/faust/requirements/docs.txt
-[0m[4691] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/configcheck/bin/python -m pip install -r/home/travis/build/robinhood/faust/requirements/default.txt -r/home/travis/build/robinhood/faust/requirements/test.txt -r/home/travis/build/robinhood/faust/requirements/ci.txt -r/home/travis/build/robinhood/faust/requirements/docs.txt >.tox/configcheck/log/configcheck-1.log
-[1mconfigcheck inst: /home/travis/build/robinhood/faust/.tox/.tmp/package/1/faust-1.11.0a1.zip
-[0mwrite config to /home/travis/build/robinhood/faust/.tox/configcheck/.tox-config1 as '6c1a32fa660479bea5e8b09162741dbbfd22986834df5f2aff9239af731c5bf7 /home/travis/virtualenv/python3.8.0/bin/python\n3.14.6 0 0 0\n00000000000000000000000000000000 -r/home/travis/build/robinhood/faust/requirements/default.txt\n00000000000000000000000000000000 -r/home/travis/build/robinhood/faust/requirements/test.txt\n00000000000000000000000000000000 -r/home/travis/build/robinhood/faust/requirements/ci.txt\n00000000000000000000000000000000 -r/home/travis/build/robinhood/faust/requirements/docs.txt'
-[4714] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/configcheck/bin/python -m pip install --exists-action w .tox/.tmp/package/1/faust-1.11.0a1.zip >.tox/configcheck/log/configcheck-2.log
-[4724] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/configcheck/bin/python -m pip freeze >.tox/configcheck/log/configcheck-3.log
-[1mconfigcheck installed: aiofiles==0.5.0,aiohttp==3.6.2,aiohttp-cors==0.7.0,alabaster==0.7.12,aredis==1.1.8,async-timeout==3.0.1,atomicwrites==1.3.0,attrs==19.3.0,Babel==2.8.0,certifi==2020.4.5.1,chardet==3.0.4,click==7.1.1,codecov==2.0.22,colorclass==2.2.0,colorlog==4.1.0,coverage==5.1,croniter==0.3.31,datadog==0.35.0,decorator==4.4.2,docutils==0.16,faust==1.11.0a1,freezegun==0.3.15,hypothesis==5.8.3,idna==2.9,imagesize==1.2.0,Jinja2==2.11.1,kafka-python==1.4.7,MarkupSafe==1.1.1,mode==4.3.2,more-itertools==8.2.0,multidict==4.7.5,mypy==0.770,mypy-extensions==0.4.3,opentracing==1.3.0,packaging==20.3,pluggy==0.13.1,psutil==5.7.0,py==1.8.1,pyfakefs==4.0.2,Pygments==2.6.1,pyparsing==2.4.7,pytest==5.2.4,pytest-aiofiles==0.2.0,pytest-aiohttp==0.3.0,pytest-asyncio==0.10.0,pytest-cov==2.8.1,pytest-forked==1.1.3,pytest-openfiles==0.4.0,pytest-picked==0.4.4,pytest-random-order==1.0.4,python-dateutil==2.8.1,pytz==2019.3,PyYAML==5.3.1,requests==2.23.0,robinhood-aiokafka==1.1.6,six==1.14.0,snowballstemmer==2.0.0,sortedcontainers==2.1.0,Sphinx==2.4.4,sphinx-celery==1.4.8,sphinxcontrib-applehelp==1.0.2,sphinxcontrib-devhelp==1.0.2,sphinxcontrib-htmlhelp==1.0.3,sphinxcontrib-jsmath==1.0.1,sphinxcontrib-qthelp==1.0.3,sphinxcontrib-serializinghtml==1.1.4,statsd==3.3.0,terminaltables==3.1.0,typed-ast==1.4.1,typing-extensions==3.7.4.2,urllib3==1.25.8,venusian==1.2.0,wcwidth==0.1.9,yarl==1.4.2
-[0m[1mconfigcheck run-test-pre: PYTHONHASHSEED='2280438666'
-[0m[1mconfigcheck run-test: commands[0] | sphinx-build -b configcheck -d /home/travis/build/robinhood/faust/.tox/configcheck/tmp/doctrees2 docs docs/_build/configcheck
-[0m[4725] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/configcheck/bin/sphinx-build -b configcheck -d /home/travis/build/robinhood/faust/.tox/configcheck/tmp/doctrees2 docs docs/_build/configcheck
-Running Sphinx v2.4.4
-making output directory... done
-loading intersphinx inventory from https://www.sphinx-doc.org/en/stable/objects.inv...
-loading intersphinx inventory from https://aiohttp.readthedocs.io/en/stable/objects.inv...
-loading intersphinx inventory from https://aiokafka.readthedocs.io/en/stable/objects.inv...
-loading intersphinx inventory from https://aredis.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://click.palletsprojects.com/en/7.x/objects.inv...
-loading intersphinx inventory from https://kafka-python.readthedocs.io/en/master/objects.inv...
-loading intersphinx inventory from https://mode.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://mypy.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://pytest.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://docs.python.org/dev/objects.inv...
-loading intersphinx inventory from https://python-rocksdb.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://statsd.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://robpol86.github.io/terminaltables/objects.inv...
-loading intersphinx inventory from https://uvloop.readthedocs.io/objects.inv...
-loading intersphinx inventory from https://venusian.readthedocs.io/en/latest/objects.inv...
-loading intersphinx inventory from https://yarl.readthedocs.io/en/latest/objects.inv...
-building [mo]: targets for 0 po files that are out of date
-building [configcheck]: configcheck overview
-updating environment: [new config] 191 added, 0 changed, 0 removed
-reading sources... [  0%] authors
-reading sources... [  1%] changelog
-reading sources... [  1%] contributing
-reading sources... [  2%] copyright
-reading sources... [  2%] developerguide/index
-reading sources... [  3%] developerguide/overview
-reading sources... [  3%] developerguide/partition_assignor
-reading sources... [  4%] faq
-reading sources... [  4%] glossary
-reading sources... [  5%] history/changelog-0.9
-reading sources... [  5%] history/changelog-1.0
-reading sources... [  6%] history/changelog-1.1
-reading sources... [  6%] history/changelog-1.10
-reading sources... [  7%] history/changelog-1.2
-reading sources... [  7%] history/changelog-1.3
-reading sources... [  8%] history/changelog-1.4
-reading sources... [  8%] history/changelog-1.5
-reading sources... [  9%] history/changelog-1.6
-reading sources... [  9%] history/changelog-1.7
-reading sources... [ 10%] history/changelog-1.8
-reading sources... [ 10%] history/changelog-1.9
-reading sources... [ 11%] history/index
-reading sources... [ 12%] index
-reading sources... [ 12%] introduction
-reading sources... [ 13%] playbooks/cheatsheet
-reading sources... [ 13%] playbooks/index
-reading sources... [ 14%] playbooks/leaderelection
-reading sources... [ 14%] playbooks/pageviews
-reading sources... [ 15%] playbooks/quickstart
-reading sources... [ 15%] playbooks/vscelery
-reading sources... [ 16%] playbooks/vskafka
-reading sources... [ 16%] reference/faust
-reading sources... [ 17%] reference/faust.agents
-reading sources... [ 17%] reference/faust.agents.actor
-reading sources... [ 18%] reference/faust.agents.agent
-reading sources... [ 18%] reference/faust.agents.manager
-reading sources... [ 19%] reference/faust.agents.models
-reading sources... [ 19%] reference/faust.agents.replies
-reading sources... [ 20%] reference/faust.app
-reading sources... [ 20%] reference/faust.app.base
-reading sources... [ 21%] reference/faust.app.router
-reading sources... [ 21%] reference/faust.assignor.client_assignment
-reading sources... [ 22%] reference/faust.assignor.cluster_assignment
-reading sources... [ 23%] reference/faust.assignor.copartitioned_assignor
-reading sources... [ 23%] reference/faust.assignor.leader_assignor
-reading sources... [ 24%] reference/faust.assignor.partition_assignor
-reading sources... [ 24%] reference/faust.auth
-reading sources... [ 25%] reference/faust.channels
-reading sources... [ 25%] reference/faust.cli.agents
-reading sources... [ 26%] reference/faust.cli.base
-reading sources... [ 26%] reference/faust.cli.clean_versions
-reading sources... [ 27%] reference/faust.cli.completion
-reading sources... [ 27%] reference/faust.cli.faust
-reading sources... [ 28%] reference/faust.cli.livecheck
-reading sources... [ 28%] reference/faust.cli.model
-reading sources... [ 29%] reference/faust.cli.models
-reading sources... [ 29%] reference/faust.cli.params
-reading sources... [ 30%] reference/faust.cli.reset
-reading sources... [ 30%] reference/faust.cli.send
-reading sources... [ 31%] reference/faust.cli.tables
-reading sources... [ 31%] reference/faust.cli.worker
-reading sources... [ 32%] reference/faust.contrib
-reading sources... [ 32%] reference/faust.contrib.sentry
-reading sources... [ 33%] reference/faust.events
-reading sources... [ 34%] reference/faust.exceptions
-reading sources... [ 34%] reference/faust.fixups
-reading sources... [ 35%] reference/faust.fixups.base
-reading sources... [ 35%] reference/faust.fixups.django
-reading sources... [ 36%] reference/faust.joins
-reading sources... [ 36%] reference/faust.livecheck
-reading sources... [ 37%] reference/faust.livecheck.app
-reading sources... [ 37%] reference/faust.livecheck.case
-reading sources... [ 38%] reference/faust.livecheck.exceptions
-reading sources... [ 38%] reference/faust.livecheck.locals
-reading sources... [ 39%] reference/faust.livecheck.models
-reading sources... [ 39%] reference/faust.livecheck.patches
-reading sources... [ 40%] reference/faust.livecheck.patches.aiohttp
-reading sources... [ 40%] reference/faust.livecheck.runners
-reading sources... [ 41%] reference/faust.livecheck.signals
-reading sources... [ 41%] reference/faust.models.base
-reading sources... [ 42%] reference/faust.models.fields
-reading sources... [ 42%] reference/faust.models.record
-reading sources... [ 43%] reference/faust.models.tags
-reading sources... [ 43%] reference/faust.models.typing
-reading sources... [ 44%] reference/faust.sensors
-reading sources... [ 45%] reference/faust.sensors.base
-reading sources... [ 45%] reference/faust.sensors.datadog
-reading sources... [ 46%] reference/faust.sensors.monitor
-reading sources... [ 46%] reference/faust.sensors.statsd
-reading sources... [ 47%] reference/faust.serializers.codecs
-reading sources... [ 47%] reference/faust.serializers.registry
-reading sources... [ 48%] reference/faust.serializers.schemas
-reading sources... [ 48%] reference/faust.stores
-reading sources... [ 49%] reference/faust.stores.base
-reading sources... [ 49%] reference/faust.stores.memory
-reading sources... [ 50%] reference/faust.stores.rocksdb
-reading sources... [ 50%] reference/faust.streams
-reading sources... [ 51%] reference/faust.tables
-reading sources... [ 51%] reference/faust.tables.base
-reading sources... [ 52%] reference/faust.tables.globaltable
-reading sources... [ 52%] reference/faust.tables.manager
-reading sources... [ 53%] reference/faust.tables.objects
-reading sources... [ 53%] reference/faust.tables.recovery
-reading sources... [ 54%] reference/faust.tables.sets
-reading sources... [ 54%] reference/faust.tables.table
-reading sources... [ 55%] reference/faust.tables.wrappers
-reading sources... [ 56%] reference/faust.topics
-reading sources... [ 56%] reference/faust.transport
-reading sources... [ 57%] reference/faust.transport.base
-reading sources... [ 57%] reference/faust.transport.conductor
-reading sources... [ 58%] reference/faust.transport.consumer
-reading sources... [ 58%] reference/faust.transport.drivers
-reading sources... [ 59%] reference/faust.transport.drivers.aiokafka
-reading sources... [ 59%] reference/faust.transport.producer
-reading sources... [ 60%] reference/faust.transport.utils
-reading sources... [ 60%] reference/faust.types.agents
-reading sources... [ 61%] reference/faust.types.app
-reading sources... [ 61%] reference/faust.types.assignor
-reading sources... [ 62%] reference/faust.types.auth
-reading sources... [ 62%] reference/faust.types.channels
-reading sources... [ 63%] reference/faust.types.codecs
-reading sources... [ 63%] reference/faust.types.core
-reading sources... [ 64%] reference/faust.types.enums
-reading sources... [ 64%] reference/faust.types.events
-reading sources... [ 65%] reference/faust.types.fixups
-reading sources... [ 65%] reference/faust.types.joins
-reading sources... [ 66%] reference/faust.types.models
-reading sources... [ 67%] reference/faust.types.router
-reading sources... [ 67%] reference/faust.types.sensors
-reading sources... [ 68%] reference/faust.types.serializers
-reading sources... [ 68%] reference/faust.types.settings
-reading sources... [ 69%] reference/faust.types.settings.base
-reading sources... [ 69%] reference/faust.types.settings.params
-reading sources... [ 70%] reference/faust.types.settings.sections
-reading sources... [ 70%] reference/faust.types.settings.settings
-reading sources... [ 71%] reference/faust.types.stores
-reading sources... [ 71%] reference/faust.types.streams
-reading sources... [ 72%] reference/faust.types.tables
-reading sources... [ 72%] reference/faust.types.topics
-reading sources... [ 73%] reference/faust.types.transports
-reading sources... [ 73%] reference/faust.types.tuples
-reading sources... [ 74%] reference/faust.types.web
-reading sources... [ 74%] reference/faust.types.windows
-reading sources... [ 75%] reference/faust.utils.codegen
-reading sources... [ 75%] reference/faust.utils.cron
-reading sources... [ 76%] reference/faust.utils.functional
-reading sources... [ 76%] reference/faust.utils.iso8601
-reading sources... [ 77%] reference/faust.utils.json
-reading sources... [ 78%] reference/faust.utils.platforms
-reading sources... [ 78%] reference/faust.utils.terminal
-reading sources... [ 79%] reference/faust.utils.terminal.spinners
-reading sources... [ 79%] reference/faust.utils.terminal.tables
-reading sources... [ 80%] reference/faust.utils.tracing
-reading sources... [ 80%] reference/faust.utils.urls
-reading sources... [ 81%] reference/faust.utils.venusian
-reading sources... [ 81%] reference/faust.web.apps.graph
-reading sources... [ 82%] reference/faust.web.apps.router
-reading sources... [ 82%] reference/faust.web.apps.stats
-reading sources... [ 83%] reference/faust.web.base
-reading sources... [ 83%] reference/faust.web.blueprints
-reading sources... [ 84%] reference/faust.web.cache
-reading sources... [ 84%] reference/faust.web.cache.backends
-reading sources... [ 85%] reference/faust.web.cache.backends.base
-reading sources... [ 85%] reference/faust.web.cache.backends.memory
-reading sources... [ 86%] reference/faust.web.cache.backends.redis
-reading sources... [ 86%] reference/faust.web.cache.cache
-reading sources... [ 87%] reference/faust.web.cache.exceptions
-reading sources... [ 87%] reference/faust.web.drivers
-reading sources... [ 88%] reference/faust.web.drivers.aiohttp
-reading sources... [ 89%] reference/faust.web.exceptions
-reading sources... [ 89%] reference/faust.web.views
-reading sources... [ 90%] reference/faust.windows
-reading sources... [ 90%] reference/faust.worker
-reading sources... [ 91%] reference/index
-reading sources... [ 91%] userguide/agents
-reading sources... [ 92%] userguide/application
-reading sources... [ 92%] userguide/channels
-reading sources... [ 93%] userguide/cli
-reading sources... [ 93%] userguide/debugging
-reading sources... [ 94%] userguide/index
-reading sources... [ 94%] userguide/installation
-reading sources... [ 95%] userguide/kafka
-reading sources... [ 95%] userguide/livecheck
-reading sources... [ 96%] userguide/models
-reading sources... [ 96%] userguide/sensors
-reading sources... [ 97%] userguide/settings
-reading sources... [ 97%] userguide/streams
-reading sources... [ 98%] userguide/tables
-reading sources... [ 98%] userguide/tasks
-reading sources... [ 99%] userguide/testing
-reading sources... [100%] userguide/workers
-
-docs/includes/resources.txt:11: WARNING: Unknown target name: "fauststream".
-/home/travis/build/robinhood/faust/docs/../faust/types/settings/params.py:docstring of faust.types.settings.params.Param.default_template:1: WARNING: Inline literal start-string without end-string.
-looking for now-outdated files... none found
-pickling environment... done
-checking consistency... done
-OK: All settings documented :o)
-build succeeded, 2 warnings.
-[1mconfigcheck run-test: commands[1] | python extra/tools/verify_doc_defaults.py
-[0m[4734] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/configcheck/bin/python extra/tools/verify_doc_defaults.py
-extra/tools/verify_doc_defaults.py: All OK :-)
-___________________________________ summary ____________________________________
-[32m  configcheck: commands succeeded
-[0m[32m  congratulations :)
-[0mtravis_time:end:22fb0492:start=1586769476040092691,finish=1586769527965283648,duration=51925190957,event=script[0K[32;1mThe command "tox -v -- -v" exited with 0.[0m
-travis_fold:start:cache.2[0Kstore build cache
-travis_time:start:039ed428[0Ktravis_time:end:039ed428:start=1586769527969448899,finish=1586769527972226151,duration=2777252,event=cache[0Ktravis_time:start:01c1fbe6[0K[32;1mchanges detected (content changed, file is created, or file is deleted):\n/home/travis/.cache/pip/http/0/1/a/b/3/01ab38ac63d82e82f212dd86d62de883eb0d7de6be8db88f70d14a62
-/home/travis/.cache/pip/http/0/c/2/1/8/0c218d526767991766d9b365a4f3e4449ce3579fd8b0f96a707d5a52
-/home/travis/.cache/pip/http/0/c/4/2/2/0c422db452450328081921ee648d6ed044ec120720ed58fe0daf726a
-/home/travis/.cache/pip/http/0/e/8/3/2/0e8323f2116dc460629c37a6627885441f24e226df19a53e3df82367
-/home/travis/.cache/pip/http/1/a/c/5/c/1ac5cffb8e1a6a3a323ce6935d6aea744a85a15ffff211f78fb72840
-/home/travis/.cache/pip/http/2/7/e/3/0/27e3006fb7a1560e07c44f15b6fbf876d3bcb6507ff87107efb1226a
-/home/travis/.cache/pip/http/2/e/7/7/a/2e77a91abc956be665299f12358c3d2a9f5c6781e512c751143bd2d2
-/home/travis/.cache/pip/http/3/3/9/7/4/33974f84394d9a943f68359da08431dab4af9f86c33962982ea21b5f
-/home/travis/.cache/pip/http/3/5/9/6/8/3596862d816965b0c8fa5f06da895dbdc75cbc44a9f3e31272d52b2f
-/home/travis/.cache/pip/http/3/f/e/1/1/3fe1167c8c8022e14033a757400025f1c1684264847badeceac31f09
-/home/travis/.cache/pip/http/4/0/5/a/9/4\n...[0m
-[32;1mchanges detected, packing new archive[0m
-[32;1muploading PR.574/cache--linux-xenial-fb94771246c748a3b372030ea92a162374f6e97d55c93b604e9a9b4f8c4b1d79--python-3.8.0.tgz[0m
-[32;1mcache uploaded[0m
-travis_time:end:01c1fbe6:start=1586769527975771534,finish=1586769532485680773,duration=4509909239,event=cache[0Ktravis_fold:end:cache.2[0K
-travis_fold:start:after_success[0Ktravis_time:start:05ecb7ec[0K$ if [[ ! -z "$IDENT" ]]; then
-        .tox/$TOXENV/bin/coverage xml
-        .tox/$TOXENV/bin/codecov -e IDENT
-    fi;
-    
-travis_time:end:05ecb7ec:start=1586769532490096169,finish=1586769532492793322,duration=2697153,event=after_success[0Ktravis_fold:end:after_success[0K
-Done. Your build exited with 0.
