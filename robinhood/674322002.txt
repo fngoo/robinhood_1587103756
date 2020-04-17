@@ -1,0 +1,272 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: c346fb2e-f67e-4a0d-ac27-45f428885209@1.worker-org-767b688855-mxgvd.gce-production-3
+version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
+instance: travis-job-3a9702cc-63fc-4494-9bd2-9336385ce77e travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.125674646s
+travis_fold:end:worker_info[0Ktravis_time:start:0c9a68c8[0Ktravis_time:end:0c9a68c8:start=1586769423316864666,finish=1586769423447151574,duration=130286908,event=no_world_writable_dirs[0Ktravis_time:start:24e124a0[0Ktravis_time:end:24e124a0:start=1586769423450613631,finish=1586769423457842443,duration=7228812,event=agent[0Ktravis_time:start:13e0e670[0Ktravis_time:end:13e0e670:start=1586769423460365938,finish=1586769423462281317,duration=1915379,event=check_unsupported[0Ktravis_time:start:0326dd26[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: python
+Build dist: xenial
+Build id: 674322000
+Job id: 674322002
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: f65a8dc88
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:0326dd26:start=1586769423464746030,finish=1586769423471079904,duration=6333874,event=show_system_info[0Ktravis_time:start:008f3b3c[0Ktravis_time:end:008f3b3c:start=1586769423473614391,finish=1586769423483755168,duration=10140777,event=rm_riak_source[0Ktravis_time:start:0ebbc98a[0Ktravis_time:end:0ebbc98a:start=1586769423487130682,finish=1586769423491650056,duration=4519374,event=fix_rwky_redis[0Ktravis_time:start:0319c0f8[0Ktravis_time:end:0319c0f8:start=1586769423494434924,finish=1586769423902393352,duration=407958428,event=wait_for_network[0Ktravis_time:start:01fcbae5[0Ktravis_time:end:01fcbae5:start=1586769423905767263,finish=1586769424106320947,duration=200553684,event=update_apt_keys[0Ktravis_time:start:152ed360[0Ktravis_time:end:152ed360:start=1586769424109126670,finish=1586769424157359961,duration=48233291,event=fix_hhvm_source[0Ktravis_time:start:2b1a4e43[0Ktravis_time:end:2b1a4e43:start=1586769424160222696,finish=1586769424162679933,duration=2457237,event=update_mongo_arch[0Ktravis_time:start:071b5698[0Ktravis_time:end:071b5698:start=1586769424165312740,finish=1586769424204615837,duration=39303097,event=fix_sudo_enabled_trusty[0Ktravis_time:start:04683e40[0Ktravis_time:end:04683e40:start=1586769424207616239,finish=1586769424209669661,duration=2053422,event=update_glibc[0Ktravis_time:start:005c11dd[0Ktravis_time:end:005c11dd:start=1586769424212323631,finish=1586769424219313759,duration=6990128,event=clean_up_path[0Ktravis_time:start:24cecb8c[0Ktravis_time:end:24cecb8c:start=1586769424221847361,finish=1586769424228726451,duration=6879090,event=fix_resolv_conf[0Ktravis_time:start:0aa188c0[0Ktravis_time:end:0aa188c0:start=1586769424231402134,finish=1586769424239284581,duration=7882447,event=fix_etc_hosts[0Ktravis_time:start:0043941c[0Ktravis_time:end:0043941c:start=1586769424241794623,finish=1586769424249396617,duration=7601994,event=fix_mvn_settings_xml[0Ktravis_time:start:004615b6[0Ktravis_time:end:004615b6:start=1586769424251996128,finish=1586769424260151464,duration=8155336,event=no_ipv6_localhost[0Ktravis_time:start:00e6db52[0Ktravis_time:end:00e6db52:start=1586769424262765148,finish=1586769424264655766,duration=1890618,event=fix_etc_mavenrc[0Ktravis_time:start:0196bbcc[0Ktravis_time:end:0196bbcc:start=1586769424267239527,finish=1586769424269886011,duration=2646484,event=fix_wwdr_certificate[0Ktravis_time:start:1018ec3f[0Ktravis_time:end:1018ec3f:start=1586769424272466177,finish=1586769424292739715,duration=20273538,event=put_localhost_first[0Ktravis_time:start:1585de54[0Ktravis_time:end:1585de54:start=1586769424295390148,finish=1586769424298210480,duration=2820332,event=home_paths[0Ktravis_time:start:27239386[0Ktravis_time:end:27239386:start=1586769424300719260,finish=1586769424311471524,duration=10752264,event=disable_initramfs[0Ktravis_time:start:05c088e8[0Ktravis_time:end:05c088e8:start=1586769424314023077,finish=1586769424623772871,duration=309749794,event=disable_ssh_roaming[0Ktravis_time:start:070c5e34[0Ktravis_time:end:070c5e34:start=1586769424626877911,finish=1586769424629125907,duration=2247996,event=debug_tools[0Ktravis_time:start:165364cc[0Ktravis_time:end:165364cc:start=1586769424632033571,finish=1586769424634677775,duration=2644204,event=uninstall_oclint[0Ktravis_time:start:0cefe4c4[0Ktravis_time:end:0cefe4c4:start=1586769424637316834,finish=1586769424639910868,duration=2594034,event=rvm_use[0Ktravis_time:start:1b902a0c[0Ktravis_time:end:1b902a0c:start=1586769424642497663,finish=1586769424649289377,duration=6791714,event=rm_etc_boto_cfg[0Ktravis_time:start:2d955ca8[0Ktravis_time:end:2d955ca8:start=1586769424651870336,finish=1586769424654509164,duration=2638828,event=rm_oraclejdk8_symlink[0Ktravis_time:start:02bd0517[0Ktravis_time:end:02bd0517:start=1586769424657087393,finish=1586769424752061114,duration=94973721,event=enable_i386[0Ktravis_time:start:0006518a[0Ktravis_time:end:0006518a:start=1586769424755104051,finish=1586769424760637173,duration=5533122,event=update_rubygems[0Ktravis_time:start:07f9e168[0Ktravis_time:end:07f9e168:start=1586769424763321478,finish=1586769425518943013,duration=755621535,event=ensure_path_components[0Ktravis_time:start:03a0b35f[0Ktravis_time:end:03a0b35f:start=1586769425522141689,finish=1586769425524229750,duration=2088061,event=redefine_curl[0Ktravis_time:start:0286eb24[0Ktravis_time:end:0286eb24:start=1586769425526884839,finish=1586769425528776391,duration=1891552,event=nonblock_pipe[0Ktravis_time:start:36a28703[0Ktravis_time:end:36a28703:start=1586769425531329663,finish=1586769442078708960,duration=16547379297,event=apt_get_update[0Ktravis_time:start:2280f1e3[0Ktravis_time:end:2280f1e3:start=1586769442081697980,finish=1586769442083749957,duration=2051977,event=deprecate_xcode_64[0Ktravis_time:start:20957473[0Ktravis_time:end:20957473:start=1586769442086280590,finish=1586769444562486486,duration=2476205896,event=update_heroku[0Ktravis_time:start:153efc00[0Ktravis_time:end:153efc00:start=1586769444565474779,finish=1586769444567621049,duration=2146270,event=shell_session_update[0Ktravis_time:start:13ac9a78[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:13ac9a78:start=1586769444570476739,finish=1586769448254054260,duration=3683577521,event=set_docker_mtu[0Ktravis_time:start:10e4ddc8[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:10e4ddc8:start=1586769448259427706,finish=1586769448313811442,duration=54383736,event=resolvconf[0Ktravis_time:start:0a3757f4[0Ktravis_time:end:0a3757f4:start=1586769448318343379,finish=1586769448454079276,duration=135735897,event=maven_central_mirror[0Ktravis_time:start:05542cbe[0Ktravis_time:end:05542cbe:start=1586769448456874270,finish=1586769448539903074,duration=83028804,event=maven_https[0K[33;1m3.8.0 is not installed; attempting download[0m
+[33;1mDownloading archive: https://storage.googleapis.com/travis-ci-language-archives/python/binaries/ubuntu/16.04/x86_64/python-3.8.0.tar.bz2[0m
+travis_time:start:0a96c6e4[0K$ curl -sSf --retry 5 -o python-3.8.0.tar.bz2 ${archive_url}
+travis_time:end:0a96c6e4:start=1586769448619420795,finish=1586769448910211002,duration=290790207,event=configure[0Ktravis_time:start:000b3874[0K$ sudo tar xjf python-3.8.0.tar.bz2 --directory /
+travis_time:end:000b3874:start=1586769448913371321,finish=1586769458474716467,duration=9561345146,event=configure[0Ktravis_time:start:27f44b5b[0Ktravis_time:end:27f44b5b:start=1586769458492847677,finish=1586769458495017359,duration=2169682,event=fix_ps4[0Ktravis_time:start:23443d92[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:19897020[0K$ git clone --depth=50 https://github.com/robinhood/faust.git robinhood/faust
+Cloning into 'robinhood/faust'...
+remote: Enumerating objects: 1536, done.[K
+remote: Counting objects:   0% (1/1536)[Kremote: Counting objects:   1% (16/1536)[Kremote: Counting objects:   2% (31/1536)[Kremote: Counting objects:   3% (47/1536)[Kremote: Counting objects:   4% (62/1536)[Kremote: Counting objects:   5% (77/1536)[Kremote: Counting objects:   6% (93/1536)[Kremote: Counting objects:   7% (108/1536)[Kremote: Counting objects:   8% (123/1536)[Kremote: Counting objects:   9% (139/1536)[Kremote: Counting objects:  10% (154/1536)[Kremote: Counting objects:  11% (169/1536)[Kremote: Counting objects:  12% (185/1536)[Kremote: Counting objects:  13% (200/1536)[Kremote: Counting objects:  14% (216/1536)[Kremote: Counting objects:  15% (231/1536)[Kremote: Counting objects:  16% (246/1536)[Kremote: Counting objects:  17% (262/1536)[Kremote: Counting objects:  18% (277/1536)[Kremote: Counting objects:  19% (292/1536)[Kremote: Counting objects:  20% (308/1536)[Kremote: Counting objects:  21% (323/1536)[Kremote: Counting objects:  22% (338/1536)[Kremote: Counting objects:  23% (354/1536)[Kremote: Counting objects:  24% (369/1536)[Kremote: Counting objects:  25% (384/1536)[Kremote: Counting objects:  26% (400/1536)[Kremote: Counting objects:  27% (415/1536)[Kremote: Counting objects:  28% (431/1536)[Kremote: Counting objects:  29% (446/1536)[Kremote: Counting objects:  30% (461/1536)[Kremote: Counting objects:  31% (477/1536)[Kremote: Counting objects:  32% (492/1536)[Kremote: Counting objects:  33% (507/1536)[Kremote: Counting objects:  34% (523/1536)[Kremote: Counting objects:  35% (538/1536)[Kremote: Counting objects:  36% (553/1536)[Kremote: Counting objects:  37% (569/1536)[Kremote: Counting objects:  38% (584/1536)[Kremote: Counting objects:  39% (600/1536)[Kremote: Counting objects:  40% (615/1536)[Kremote: Counting objects:  41% (630/1536)[Kremote: Counting objects:  42% (646/1536)[Kremote: Counting objects:  43% (661/1536)[Kremote: Counting objects:  44% (676/1536)[Kremote: Counting objects:  45% (692/1536)[Kremote: Counting objects:  46% (707/1536)[Kremote: Counting objects:  47% (722/1536)[Kremote: Counting objects:  48% (738/1536)[Kremote: Counting objects:  49% (753/1536)[Kremote: Counting objects:  50% (768/1536)[Kremote: Counting objects:  51% (784/1536)[Kremote: Counting objects:  52% (799/1536)[Kremote: Counting objects:  53% (815/1536)[Kremote: Counting objects:  54% (830/1536)[Kremote: Counting objects:  55% (845/1536)[Kremote: Counting objects:  56% (861/1536)[Kremote: Counting objects:  57% (876/1536)[Kremote: Counting objects:  58% (891/1536)[Kremote: Counting objects:  59% (907/1536)[Kremote: Counting objects:  60% (922/1536)[Kremote: Counting objects:  61% (937/1536)[Kremote: Counting objects:  62% (953/1536)[Kremote: Counting objects:  63% (968/1536)[Kremote: Counting objects:  64% (984/1536)[Kremote: Counting objects:  65% (999/1536)[Kremote: Counting objects:  66% (1014/1536)[Kremote: Counting objects:  67% (1030/1536)[Kremote: Counting objects:  68% (1045/1536)[Kremote: Counting objects:  69% (1060/1536)[Kremote: Counting objects:  70% (1076/1536)[Kremote: Counting objects:  71% (1091/1536)[Kremote: Counting objects:  72% (1106/1536)[Kremote: Counting objects:  73% (1122/1536)[Kremote: Counting objects:  74% (1137/1536)[Kremote: Counting objects:  75% (1152/1536)[Kremote: Counting objects:  76% (1168/1536)[Kremote: Counting objects:  77% (1183/1536)[Kremote: Counting objects:  78% (1199/1536)[Kremote: Counting objects:  79% (1214/1536)[Kremote: Counting objects:  80% (1229/1536)[Kremote: Counting objects:  81% (1245/1536)[Kremote: Counting objects:  82% (1260/1536)[Kremote: Counting objects:  83% (1275/1536)[Kremote: Counting objects:  84% (1291/1536)[Kremote: Counting objects:  85% (1306/1536)[Kremote: Counting objects:  86% (1321/1536)[Kremote: Counting objects:  87% (1337/1536)[Kremote: Counting objects:  88% (1352/1536)[Kremote: Counting objects:  89% (1368/1536)[Kremote: Counting objects:  90% (1383/1536)[Kremote: Counting objects:  91% (1398/1536)[Kremote: Counting objects:  92% (1414/1536)[Kremote: Counting objects:  93% (1429/1536)[Kremote: Counting objects:  94% (1444/1536)[Kremote: Counting objects:  95% (1460/1536)[Kremote: Counting objects:  96% (1475/1536)[Kremote: Counting objects:  97% (1490/1536)[Kremote: Counting objects:  98% (1506/1536)[Kremote: Counting objects:  99% (1521/1536)[Kremote: Counting objects: 100% (1536/1536)[Kremote: Counting objects: 100% (1536/1536), done.[K
+remote: Compressing objects:   0% (1/838)[Kremote: Compressing objects:   1% (9/838)[Kremote: Compressing objects:   2% (17/838)[Kremote: Compressing objects:   3% (26/838)[Kremote: Compressing objects:   4% (34/838)[Kremote: Compressing objects:   5% (42/838)[Kremote: Compressing objects:   6% (51/838)[Kremote: Compressing objects:   7% (59/838)[Kremote: Compressing objects:   8% (68/838)[Kremote: Compressing objects:   9% (76/838)[Kremote: Compressing objects:  10% (84/838)[Kremote: Compressing objects:  11% (93/838)[Kremote: Compressing objects:  12% (101/838)[Kremote: Compressing objects:  13% (109/838)[Kremote: Compressing objects:  14% (118/838)[Kremote: Compressing objects:  15% (126/838)[Kremote: Compressing objects:  16% (135/838)[Kremote: Compressing objects:  17% (143/838)[Kremote: Compressing objects:  18% (151/838)[Kremote: Compressing objects:  19% (160/838)[Kremote: Compressing objects:  20% (168/838)[Kremote: Compressing objects:  21% (176/838)[Kremote: Compressing objects:  22% (185/838)[Kremote: Compressing objects:  23% (193/838)[Kremote: Compressing objects:  24% (202/838)[Kremote: Compressing objects:  25% (210/838)[Kremote: Compressing objects:  26% (218/838)[Kremote: Compressing objects:  27% (227/838)[Kremote: Compressing objects:  28% (235/838)[Kremote: Compressing objects:  29% (244/838)[Kremote: Compressing objects:  30% (252/838)[Kremote: Compressing objects:  31% (260/838)[Kremote: Compressing objects:  32% (269/838)[Kremote: Compressing objects:  33% (277/838)[Kremote: Compressing objects:  34% (285/838)[Kremote: Compressing objects:  35% (294/838)[Kremote: Compressing objects:  36% (302/838)[Kremote: Compressing objects:  37% (311/838)[Kremote: Compressing objects:  38% (319/838)[Kremote: Compressing objects:  39% (327/838)[Kremote: Compressing objects:  40% (336/838)[Kremote: Compressing objects:  41% (344/838)[Kremote: Compressing objects:  42% (352/838)[Kremote: Compressing objects:  43% (361/838)[Kremote: Compressing objects:  44% (369/838)[Kremote: Compressing objects:  45% (378/838)[Kremote: Compressing objects:  46% (386/838)[Kremote: Compressing objects:  47% (394/838)[Kremote: Compressing objects:  48% (403/838)[Kremote: Compressing objects:  49% (411/838)[Kremote: Compressing objects:  50% (419/838)[Kremote: Compressing objects:  51% (428/838)[Kremote: Compressing objects:  52% (436/838)[Kremote: Compressing objects:  53% (445/838)[Kremote: Compressing objects:  54% (453/838)[Kremote: Compressing objects:  55% (461/838)[Kremote: Compressing objects:  56% (470/838)[Kremote: Compressing objects:  57% (478/838)[Kremote: Compressing objects:  58% (487/838)[Kremote: Compressing objects:  59% (495/838)[Kremote: Compressing objects:  60% (503/838)[Kremote: Compressing objects:  61% (512/838)[Kremote: Compressing objects:  62% (520/838)[Kremote: Compressing objects:  63% (528/838)[Kremote: Compressing objects:  64% (537/838)[Kremote: Compressing objects:  65% (545/838)[Kremote: Compressing objects:  66% (554/838)[Kremote: Compressing objects:  67% (562/838)[Kremote: Compressing objects:  68% (570/838)[Kremote: Compressing objects:  69% (579/838)[Kremote: Compressing objects:  70% (587/838)[Kremote: Compressing objects:  71% (595/838)[Kremote: Compressing objects:  72% (604/838)[Kremote: Compressing objects:  73% (612/838)[Kremote: Compressing objects:  74% (621/838)[Kremote: Compressing objects:  75% (629/838)[Kremote: Compressing objects:  76% (637/838)[Kremote: Compressing objects:  77% (646/838)[Kremote: Compressing objects:  78% (654/838)[Kremote: Compressing objects:  79% (663/838)[Kremote: Compressing objects:  80% (671/838)[Kremote: Compressing objects:  81% (679/838)[Kremote: Compressing objects:  82% (688/838)[Kremote: Compressing objects:  83% (696/838)[Kremote: Compressing objects:  84% (704/838)[Kremote: Compressing objects:  85% (713/838)[Kremote: Compressing objects:  86% (721/838)[Kremote: Compressing objects:  87% (730/838)[Kremote: Compressing objects:  88% (738/838)[Kremote: Compressing objects:  89% (746/838)[Kremote: Compressing objects:  90% (755/838)[Kremote: Compressing objects:  91% (763/838)[Kremote: Compressing objects:  92% (771/838)[Kremote: Compressing objects:  93% (780/838)[Kremote: Compressing objects:  94% (788/838)[Kremote: Compressing objects:  95% (797/838)[Kremote: Compressing objects:  96% (805/838)[Kremote: Compressing objects:  97% (813/838)[Kremote: Compressing objects:  98% (822/838)[Kremote: Compressing objects:  99% (830/838)[Kremote: Compressing objects: 100% (838/838)[Kremote: Compressing objects: 100% (838/838), done.[K
+Receiving objects:   0% (1/1536)   Receiving objects:   1% (16/1536)   Receiving objects:   2% (31/1536)   Receiving objects:   3% (47/1536)   Receiving objects:   4% (62/1536)   Receiving objects:   5% (77/1536)   Receiving objects:   6% (93/1536)   Receiving objects:   7% (108/1536)   Receiving objects:   8% (123/1536)   Receiving objects:   9% (139/1536)   Receiving objects:  10% (154/1536)   Receiving objects:  11% (169/1536)   Receiving objects:  12% (185/1536)   Receiving objects:  13% (200/1536)   Receiving objects:  14% (216/1536)   Receiving objects:  15% (231/1536)   Receiving objects:  16% (246/1536)   Receiving objects:  17% (262/1536)   Receiving objects:  18% (277/1536)   Receiving objects:  19% (292/1536)   Receiving objects:  20% (308/1536)   Receiving objects:  21% (323/1536)   Receiving objects:  22% (338/1536)   Receiving objects:  23% (354/1536)   Receiving objects:  24% (369/1536)   Receiving objects:  25% (384/1536)   Receiving objects:  26% (400/1536)   Receiving objects:  27% (415/1536)   Receiving objects:  28% (431/1536)   Receiving objects:  29% (446/1536)   Receiving objects:  30% (461/1536)   Receiving objects:  31% (477/1536)   Receiving objects:  32% (492/1536)   Receiving objects:  33% (507/1536)   Receiving objects:  34% (523/1536)   Receiving objects:  35% (538/1536)   Receiving objects:  36% (553/1536)   Receiving objects:  37% (569/1536)   Receiving objects:  38% (584/1536)   Receiving objects:  39% (600/1536)   Receiving objects:  40% (615/1536)   Receiving objects:  41% (630/1536)   Receiving objects:  42% (646/1536)   Receiving objects:  43% (661/1536)   Receiving objects:  44% (676/1536)   Receiving objects:  45% (692/1536)   Receiving objects:  46% (707/1536)   Receiving objects:  47% (722/1536)   Receiving objects:  48% (738/1536)   Receiving objects:  49% (753/1536)   Receiving objects:  50% (768/1536)   Receiving objects:  51% (784/1536)   Receiving objects:  52% (799/1536)   Receiving objects:  53% (815/1536)   Receiving objects:  54% (830/1536)   Receiving objects:  55% (845/1536)   Receiving objects:  56% (861/1536)   Receiving objects:  57% (876/1536)   Receiving objects:  58% (891/1536)   Receiving objects:  59% (907/1536)   Receiving objects:  60% (922/1536)   Receiving objects:  61% (937/1536)   Receiving objects:  62% (953/1536)   Receiving objects:  63% (968/1536)   Receiving objects:  64% (984/1536)   Receiving objects:  65% (999/1536)   Receiving objects:  66% (1014/1536)   Receiving objects:  67% (1030/1536)   Receiving objects:  68% (1045/1536)   Receiving objects:  69% (1060/1536)   Receiving objects:  70% (1076/1536)   Receiving objects:  71% (1091/1536)   Receiving objects:  72% (1106/1536)   Receiving objects:  73% (1122/1536)   Receiving objects:  74% (1137/1536)   Receiving objects:  75% (1152/1536)   Receiving objects:  76% (1168/1536)   Receiving objects:  77% (1183/1536)   Receiving objects:  78% (1199/1536)   Receiving objects:  79% (1214/1536)   Receiving objects:  80% (1229/1536)   Receiving objects:  81% (1245/1536)   Receiving objects:  82% (1260/1536)   Receiving objects:  83% (1275/1536)   Receiving objects:  84% (1291/1536)   Receiving objects:  85% (1306/1536)   Receiving objects:  86% (1321/1536)   Receiving objects:  87% (1337/1536)   Receiving objects:  88% (1352/1536)   Receiving objects:  89% (1368/1536)   Receiving objects:  90% (1383/1536)   Receiving objects:  91% (1398/1536)   Receiving objects:  92% (1414/1536)   Receiving objects:  93% (1429/1536)   Receiving objects:  94% (1444/1536)   Receiving objects:  95% (1460/1536)   Receiving objects:  96% (1475/1536)   Receiving objects:  97% (1490/1536)   Receiving objects:  98% (1506/1536)   remote: Total 1536 (delta 789), reused 1017 (delta 650), pack-reused 0[K
+Receiving objects:  99% (1521/1536)   Receiving objects: 100% (1536/1536)   Receiving objects: 100% (1536/1536), 879.95 KiB | 11.14 MiB/s, done.
+Resolving deltas:   0% (0/789)   Resolving deltas:   1% (13/789)   Resolving deltas:   7% (56/789)   Resolving deltas:  10% (86/789)   Resolving deltas:  15% (126/789)   Resolving deltas:  19% (154/789)   Resolving deltas:  20% (163/789)   Resolving deltas:  21% (170/789)   Resolving deltas:  27% (214/789)   Resolving deltas:  31% (246/789)   Resolving deltas:  33% (264/789)   Resolving deltas:  34% (270/789)   Resolving deltas:  35% (281/789)   Resolving deltas:  36% (290/789)   Resolving deltas:  37% (295/789)   Resolving deltas:  38% (300/789)   Resolving deltas:  39% (309/789)   Resolving deltas:  40% (322/789)   Resolving deltas:  43% (345/789)   Resolving deltas:  45% (360/789)   Resolving deltas:  47% (372/789)   Resolving deltas:  49% (394/789)   Resolving deltas:  50% (397/789)   Resolving deltas:  51% (408/789)   Resolving deltas:  52% (412/789)   Resolving deltas:  53% (419/789)   Resolving deltas:  54% (430/789)   Resolving deltas:  55% (438/789)   Resolving deltas:  56% (442/789)   Resolving deltas:  57% (452/789)   Resolving deltas:  76% (603/789)   Resolving deltas:  77% (609/789)   Resolving deltas:  78% (616/789)   Resolving deltas:  79% (628/789)   Resolving deltas:  80% (634/789)   Resolving deltas:  81% (640/789)   Resolving deltas:  82% (647/789)   Resolving deltas:  84% (663/789)   Resolving deltas:  85% (671/789)   Resolving deltas:  86% (679/789)   Resolving deltas:  87% (687/789)   Resolving deltas:  88% (701/789)   Resolving deltas:  89% (704/789)   Resolving deltas:  90% (711/789)   Resolving deltas:  91% (718/789)   Resolving deltas:  92% (729/789)   Resolving deltas:  93% (737/789)   Resolving deltas:  94% (743/789)   Resolving deltas:  95% (750/789)   Resolving deltas:  96% (758/789)   Resolving deltas:  97% (767/789)   Resolving deltas:  98% (776/789)   Resolving deltas:  99% (782/789)   Resolving deltas: 100% (789/789)   Resolving deltas: 100% (789/789), done.
+travis_time:end:19897020:start=1586769458500485710,finish=1586769459289272326,duration=788786616,event=checkout[0K$ cd robinhood/faust
+travis_time:start:15bce467[0K$ git fetch origin +refs/pull/574/merge:
+remote: Enumerating objects: 10, done.[K
+remote: Counting objects:  10% (1/10)[Kremote: Counting objects:  20% (2/10)[Kremote: Counting objects:  30% (3/10)[Kremote: Counting objects:  40% (4/10)[Kremote: Counting objects:  50% (5/10)[Kremote: Counting objects:  60% (6/10)[Kremote: Counting objects:  70% (7/10)[Kremote: Counting objects:  80% (8/10)[Kremote: Counting objects:  90% (9/10)[Kremote: Counting objects: 100% (10/10)[Kremote: Counting objects: 100% (10/10), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 6 (delta 4), reused 4 (delta 3), pack-reused 0[K
+Unpacking objects:  16% (1/6)   Unpacking objects:  33% (2/6)   Unpacking objects:  50% (3/6)   Unpacking objects:  66% (4/6)   Unpacking objects:  83% (5/6)   Unpacking objects: 100% (6/6)   Unpacking objects: 100% (6/6), done.
+From https://github.com/robinhood/faust
+ * branch            refs/pull/574/merge -> FETCH_HEAD
+travis_time:end:15bce467:start=1586769459292952167,finish=1586769459741742633,duration=448790466,event=checkout[0K$ git checkout -qf FETCH_HEAD
+travis_fold:end:git.checkout[0K
+travis_time:end:15bce467:start=1586769459292952167,finish=1586769459771704154,duration=478751987,event=checkout[0Ktravis_time:start:14a9a7f0[0K
+[33;1mSetting environment variables from .travis.yml[0m
+$ export PYTHONUNBUFFERED=yes
+$ export TOXENV=typecheck
+
+travis_time:end:14a9a7f0:start=1586769459774908048,finish=1586769459781431069,duration=6523021,event=env[0Ktravis_time:start:0d09d2e3[0K$ source ~/virtualenv/python3.8.0/bin/activate
+travis_time:end:0d09d2e3:start=1586769459784551598,finish=1586769459788486458,duration=3934860,event=[0Ktravis_fold:start:cache.1[0KSetting up build cache
+$ export CASHER_DIR=${TRAVIS_HOME}/.casher
+travis_time:start:0dbcaaa4[0K$ Installing caching utilities
+travis_time:end:0dbcaaa4:start=1586769460497547735,finish=1586769460605202581,duration=107654846,event=setup_casher[0Ktravis_time:start:2b5da508[0Ktravis_time:end:2b5da508:start=1586769460609604675,finish=1586769460612013349,duration=2408674,event=setup_casher[0Ktravis_time:start:31fb5b14[0Kattempting to download cache archive[0m
+[32;1mfetching PR.574/cache--linux-xenial-33c85b77fabbf84ee81171b186683ba5603da91953416fe847bcc01195075617--python-3.8.0.tgz[0m
+[32;1mfound cache[0m
+travis_time:end:31fb5b14:start=1586769460615191480,finish=1586769464587267953,duration=3972076473,event=setup_casher[0Ktravis_fold:end:cache.1[0K
+travis_fold:start:cache.pip[0K
+travis_time:start:14ba0cb9[0Ktravis_time:end:14ba0cb9:start=1586769464590969750,finish=1586769464593493767,duration=2524017,event=setup_cache[0Ktravis_time:start:04a3eff8[0Kadding /home/travis/.cache/pip to cache[0m
+travis_time:end:04a3eff8:start=1586769464596785128,finish=1586769466118056521,duration=1521271393,event=setup_cache[0Ktravis_fold:end:cache.pip[0K$ python --version
+Python 3.8.0
+$ pip --version
+pip 19.3 from /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages/pip (python 3.8)
+travis_fold:start:before_install[0Ktravis_time:start:1e45c330[0K$ if [[ "$TRAVIS_OS_NAME" == "linux" && "$USE_ENCHANT" == "y" ]]; then sudo apt-get install -y enchant libenchant-dev; fi
+travis_time:end:1e45c330:start=1586769466297213949,finish=1586769466299761334,duration=2547385,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install[0Ktravis_time:start:0d5b93cb[0K$ if [[ "$USE_CYTHON" == "y" ]]; then
+    python -m pip install -U cython tox
+  else
+    python -m pip install -U tox
+  fi
+  
+Collecting tox
+  Using cached https://files.pythonhosted.org/packages/7b/4b/a90a0a89db60fc39fc92e31e7da436177a12c06038973c8b7199f47b47c0/tox-3.14.6-py2.py3-none-any.whl
+Collecting filelock<4,>=3.0.0
+  Using cached https://files.pythonhosted.org/packages/93/83/71a2ee6158bb9f39a90c0dea1637f81d5eef866e188e1971a1b1ab01a35a/filelock-3.0.12-py3-none-any.whl
+Requirement already satisfied, skipping upgrade: py<2,>=1.4.17 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (1.8.0)
+Requirement already satisfied, skipping upgrade: packaging>=14 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (19.2)
+Collecting six<2,>=1.14.0
+  Using cached https://files.pythonhosted.org/packages/65/eb/1f97cb97bfc2390a276969c6fae16075da282f5058082d4cb10c6c5c1dba/six-1.14.0-py2.py3-none-any.whl
+Collecting toml>=0.9.4
+  Using cached https://files.pythonhosted.org/packages/a2/12/ced7105d2de62fa7c8fb5fce92cc4ce66b57c95fb875e9318dba7f8c5db0/toml-0.10.0-py2.py3-none-any.whl
+Requirement already satisfied, skipping upgrade: pluggy<1,>=0.12.0 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (0.13.0)
+Requirement already satisfied, skipping upgrade: virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from tox) (16.7.5)
+Requirement already satisfied, skipping upgrade: pyparsing>=2.0.2 in /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages (from packaging>=14->tox) (2.4.2)
+Installing collected packages: filelock, six, toml, tox
+  Found existing installation: six 1.12.0
+    Uninstalling six-1.12.0:
+      Successfully uninstalled six-1.12.0
+Successfully installed filelock-3.0.12 six-1.14.0 toml-0.10.0 tox-3.14.6
+travis_time:end:0d5b93cb:start=1586769466303393205,finish=1586769467186717115,duration=883323910,event=install[0Ktravis_fold:end:install[0Ktravis_time:start:1b2f6681[0K$ tox -v -- -v
+[1musing tox.ini: /home/travis/build/robinhood/faust/tox.ini (pid 4693)
+[0m[1musing tox-3.14.6 from /home/travis/virtualenv/python3.8.0/lib/python3.8/site-packages/tox/__init__.py (pid 4693)
+[0m[1mGLOB sdist-make: /home/travis/build/robinhood/faust/setup.py
+[0m[4706] /home/travis/build/robinhood/faust$ /home/travis/virtualenv/python3.8.0/bin/python setup.py sdist --formats=zip --dist-dir /home/travis/build/robinhood/faust/.tox/dist >.tox/log/GLOB-0.log
+package .tmp/package/1/faust-1.11.0a1.zip links to dist/faust-1.11.0a1.zip (/home/travis/build/robinhood/faust/.tox)
+[1mtypecheck cannot reuse: no previous config /home/travis/build/robinhood/faust/.tox/typecheck/.tox-config1
+[0m[1mtypecheck create: /home/travis/build/robinhood/faust/.tox/typecheck
+[0m[4709] /home/travis/build/robinhood/faust/.tox$ /home/travis/virtualenv/python3.8.0/bin/python -m virtualenv --no-download --python /home/travis/virtualenv/python3.8.0/bin/python typecheck >typecheck/log/typecheck-0.log
+[1mtypecheck installdeps: -r/home/travis/build/robinhood/faust/requirements/default.txt, -r/home/travis/build/robinhood/faust/requirements/test.txt, -r/home/travis/build/robinhood/faust/requirements/ci.txt
+[0m[4717] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/typecheck/bin/python -m pip install -r/home/travis/build/robinhood/faust/requirements/default.txt -r/home/travis/build/robinhood/faust/requirements/test.txt -r/home/travis/build/robinhood/faust/requirements/ci.txt >.tox/typecheck/log/typecheck-1.log
+[1mtypecheck inst: /home/travis/build/robinhood/faust/.tox/.tmp/package/1/faust-1.11.0a1.zip
+[0mwrite config to /home/travis/build/robinhood/faust/.tox/typecheck/.tox-config1 as '6c1a32fa660479bea5e8b09162741dbbfd22986834df5f2aff9239af731c5bf7 /home/travis/virtualenv/python3.8.0/bin/python\n3.14.6 0 0 0\n00000000000000000000000000000000 -r/home/travis/build/robinhood/faust/requirements/default.txt\n00000000000000000000000000000000 -r/home/travis/build/robinhood/faust/requirements/test.txt\n00000000000000000000000000000000 -r/home/travis/build/robinhood/faust/requirements/ci.txt'
+[4736] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/typecheck/bin/python -m pip install --exists-action w .tox/.tmp/package/1/faust-1.11.0a1.zip >.tox/typecheck/log/typecheck-2.log
+[4746] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/typecheck/bin/python -m pip freeze >.tox/typecheck/log/typecheck-3.log
+[1mtypecheck installed: aiofiles==0.5.0,aiohttp==3.6.2,aiohttp-cors==0.7.0,aredis==1.1.8,async-timeout==3.0.1,atomicwrites==1.3.0,attrs==19.3.0,certifi==2020.4.5.1,chardet==3.0.4,click==7.1.1,codecov==2.0.22,colorclass==2.2.0,colorlog==4.1.0,coverage==5.1,croniter==0.3.31,datadog==0.35.0,decorator==4.4.2,faust==1.11.0a1,freezegun==0.3.15,hypothesis==5.8.3,idna==2.9,kafka-python==1.4.7,mode==4.3.2,more-itertools==8.2.0,multidict==4.7.5,mypy==0.770,mypy-extensions==0.4.3,opentracing==1.3.0,packaging==20.3,pluggy==0.13.1,psutil==5.7.0,py==1.8.1,pyfakefs==4.0.2,pyparsing==2.4.7,pytest==5.2.4,pytest-aiofiles==0.2.0,pytest-aiohttp==0.3.0,pytest-asyncio==0.10.0,pytest-cov==2.8.1,pytest-forked==1.1.3,pytest-openfiles==0.4.0,pytest-picked==0.4.4,pytest-random-order==1.0.4,python-dateutil==2.8.1,pytz==2019.3,PyYAML==5.3.1,requests==2.23.0,robinhood-aiokafka==1.1.6,six==1.14.0,sortedcontainers==2.1.0,statsd==3.3.0,terminaltables==3.1.0,typed-ast==1.4.1,typing-extensions==3.7.4.2,urllib3==1.25.8,venusian==1.2.0,wcwidth==0.1.9,yarl==1.4.2
+[0m[1mtypecheck run-test-pre: PYTHONHASHSEED='3224462040'
+[0m[1mtypecheck run-test: commands[0] | mypy -p faust
+[0m[4747] /home/travis/build/robinhood/faust$ /home/travis/build/robinhood/faust/.tox/typecheck/bin/mypy -p faust
+Success: no issues found in 163 source files
+___________________________________ summary ____________________________________
+[32m  typecheck: commands succeeded
+[0m[32m  congratulations :)
+[0mtravis_time:end:1b2f6681:start=1586769467190851702,finish=1586769489962328822,duration=22771477120,event=script[0K[32;1mThe command "tox -v -- -v" exited with 0.[0m
+travis_fold:start:cache.2[0Kstore build cache
+travis_time:start:0648211e[0Ktravis_time:end:0648211e:start=1586769489966806703,finish=1586769489969645460,duration=2838757,event=cache[0Ktravis_time:start:006c19ae[0K[32;1mchanges detected (content changed, file is created, or file is deleted):\n/home/travis/.cache/pip/http/0/1/a/b/3/01ab38ac63d82e82f212dd86d62de883eb0d7de6be8db88f70d14a62
+/home/travis/.cache/pip/http/0/c/2/1/8/0c218d526767991766d9b365a4f3e4449ce3579fd8b0f96a707d5a52
+/home/travis/.cache/pip/http/0/c/4/2/2/0c422db452450328081921ee648d6ed044ec120720ed58fe0daf726a
+/home/travis/.cache/pip/http/1/a/c/5/c/1ac5cffb8e1a6a3a323ce6935d6aea744a85a15ffff211f78fb72840
+/home/travis/.cache/pip/http/2/e/7/7/a/2e77a91abc956be665299f12358c3d2a9f5c6781e512c751143bd2d2
+/home/travis/.cache/pip/http/3/3/9/7/4/33974f84394d9a943f68359da08431dab4af9f86c33962982ea21b5f
+/home/travis/.cache/pip/http/3/5/9/6/8/3596862d816965b0c8fa5f06da895dbdc75cbc44a9f3e31272d52b2f
+/home/travis/.cache/pip/http/3/f/e/1/1/3fe1167c8c8022e14033a757400025f1c1684264847badeceac31f09
+/home/travis/.cache/pip/http/4/0/5/a/9/405a9aef9a10e0253b140e6deef14e409d9b803025c7b39781ec0573
+/home/travis/.cache/pip/http/4/1/f/f/1/41ff105f800c12f39ff66646e155fd26520518e71d85d28226d6848f
+/home/travis/.cache/pip/http/4/4/e/5/b/4\n...[0m
+[32;1mchanges detected, packing new archive[0m
+[32;1muploading PR.574/cache--linux-xenial-33c85b77fabbf84ee81171b186683ba5603da91953416fe847bcc01195075617--python-3.8.0.tgz[0m
+[32;1mcache uploaded[0m
+travis_time:end:006c19ae:start=1586769489973551363,finish=1586769493968175128,duration=3994623765,event=cache[0Ktravis_fold:end:cache.2[0K
+travis_fold:start:after_success[0Ktravis_time:start:02e310d0[0K$ if [[ ! -z "$IDENT" ]]; then
+        .tox/$TOXENV/bin/coverage xml
+        .tox/$TOXENV/bin/codecov -e IDENT
+    fi;
+    
+travis_time:end:02e310d0:start=1586769493972347141,finish=1586769493974923281,duration=2576140,event=after_success[0Ktravis_fold:end:after_success[0K
+Done. Your build exited with 0.
